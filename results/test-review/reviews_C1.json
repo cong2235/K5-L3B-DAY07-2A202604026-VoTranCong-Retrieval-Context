@@ -1,0 +1,139 @@
+[
+ {
+  "query_id": "H01",
+  "citation_support": [
+   true
+  ],
+  "reason": "Khớp đáp án; p119:0 chứa đúng câu về dữ liệu phi số.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "H02",
+  "citation_support": [
+   false
+  ],
+  "reason": "Đúng (giá trị giữa; vị trí (n+1)/2 có ở p118:2, nằm trong context) nhưng citation p118:0 không chứa phần vị trí.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "H03",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và được p123:0 hỗ trợ.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "H04",
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Ví dụ y học (p136:1) và hiệu chỉnh xác suất theo thông tin mới (p132:1) đều được hỗ trợ.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "H05",
+  "citation_support": [
+   false
+  ],
+  "reason": "Định nghĩa và ví dụ quầy thanh toán đúng (p142:1); ví dụ tai nạn giao lộ nằm ở p142:0 (có trong context), không phải p142:1 được trích.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "H06",
+  "citation_support": [
+   false
+  ],
+  "reason": "Phần làm sạch đúng (trùng lặp, thiếu, định dạng) nhưng sai khi nói làm sạch bao gồm tích hợp và biến đổi dữ liệu: đó là các bước riêng ở p86:2.",
+  "answer_grade": 1,
+  "context_grade": 2
+ },
+ {
+  "query_id": "H07",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng; câu về diễn giải cho học máy có trong p98:0.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "H08",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng; \"readability\" và ví dụ có trong p97:0.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "H09",
+  "citation_support": [
+   true
+  ],
+  "reason": "Cận trên 1,159,375 và kết luận ngoại lệ đúng.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "H10",
+  "citation_support": [
+   true
+  ],
+  "reason": "Kết luận -2 độ lệch chuẩn dưới trung bình đúng; ký hiệu công thức bị mất trong text layer của sách.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "H11",
+  "citation_support": [
+   true
+  ],
+  "reason": "99,7% đúng.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "H12",
+  "citation_support": [
+   true
+  ],
+  "reason": "Trùng gần nguyên văn p75:0.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "H13",
+  "citation_support": [
+   true,
+   true
+  ],
+  "reason": "Diện tích bên phải (p145:0) và norm.cdf rồi lấy 1 trừ (p148:1) đều được hỗ trợ.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "X-T01",
+  "citation_support": [],
+  "reason": "Đã tìm, từ chối, không thêm khẳng định.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "X-T02",
+  "citation_support": [],
+  "reason": "Trả lời bằng kiến thức ngoài sách, không citation, rồi mới nói passages không nêu: không đạt.",
+  "abstention_correct": false
+ },
+ {
+  "query_id": "X-T03",
+  "citation_support": [],
+  "reason": "Đã tìm, từ chối, không thêm khẳng định.",
+  "abstention_correct": true
+ }
+]

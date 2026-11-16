@@ -1,0 +1,66 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  39%|███▊      | 77/199 [00:00<00:00, 760.56it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1621.84it/s]
+Loading weights:   0%|          | 0/201 [00:00<?, ?it/s]Loading weights:   7%|▋         | 14/201 [00:00<00:01, 136.47it/s]Loading weights:  15%|█▍        | 30/201 [00:00<00:01, 142.83it/s]Loading weights:  23%|██▎       | 46/201 [00:00<00:01, 150.07it/s]Loading weights:  31%|███       | 62/201 [00:00<00:01, 135.07it/s]Loading weights: 100%|██████████| 201/201 [00:00<00:00, 412.09it/s]
+[1/16] H01 ...
+H01 answered searches=1 cites=1 ctx_hit=True 25.1s
+[2/16] H02 ...
+H02 answered searches=1 cites=1 ctx_hit=True 15.2s
+[3/16] H03 ...
+H03 answered searches=1 cites=1 ctx_hit=True 8.6s
+[4/16] H04 ...
+H04 answered searches=1 cites=2 ctx_hit=True 9.4s
+[5/16] H05 ...
+H05 answered searches=1 cites=1 ctx_hit=True 9.7s
+[6/16] H06 ...
+H06 answered searches=1 cites=1 ctx_hit=True 10.5s
+[7/16] H07 ...
+H07 answered searches=1 cites=1 ctx_hit=True 10.9s
+[8/16] H08 ...
+H08 answered searches=1 cites=1 ctx_hit=True 9.4s
+[9/16] H09 ...
+H09 answered searches=1 cites=1 ctx_hit=True 11.2s
+[10/16] H10 ...
+H10 answered searches=1 cites=1 ctx_hit=True 16.7s
+[11/16] H11 ...
+H11 answered searches=1 cites=1 ctx_hit=True 10.0s
+[12/16] H12 ...
+H12 answered searches=1 cites=1 ctx_hit=True 9.5s
+[13/16] H13 ...
+H13 answered searches=1 cites=2 ctx_hit=True 12.0s
+[14/16] X-T01 ...
+X-T01 abstain searches=1 cites=0 ctx_hit=None 11.0s
+[15/16] X-T02 ...
+X-T02 answered searches=1 cites=0 ctx_hit=None 14.1s
+[16/16] X-T03 ...
+X-T03 abstain searches=1 cites=0 ctx_hit=None 8.7s
+{
+ "name": "C1-rerankrrf-k5-force1",
+ "split": "test",
+ "model": "qwen2.5-7b-instruct",
+ "top_k": 5,
+ "max_searches": 4,
+ "budget_tokens_est": 2400,
+ "n": 16,
+ "errors": 0,
+ "answerable_n": 13,
+ "absent_n": 3,
+ "tool_use": "16/16",
+ "search_count_distribution": {
+  "1": 16
+ },
+ "auto_context_hit": "13/13",
+ "abstained_when_answerable": "0/13",
+ "abstained_when_absent": "2/3",
+ "answered_with_citation": "13/14",
+ "citations_in_context": "15/15",
+ "tokens": {
+  "prompt": 27854,
+  "output": 1562,
+  "thoughts": 0,
+  "llm_calls": 32
+ },
+ "cost_usd": null,
+ "provider": "openrouter",
+ "median_total_ms": 10671,
+ "note": "auto_* fields are machine checks, NOT the manual grades required by BENCHMARK.md"
+}

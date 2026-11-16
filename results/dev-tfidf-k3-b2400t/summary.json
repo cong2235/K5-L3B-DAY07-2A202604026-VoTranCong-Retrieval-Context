@@ -1,0 +1,24 @@
+{
+  "name": "tfidf-k3-b2400t",
+  "method": "tfidf",
+  "split": "dev",
+  "n": 30,
+  "top_k": 3,
+  "budget_chars": 9600,
+  "filter": false,
+  "hit1": 19,
+  "hit3": 25,
+  "hitk": 25,
+  "context_hit": 25,
+  "avg_context_chars": 2068,
+  "median_ms": 2.3,
+  "p90_ms": 3.2,
+  "service_cost_usd": 0,
+  "failed_q_hit3": [
+    "D07",
+    "D08",
+    "T01",
+    "T04",
+    "S10"
+  ]
+}

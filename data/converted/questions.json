@@ -1,0 +1,626 @@
+[
+  {
+    "id": "D01",
+    "split": "dev",
+    "question": "What is MCAR missing data?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 87,
+        "evidence": "MCAR (missing completely at\nrandom) data is missing data not related to any other variables, with no underlying cause for its absence."
+      }
+    ],
+    "expected_answer": "Data that is missing completely at random: it is not related to any other variables and has no underlying cause for its absence.",
+    "filter": null
+  },
+  {
+    "id": "D02",
+    "split": "dev",
+    "question": "Why did the 1936 Literary Digest poll predict the wrong presidential winner?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 72,
+        "evidence": "This approach was considered biased toward affluent individuals and\ntherefore favored Republican voters."
+      }
+    ],
+    "expected_answer": "Its mailing list of telephone and automobile owners was biased toward affluent individuals, who favored the Republican candidate.",
+    "filter": null
+  },
+  {
+    "id": "D03",
+    "split": "dev",
+    "question": "How does stratified sampling work?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 73,
+        "evidence": "Stratified sampling involves splitting the population into subgroups based on\nspecified factors, such as age, area, income, or education level, and taking a random sample from each\nstratum in proportion to its size in the population."
+      }
+    ],
+    "expected_answer": "The population is split into subgroups (strata) and a random sample is taken from each stratum in proportion to its size.",
+    "filter": null
+  },
+  {
+    "id": "D04",
+    "split": "dev",
+    "question": "How is a cluster sample selected?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 73,
+        "evidence": "the population is divided into natural groups or clusters, such as\nschools, communities, or cities, with a random sample of these clusters picked and all members within the\nchosen clusters included in the sample."
+      }
+    ],
+    "expected_answer": "The population is divided into natural groups (clusters); a random sample of clusters is picked and all members of the chosen clusters are included.",
+    "filter": null
+  },
+  {
+    "id": "D05",
+    "split": "dev",
+    "question": "Under what condition is a log transformation of the data appropriate?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 92,
+        "evidence": "Log transformation is often used when the data is highly skewed, meaning most\nof the data points fall toward one end of the distribution."
+      }
+    ],
+    "expected_answer": "When the data is highly skewed, with most data points toward one end of the distribution.",
+    "filter": null
+  },
+  {
+    "id": "D06",
+    "split": "dev",
+    "question": "Which pandas function reads HTML tables from a web page?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 78,
+        "evidence": "This function is used to read HTML tables from a web page and convert\nthem into a list of DataFrame objects."
+      }
+    ],
+    "expected_answer": "read_html(), which converts HTML tables into a list of DataFrame objects.",
+    "filter": null
+  },
+  {
+    "id": "D07",
+    "split": "dev",
+    "question": "If some of a large dataset becomes corrupted, how does splitting it into blocks help?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 100,
+        "evidence": "In case of data corruption or loss, data chunking allows for the retrieval of\nonly the affected chunk rather than the entire dataset."
+      }
+    ],
+    "expected_answer": "Only the affected chunk has to be retrieved rather than the entire dataset (fault tolerance).",
+    "filter": null
+  },
+  {
+    "id": "D08",
+    "split": "dev",
+    "question": "What problem does the trimmed mean address?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 116,
+        "evidence": "A trimmed mean helps mitigate the effects of outliers, which are data values that are significantly different\nfrom most of the other data values in the dataset."
+      }
+    ],
+    "expected_answer": "It mitigates the effect of outliers, which are values significantly different from most others.",
+    "filter": null
+  },
+  {
+    "id": "D09",
+    "split": "dev",
+    "question": "Why is the range considered a weak measure of spread?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 121,
+        "evidence": "The range only uses\ntwo data values from the dataset: the minimum (min) and the maximum (max)."
+      }
+    ],
+    "expected_answer": "It uses only the minimum and maximum values and is influenced by outliers.",
+    "filter": null
+  },
+  {
+    "id": "D10",
+    "split": "dev",
+    "question": "What does the variance measure?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 122,
+        "evidence": "The variance provides a measure of the spread of data values by using the squared deviations from the mean."
+      }
+    ],
+    "expected_answer": "The spread of data values, using the squared deviations from the mean.",
+    "filter": null
+  },
+  {
+    "id": "D11",
+    "split": "dev",
+    "question": "Which percentile does the first quartile correspond to?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 126,
+        "evidence": "The first quartile corresponds to the 25th percentile."
+      }
+    ],
+    "expected_answer": "The 25th percentile.",
+    "filter": null
+  },
+  {
+    "id": "D12",
+    "split": "dev",
+    "question": "How can quartiles be used to flag possible outliers?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 127,
+        "evidence": "To detect outliers, you can use the quartiles and the IQR to calculate a lower and an upper bound for outliers."
+      }
+    ],
+    "expected_answer": "Use the quartiles and the IQR to compute a lower and an upper bound; values outside the bounds are flagged.",
+    "filter": {
+      "chapter": 3
+    }
+  },
+  {
+    "id": "D13",
+    "split": "dev",
+    "question": "Which techniques can identify missing data points or apparent outliers?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 87,
+        "evidence": "This can be done through visualization techniques, such as scatterplots, box plots,\nIQR (interquartile range), or histograms, or through statistical methods"
+      }
+    ],
+    "expected_answer": "Visualization (scatterplots, box plots, IQR, histograms) or statistical methods such as mean, median and standard deviation.",
+    "filter": {
+      "chapter": 2
+    }
+  },
+  {
+    "id": "D14",
+    "split": "dev",
+    "question": "What does the IQR indicate about a dataset?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 127,
+        "evidence": "The interquartile range (IQR) is a number that indicates the spread of the middle half, or the middle 50%, of\nthe data."
+      }
+    ],
+    "expected_answer": "The spread of the middle half (middle 50%) of the data.",
+    "filter": {
+      "section": "3.3"
+    }
+  },
+  {
+    "id": "D15",
+    "split": "dev",
+    "question": "Why do data scientists usually compute binomial probabilities with software?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 141,
+        "evidence": "Since these computations tend to be complicated and time-consuming, most data scientists will use\ntechnology"
+      }
+    ],
+    "expected_answer": "The computations are complicated and time-consuming, so they use Python, R, Excel or similar.",
+    "filter": null
+  },
+  {
+    "id": "T01",
+    "split": "dev",
+    "question": "What are APIs used for in web data collection?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 77,
+        "evidence": "Authorize developers to access and retrieve data instantly without the need\nfor web scraping"
+      }
+    ],
+    "expected_answer": "They let developers access and retrieve data directly without web scraping, which is often more efficient and reliable.",
+    "filter": null
+  },
+  {
+    "id": "T02",
+    "split": "dev",
+    "question": "How does a seven-day average help with noisy daily stock index values?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 93,
+        "evidence": "By calculating a seven-day average, we can smooth out these\nfluctuations and see the overall trend of the index over the course of the\nmonth."
+      }
+    ],
+    "expected_answer": "It smooths out day-to-day fluctuations so the overall trend over the month is visible (data smoothing).",
+    "filter": null
+  },
+  {
+    "id": "T03",
+    "split": "dev",
+    "question": "What is sample data?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 115,
+        "evidence": "Sample data represents\noutcomes or measurements collected from a subset, or part, of the population of interest."
+      }
+    ],
+    "expected_answer": "Outcomes or measurements collected from a subset, or part, of the population of interest.",
+    "filter": {
+      "chapter": 3
+    }
+  },
+  {
+    "id": "T04",
+    "split": "dev",
+    "question": "Which probability values are impossible?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 131,
+        "evidence": "A probability greater than 1 is not possible, and a\nnegative probability is not possible."
+      }
+    ],
+    "expected_answer": "A probability greater than 1 or a negative probability is not possible; probabilities lie between 0 and 1 inclusive.",
+    "filter": null
+  },
+  {
+    "id": "T05",
+    "split": "dev",
+    "question": "How do continuous random variables differ from discrete ones?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 138,
+        "evidence": "Continuous probability\ndistributions deal with random variables that can take on any value within a given range or interval."
+      }
+    ],
+    "expected_answer": "A continuous random variable can take any value within an interval (usually a measurement), whereas discrete variables take distinct countable values.",
+    "filter": null
+  },
+  {
+    "id": "S01",
+    "split": "dev",
+    "question": "In which situations is snowball sampling typically used?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 74,
+        "evidence": "Snowball sampling is typically used in situations where it is difficult to access a\nparticular population"
+      }
+    ],
+    "expected_answer": "When it is difficult to access a particular population; it relies on referrals between people with similar characteristics.",
+    "filter": null
+  },
+  {
+    "id": "S02",
+    "split": "dev",
+    "question": "What must researchers be transparent about when they use purposive sampling?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 74,
+        "evidence": "researchers need to be transparent about their sampling strategy and potential\nbiases that may arise from purposely selecting certain individuals."
+      }
+    ],
+    "expected_answer": "Their sampling strategy and the potential biases from purposely selecting certain individuals.",
+    "filter": null
+  },
+  {
+    "id": "S03",
+    "split": "dev",
+    "question": "Which external Python library is mainly used to scrape and parse HTML and XML?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 80,
+        "evidence": "This is an external library that is mostly used for scraping and\nparsing HTML and XML code."
+      }
+    ],
+    "expected_answer": "Beautiful Soup.",
+    "filter": null
+  },
+  {
+    "id": "S04",
+    "split": "dev",
+    "question": "Should outliers be handled before or after validating the data?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 94,
+        "evidence": "It is important to identify and remove\noutliers before validating the data."
+      }
+    ],
+    "expected_answer": "Before: outliers should be identified and removed before validating the data.",
+    "filter": {
+      "chapter": 2
+    }
+  },
+  {
+    "id": "S05",
+    "split": "dev",
+    "question": "What kind of database is designed for unstructured data such as sensor readings or social media posts?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 99,
+        "evidence": "These databases are designed to handle unstructured data, such as social media\ncontent or data from sensors, and use non-relational data models."
+      }
+    ],
+    "expected_answer": "NoSQL databases, which use non-relational data models.",
+    "filter": null
+  },
+  {
+    "id": "S06",
+    "split": "dev",
+    "question": "How can the variability of datasets with different units or means be compared?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 124,
+        "evidence": "The coefficient of variation\nmeasures the variation of a dataset by calculating the standard deviation as a percentage of the mean."
+      }
+    ],
+    "expected_answer": "With the coefficient of variation: the standard deviation expressed as a percentage of the mean.",
+    "filter": {
+      "section": "3.2"
+    }
+  },
+  {
+    "id": "S07",
+    "split": "dev",
+    "question": "What is a conditional probability?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 132,
+        "evidence": "A conditional probability is the probability of an event given that another event has already occurred."
+      }
+    ],
+    "expected_answer": "The probability of an event given that another event has already occurred.",
+    "filter": null
+  },
+  {
+    "id": "S08",
+    "split": "dev",
+    "question": "How is the probability of getting at least one four in three rolls of a die calculated?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 135,
+        "evidence": "This can be calculated by first finding the probability of not observing a four on any of the rolls and then\nsubtracting this probability from 1."
+      }
+    ],
+    "expected_answer": "Find the probability of no four on any roll and subtract it from 1 (complement rule).",
+    "filter": null
+  },
+  {
+    "id": "S09",
+    "split": "dev",
+    "question": "What are the two parameters of the normal distribution?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 144,
+        "evidence": "The normal distribution has two parameters: the mean, , and the standard deviation, ."
+      }
+    ],
+    "expected_answer": "The mean (center) and the standard deviation (spread).",
+    "filter": {
+      "chapter": 3
+    }
+  },
+  {
+    "id": "S10",
+    "split": "dev",
+    "question": "How can an outlier in monthly employment data be replaced if it does not reflect real numbers?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 88,
+        "evidence": "A possible approach to addressing this outlier is to replace it with median, calculated by taking the\nmean of the points before and after the outlier."
+      }
+    ],
+    "expected_answer": "Replace it with a value computed from the points before and after the outlier (the book calls it the median, computed as their mean).",
+    "filter": {
+      "chapter": 2
+    }
+  },
+  {
+    "id": "H01",
+    "split": "test",
+    "question": "What kind of data can the mode be applied to that the mean and the median cannot?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 119,
+        "evidence": "The mode can also be applied to non-numeric (qualitative) data, whereas the mean and the median can only\nbe applied for numeric (quantitative) data."
+      }
+    ],
+    "expected_answer": "Non-numeric (qualitative) data; the mean and median apply only to numeric (quantitative) data.",
+    "filter": null
+  },
+  {
+    "id": "H02",
+    "split": "test",
+    "question": "How is the median found when a dataset has an odd number of values?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 118,
+        "evidence": "If there is an odd number of data values in the dataset, then there will be one data value that represents the\nmiddle value, and this is the median."
+      }
+    ],
+    "expected_answer": "It is the single middle value of the ordered data.",
+    "filter": null
+  },
+  {
+    "id": "H03",
+    "split": "test",
+    "question": "What does a smaller standard deviation imply about a dataset?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 123,
+        "evidence": "A smaller standard deviation implies less variability in a dataset, and a larger\nstandard deviation implies more variability in a dataset."
+      }
+    ],
+    "expected_answer": "Less variability (values are concentrated close to the mean); a larger one implies more variability.",
+    "filter": {
+      "chapter": 3
+    }
+  },
+  {
+    "id": "H04",
+    "split": "test",
+    "question": "What is Bayes' Theorem used for?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 136,
+        "evidence": "Bayes’ Theorem is a statistical technique that allows for the revision of probability estimates based on new\ninformation or evidence that allows for more accurate and efficient decision-making in uncertain situations."
+      }
+    ],
+    "expected_answer": "A statistical technique that allows revising probabilities based on new information.",
+    "filter": null
+  },
+  {
+    "id": "H05",
+    "split": "test",
+    "question": "What is the Poisson distribution used to find the probability of?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 142,
+        "evidence": "However, there are certain scenarios where a data scientist might be interested to know the\nprobability of a certain number of occurrences for a random variable in a specific interval, such as an interval\nof time."
+      }
+    ],
+    "expected_answer": "The probability of a certain number of occurrences of a random variable in a specific interval, such as an interval of time.",
+    "filter": null
+  },
+  {
+    "id": "H06",
+    "split": "test",
+    "question": "What does the data cleaning process include?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 84,
+        "evidence": "cleaning process includes identifying and correcting any errors, inconsistencies, and missing values in a\ndataset and is essential for ensuring that the data is accurate, reliable, and usable for analysis or other\npurposes."
+      }
+    ],
+    "expected_answer": "Identifying and correcting errors, inconsistencies and missing values so data is accurate, reliable and usable.",
+    "filter": null
+  },
+  {
+    "id": "H07",
+    "split": "test",
+    "question": "Why might text data be normalized when analyzing customer reviews?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 98,
+        "evidence": "For example, when analyzing customer reviews, it may be beneficial to normalize text data so that variations of\nthe same word (e.g., “colour” and “color”) are treated as the same, providing a more accurate understanding of\nsentiment toward a product or service."
+      }
+    ],
+    "expected_answer": "So variations of the same word (e.g. colour and color) are treated as the same, giving a more accurate understanding of sentiment.",
+    "filter": null
+  },
+  {
+    "id": "H08",
+    "split": "test",
+    "question": "What does the spell-checking and correction preprocessing technique do?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 97,
+        "evidence": "Correcting\nspelling errors\nto improve\naccuracy"
+      }
+    ],
+    "expected_answer": "Corrects spelling errors to improve accuracy.",
+    "filter": null
+  },
+  {
+    "id": "H09",
+    "split": "test",
+    "question": "In the home price example, what is the upper bound for outliers and is a price of $5,500,000 an outlier?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 128,
+        "evidence": "The upper bound for outliers is 1,159,375. The data value of 5,500,000 is greater than the upper bound of\n1,159,375. Therefore, the home price of $5,500,000 is a potential outlier."
+      }
+    ],
+    "expected_answer": "The upper bound is 1,159,375; 5,500,000 is above it, so it is a potential outlier.",
+    "filter": null
+  },
+  {
+    "id": "H10",
+    "split": "test",
+    "question": "A home sold for $270,000 where the mean is $350,000 and the standard deviation is $40,000. What does its z-score show?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 129,
+        "evidence": "-score of −2 indicates that the selling price for this home is 2 standard deviations below the mean,\nwhich represents a data value that is significantly below the mean."
+      }
+    ],
+    "expected_answer": "The z-score is -2: the price is 2 standard deviations below the mean, significantly below it.",
+    "filter": null
+  },
+  {
+    "id": "H11",
+    "split": "test",
+    "question": "About what percentage of values lie within three standard deviations of the mean in a normal distribution?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 146,
+        "evidence": "About 99.7% of the -values lie between\nand\nunits from the mean (within three standard\ndeviations of the mean)."
+      }
+    ],
+    "expected_answer": "About 99.7%.",
+    "filter": {
+      "chapter": 3
+    }
+  },
+  {
+    "id": "H12",
+    "split": "test",
+    "question": "What should a sampling frame ideally include?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 75,
+        "evidence": "careful consideration of the sampling frame should ideally encompass all members of\nthe target population and provide a clear and accessible way to identify and select individuals or units for\ninclusion in the sample."
+      }
+    ],
+    "expected_answer": "All members of the target population, with a clear and accessible way to identify and select units for the sample.",
+    "filter": {
+      "chapter": 2
+    }
+  },
+  {
+    "id": "H13",
+    "split": "test",
+    "question": "How is the probability that an employee earns more than $68,000 found with a normal curve?",
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 145,
+        "evidence": "Then, to find the probability that an employee\nearns more than $68,000, calculate the area under the normal curve to the right of the data value $68,000."
+      }
+    ],
+    "expected_answer": "Calculate the area under the normal curve to the right of $68,000.",
+    "filter": null
+  }
+]

@@ -1,0 +1,32 @@
+{
+  "name": "kaggle-qwen2.5-7b-awq-k5-force1",
+  "split": "dev",
+  "model": "qwen2.5-7b-instruct",
+  "top_k": 5,
+  "max_searches": 4,
+  "budget_tokens_est": 2400,
+  "n": 33,
+  "errors": 0,
+  "answerable_n": 30,
+  "absent_n": 3,
+  "tool_use": "33/33",
+  "search_count_distribution": {
+    "1": 32,
+    "2": 1
+  },
+  "auto_context_hit": "28/30",
+  "abstained_when_answerable": "1/30",
+  "abstained_when_absent": "2/3",
+  "answered_with_citation": "29/30",
+  "citations_in_context": "41/41",
+  "tokens": {
+    "prompt": 56245,
+    "output": 3186,
+    "thoughts": 0,
+    "llm_calls": 67
+  },
+  "cost_usd": null,
+  "provider": "openrouter",
+  "median_total_ms": 12270,
+  "note": "auto_* fields are machine checks, NOT the manual grades required by BENCHMARK.md"
+}

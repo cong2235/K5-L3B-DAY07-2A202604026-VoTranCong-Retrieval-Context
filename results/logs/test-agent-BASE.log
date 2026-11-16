@@ -1,0 +1,66 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  47%|████▋     | 94/199 [00:00<00:00, 937.24it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1984.16it/s]
+[1/16] H01 ...
+H01 answered searches=1 cites=1 ctx_hit=False 4.5s
+[2/16] H02 ...
+H02 abstain searches=1 cites=3 ctx_hit=False 8.3s
+[3/16] H03 ...
+H03 answered searches=0 cites=1 ctx_hit=False 1.8s
+[4/16] H04 ...
+H04 answered searches=1 cites=1 ctx_hit=False 6.0s
+[5/16] H05 ...
+H05 answered searches=0 cites=0 ctx_hit=False 2.7s
+[6/16] H06 ...
+H06 answered searches=1 cites=1 ctx_hit=False 18.4s
+[7/16] H07 ...
+H07 answered searches=1 cites=0 ctx_hit=True 19.4s
+[8/16] H08 ...
+H08 abstain searches=0 cites=0 ctx_hit=False 22.6s
+[9/16] H09 ...
+H09 answered searches=1 cites=1 ctx_hit=True 25.7s
+[10/16] H10 ...
+H10 abstain searches=0 cites=0 ctx_hit=False 2.5s
+[11/16] H11 ...
+H11 abstain searches=0 cites=0 ctx_hit=False 1.7s
+[12/16] H12 ...
+H12 answered searches=1 cites=0 ctx_hit=True 24.5s
+[13/16] H13 ...
+H13 abstain searches=0 cites=0 ctx_hit=False 2.8s
+[14/16] X-T01 ...
+X-T01 abstain searches=1 cites=0 ctx_hit=None 3.4s
+[15/16] X-T02 ...
+X-T02 abstain searches=0 cites=0 ctx_hit=None 1.6s
+[16/16] X-T03 ...
+X-T03 abstain searches=1 cites=0 ctx_hit=None 5.8s
+{
+ "name": "BASE-dense-k3-b800-auto",
+ "split": "test",
+ "model": "qwen2.5-7b-instruct",
+ "top_k": 3,
+ "max_searches": 4,
+ "budget_tokens_est": 200,
+ "n": 16,
+ "errors": 0,
+ "answerable_n": 13,
+ "absent_n": 3,
+ "tool_use": "9/16",
+ "search_count_distribution": {
+  "0": 7,
+  "1": 9
+ },
+ "auto_context_hit": "3/13",
+ "abstained_when_answerable": "5/13",
+ "abstained_when_absent": "3/3",
+ "answered_with_citation": "5/8",
+ "citations_in_context": "5/8",
+ "tokens": {
+  "prompt": 12350,
+  "output": 898,
+  "thoughts": 0,
+  "llm_calls": 25
+ },
+ "cost_usd": null,
+ "provider": "openrouter",
+ "median_total_ms": 5180,
+ "note": "auto_* fields are machine checks, NOT the manual grades required by BENCHMARK.md"
+}

@@ -1,0 +1,82 @@
+[
+ {
+  "id": "H01",
+  "split": "test",
+  "answerable": true
+ },
+ {
+  "id": "H02",
+  "split": "test",
+  "answerable": true
+ },
+ {
+  "id": "H03",
+  "split": "test",
+  "answerable": true
+ },
+ {
+  "id": "H04",
+  "split": "test",
+  "answerable": true
+ },
+ {
+  "id": "H05",
+  "split": "test",
+  "answerable": true
+ },
+ {
+  "id": "H06",
+  "split": "test",
+  "answerable": true
+ },
+ {
+  "id": "H07",
+  "split": "test",
+  "answerable": true
+ },
+ {
+  "id": "H08",
+  "split": "test",
+  "answerable": true
+ },
+ {
+  "id": "H09",
+  "split": "test",
+  "answerable": true
+ },
+ {
+  "id": "H10",
+  "split": "test",
+  "answerable": true
+ },
+ {
+  "id": "H11",
+  "split": "test",
+  "answerable": true
+ },
+ {
+  "id": "H12",
+  "split": "test",
+  "answerable": true
+ },
+ {
+  "id": "H13",
+  "split": "test",
+  "answerable": true
+ },
+ {
+  "id": "X-T01",
+  "split": "test",
+  "answerable": false
+ },
+ {
+  "id": "X-T02",
+  "split": "test",
+  "answerable": false
+ },
+ {
+  "id": "X-T03",
+  "split": "test",
+  "answerable": false
+ }
+]

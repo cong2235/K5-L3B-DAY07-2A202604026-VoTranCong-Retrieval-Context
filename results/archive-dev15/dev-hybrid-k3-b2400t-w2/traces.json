@@ -1,0 +1,1201 @@
+[
+  {
+    "query_id": "D01",
+    "question": "What is MCAR missing data?",
+    "method": "hybrid",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 87,
+        "evidence": "MCAR (missing completely at\nrandom) data is missing data not related to any other variables, with no underlying cause for its absence."
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p87:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 87,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 524,
+          "char_end": 1029
+        },
+        "score": 0.04918032786885246,
+        "strategy": "tfidf",
+        "rank": 1,
+        "method": "hybrid-rrf",
+        "text": "It is important to distinguish between different types of missing data. MCAR (missing completely at\nrandom) data is missing data not related to any other variables, with no underlying cause for its absence.\nConsider data collection with a survey asking about driving habits. One of the demographic questions asks\nfor income level. Some respondents accidentally skip this question, and so there is missing data for\nincome, but this is not related to the variables being collected related to driving habits.",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p87:2",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 87,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 1030,
+          "char_end": 1630
+        },
+        "score": 0.04764267990074442,
+        "strategy": "tfidf",
+        "rank": 2,
+        "method": "hybrid-rrf",
+        "text": "MAR (missing at random) data is missing data related to other variables but not to any unknown or\nunmeasured variables. As an example, during data collection, a survey is sent to respondents and the\nsurvey asks about loneliness. One of the questions asks about memory retention. Some older respondents\nmight skip this question since they may be unwilling to share this type of information. The likelihood of\nmissing data for loneliness factors is related to age (older respondents). Thus, the missing data is related\nto an observed variable of age but not directly related to loneliness measurements.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p86:4",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 86,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 1990,
+          "char_end": 2724
+        },
+        "score": 0.04572376214167259,
+        "strategy": "tfidf",
+        "rank": 3,
+        "method": "hybrid-rrf",
+        "text": "The goal of data cleaning and preprocessing is to guarantee that the data used for analysis is accurate,\nconsistent, and relevant. It helps to improve the quality of the results and increase the efficiency of the analysis\nprocess. A well-prepared dataset can lead to more accurate insights and better decision-making.\nHandling Missing Data and Outliers\nMissing data refers to any data points or values that are not present in a dataset. This could be due to data\ncollection errors, data corruption, or nonresponse from participants in a study. Missing data can impact the\naccuracy and validity of an analysis, as it reduces the sample size and potentially introduces bias.\nSome specific examples of missing data include the following:",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p87:1 | OpenStax, Principles of Data Science | page 87]\nIt is important to distinguish between different types of missing data. MCAR (missing completely at\nrandom) data is missing data not related to any other variables, with no underlying cause for its absence.\nConsider data collection with a survey asking about driving habits. One of the demographic questions asks\nfor income level. Some respondents accidentally skip this question, and so there is missing data for\nincome, but this is not related to the variables being collected related to driving habits.\n\n[B:openstax-pds:p87:2 | OpenStax, Principles of Data Science | page 87]\nMAR (missing at random) data is missing data related to other variables but not to any unknown or\nunmeasured variables. As an example, during data collection, a survey is sent to respondents and the\nsurvey asks about loneliness. One of the questions asks about memory retention. Some older respondents\nmight skip this question since they may be unwilling to share this type of information. The likelihood of\nmissing data for loneliness factors is related to age (older respondents). Thus, the missing data is related\nto an observed variable of age but not directly related to loneliness measurements.\n\n[B:openstax-pds:p86:4 | OpenStax, Principles of Data Science | page 86]\nThe goal of data cleaning and preprocessing is to guarantee that the data used for analysis is accurate,\nconsistent, and relevant. It helps to improve the quality of the results and increase the efficiency of the analysis\nprocess. A well-prepared dataset can lead to more accurate insights and better decision-making.\nHandling Missing Data and Outliers\nMissing data refers to any data points or values that are not present in a dataset. This could be due to data\ncollection errors, data corruption, or nonresponse from participants in a study. Missing data can impact the\naccuracy and validity of an analysis, as it reduces the sample size and potentially introduces bias.\nSome specific examples of missing data include the following:",
+    "context_ids": [
+      "B:openstax-pds:p87:1",
+      "B:openstax-pds:p87:2",
+      "B:openstax-pds:p86:4"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 69.78909999997995
+  },
+  {
+    "query_id": "D02",
+    "question": "Why did the 1936 Literary Digest poll predict the wrong presidential winner?",
+    "method": "hybrid",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 72,
+        "evidence": "This approach was considered biased toward affluent individuals and\ntherefore favored Republican voters."
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p72:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 72,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.2",
+          "char_start": 425,
+          "char_end": 925
+        },
+        "score": 0.04918032786885246,
+        "strategy": "tfidf",
+        "rank": 1,
+        "method": "hybrid-rrf",
+        "text": "Avoiding Bias in Survey Questions\nUnbiased sampling and unbiased survey methodology are essential for ensuring accurate and reliable results.\nOne well-known real-life instance of sampling bias leading to inaccurate findings is the 1936 Literary Digest\npoll. This survey aimed to forecast the results of the US presidential election and utilized a mailing list of\ntelephone and automobile owners. This approach was considered biased toward affluent individuals and\ntherefore favored Republican voters.",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p72:2",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 72,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.2",
+          "char_start": 926,
+          "char_end": 1287
+        },
+        "score": 0.048131080389144903,
+        "strategy": "tfidf",
+        "rank": 2,
+        "method": "hybrid-rrf",
+        "text": "As a consequence, the poll predicted a victory for Republican nominee Alf\nLandon. However, the actual outcome was a landslide win for Franklin D. Roosevelt (Lusinchi, 2012). This\ndiscrepancy can be attributed to the biased sampling method as well as the use of primarily closed-ended\nquestions, which may not have accurately captured the opinions of all voters.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p85:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 85,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.3",
+          "char_start": 0,
+          "char_end": 598
+        },
+        "score": 0.031746031746031744,
+        "rank": 3,
+        "method": "hybrid-rrf",
+        "text": "\"26\": [\"Theodore Roosevelt\", \"New York\"],\n\"27\": [\"William Howard Taft\", \"Ohio\"],\n\"28\": [\"Woodrow Wilson\", \"Virginia\"],\n\"29\": [\"Warren G. Harding\", \"Ohio\"],\n\"30\": [\"Calvin Coolidge\", \"Vermont\"],\n\"31\": [\"Herbert Hoover\", \"Iowa\"],\n\"32\": [\"Franklin D. Roosevelt\", \"New York\"],\n\"33\": [\"Harry S. Truman\", \"Missouri\"],\n\"34\": [\"Dwight D. Eisenhower\", \"Texas\"],\n\"35\": [\"John F. Kennedy\", \"Massachusetts\"],\n\"36\": [\"Lyndon B. Johnson\", \"Texas\"],\n\"37\": [\"Richard Nixon\", \"California\"],\n\"38\": [\"Gerald Ford\", \"Nebraska\"],\n\"39\": [\"Jimmy Carter\", \"Georgia\"],\n\"40\": [\"Ronald Reagan\", \"Illinois\"],\n\"41\": [\"George H.",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p72:1 | OpenStax, Principles of Data Science | page 72]\nAvoiding Bias in Survey Questions\nUnbiased sampling and unbiased survey methodology are essential for ensuring accurate and reliable results.\nOne well-known real-life instance of sampling bias leading to inaccurate findings is the 1936 Literary Digest\npoll. This survey aimed to forecast the results of the US presidential election and utilized a mailing list of\ntelephone and automobile owners. This approach was considered biased toward affluent individuals and\ntherefore favored Republican voters.\n\n[B:openstax-pds:p72:2 | OpenStax, Principles of Data Science | page 72]\nAs a consequence, the poll predicted a victory for Republican nominee Alf\nLandon. However, the actual outcome was a landslide win for Franklin D. Roosevelt (Lusinchi, 2012). This\ndiscrepancy can be attributed to the biased sampling method as well as the use of primarily closed-ended\nquestions, which may not have accurately captured the opinions of all voters.\n\n[B:openstax-pds:p85:0 | OpenStax, Principles of Data Science | page 85]\n\"26\": [\"Theodore Roosevelt\", \"New York\"],\n\"27\": [\"William Howard Taft\", \"Ohio\"],\n\"28\": [\"Woodrow Wilson\", \"Virginia\"],\n\"29\": [\"Warren G. Harding\", \"Ohio\"],\n\"30\": [\"Calvin Coolidge\", \"Vermont\"],\n\"31\": [\"Herbert Hoover\", \"Iowa\"],\n\"32\": [\"Franklin D. Roosevelt\", \"New York\"],\n\"33\": [\"Harry S. Truman\", \"Missouri\"],\n\"34\": [\"Dwight D. Eisenhower\", \"Texas\"],\n\"35\": [\"John F. Kennedy\", \"Massachusetts\"],\n\"36\": [\"Lyndon B. Johnson\", \"Texas\"],\n\"37\": [\"Richard Nixon\", \"California\"],\n\"38\": [\"Gerald Ford\", \"Nebraska\"],\n\"39\": [\"Jimmy Carter\", \"Georgia\"],\n\"40\": [\"Ronald Reagan\", \"Illinois\"],\n\"41\": [\"George H.",
+    "context_ids": [
+      "B:openstax-pds:p72:1",
+      "B:openstax-pds:p72:2",
+      "B:openstax-pds:p85:0"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 33.126000000265776
+  },
+  {
+    "query_id": "D03",
+    "question": "How does stratified sampling work?",
+    "method": "hybrid",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 73,
+        "evidence": "Stratified sampling involves splitting the population into subgroups based on\nspecified factors, such as age, area, income, or education level, and taking a random sample from each\nstratum in proportion to its size in the population."
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p76:2",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 76,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.2",
+          "char_start": 889,
+          "char_end": 1541
+        },
+        "score": 0.04891591750396616,
+        "strategy": "tfidf",
+        "rank": 1,
+        "method": "hybrid-rrf",
+        "text": "Solution\nThe sampling technique used by Mark is called stratified sampling. This involves dividing the population\ninto subgroups or strata based on certain characteristics and then randomly selecting participants from\neach subgroup. This ensures that each subgroup is represented in the sample, providing a more accurate\nrepresentation of the entire population. This type of sampling is often used in market research studies to\nget a more comprehensive understanding of consumer behavior and preferences. By using stratified\nsampling, Mark can make more reliable conclusions and recommendations for the new product launch\nbased on the data he collects.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p73:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 73,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.2",
+          "char_start": 0,
+          "char_end": 750
+        },
+        "score": 0.048651507139079855,
+        "strategy": "tfidf",
+        "rank": 2,
+        "method": "hybrid-rrf",
+        "text": "for quality control testing. In the political arena, simple random sampling is commonly used to select\nrandomly registered voters for polls or surveys, ensuring equal representation and minimizing bias in the\ndata collected.\n2. Stratified sampling. Stratified sampling involves splitting the population into subgroups based on\nspecified factors, such as age, area, income, or education level, and taking a random sample from each\nstratum in proportion to its size in the population. Stratified sampling allows for a more accurate\nrepresentation of the population as it ensures that all subgroups are adequately represented in the\nsample. This can be especially useful when the variables being studied vary significantly between the\nstratified groups.",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p72:5",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 72,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.2",
+          "char_start": 2883,
+          "char_end": 3422
+        },
+        "score": 0.047619047619047616,
+        "strategy": "tfidf",
+        "rank": 3,
+        "method": "hybrid-rrf",
+        "text": "A number of sampling techniques and their advantages are described below. The most frequently used among\nthese are simple random selection, stratified sampling, cluster sampling, and convenience sampling.\n1. Simple random selection. Simple random selection is a statistical technique used to pick a representative\nsample from a larger population. This process involves randomly choosing individuals or items from the\npopulation, ensuring that each selected member of the population has an identical chance of being\ncontained in the sample.",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p76:2 | OpenStax, Principles of Data Science | page 76]\nSolution\nThe sampling technique used by Mark is called stratified sampling. This involves dividing the population\ninto subgroups or strata based on certain characteristics and then randomly selecting participants from\neach subgroup. This ensures that each subgroup is represented in the sample, providing a more accurate\nrepresentation of the entire population. This type of sampling is often used in market research studies to\nget a more comprehensive understanding of consumer behavior and preferences. By using stratified\nsampling, Mark can make more reliable conclusions and recommendations for the new product launch\nbased on the data he collects.\n\n[B:openstax-pds:p73:0 | OpenStax, Principles of Data Science | page 73]\nfor quality control testing. In the political arena, simple random sampling is commonly used to select\nrandomly registered voters for polls or surveys, ensuring equal representation and minimizing bias in the\ndata collected.\n2. Stratified sampling. Stratified sampling involves splitting the population into subgroups based on\nspecified factors, such as age, area, income, or education level, and taking a random sample from each\nstratum in proportion to its size in the population. Stratified sampling allows for a more accurate\nrepresentation of the population as it ensures that all subgroups are adequately represented in the\nsample. This can be especially useful when the variables being studied vary significantly between the\nstratified groups.\n\n[B:openstax-pds:p72:5 | OpenStax, Principles of Data Science | page 72]\nA number of sampling techniques and their advantages are described below. The most frequently used among\nthese are simple random selection, stratified sampling, cluster sampling, and convenience sampling.\n1. Simple random selection. Simple random selection is a statistical technique used to pick a representative\nsample from a larger population. This process involves randomly choosing individuals or items from the\npopulation, ensuring that each selected member of the population has an identical chance of being\ncontained in the sample.",
+    "context_ids": [
+      "B:openstax-pds:p76:2",
+      "B:openstax-pds:p73:0",
+      "B:openstax-pds:p72:5"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 32.26670000003651
+  },
+  {
+    "query_id": "D04",
+    "question": "How is a cluster sample selected?",
+    "method": "hybrid",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 73,
+        "evidence": "the population is divided into natural groups or clusters, such as\nschools, communities, or cities, with a random sample of these clusters picked and all members within the\nchosen clusters included in the sample."
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p73:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 73,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.2",
+          "char_start": 751,
+          "char_end": 1425
+        },
+        "score": 0.048651507139079855,
+        "strategy": "tfidf",
+        "rank": 1,
+        "method": "hybrid-rrf",
+        "text": "3. Cluster sampling. With cluster sampling, the population is divided into natural groups or clusters, such as\nschools, communities, or cities, with a random sample of these clusters picked and all members within the\nchosen clusters included in the sample. Cluster sampling is helpful to represent the entire population even\nif it is difficult or time-consuming due to challenges such as identifying clusters, sourcing a list of clusters,\ntraveling to different clusters, and communicating with them. Additionally, data analysis and sample size\ncalculation may be more complex, and there is a risk of bias in the sample. However, cluster sampling can\nbe more cost-effective.",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p72:5",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 72,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.2",
+          "char_start": 2883,
+          "char_end": 3422
+        },
+        "score": 0.04787506400409626,
+        "strategy": "tfidf",
+        "rank": 2,
+        "method": "hybrid-rrf",
+        "text": "A number of sampling techniques and their advantages are described below. The most frequently used among\nthese are simple random selection, stratified sampling, cluster sampling, and convenience sampling.\n1. Simple random selection. Simple random selection is a statistical technique used to pick a representative\nsample from a larger population. This process involves randomly choosing individuals or items from the\npopulation, ensuring that each selected member of the population has an identical chance of being\ncontained in the sample.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p73:2",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 73,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.2",
+          "char_start": 1426,
+          "char_end": 1928
+        },
+        "score": 0.04771225838023,
+        "strategy": "tfidf",
+        "rank": 3,
+        "method": "hybrid-rrf",
+        "text": "An example of cluster sampling would be a study on the effectiveness of a new educational program in a\nstate. The state is divided into clusters based on school districts. The researcher uses a random selection\nprocess to choose a sample of school districts and then collects data from all the schools within those\ndistricts. This method allows the researcher to obtain a representative sample of the state's student\npopulation without having to visit each individual school, saving time and resources.",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p73:1 | OpenStax, Principles of Data Science | page 73]\n3. Cluster sampling. With cluster sampling, the population is divided into natural groups or clusters, such as\nschools, communities, or cities, with a random sample of these clusters picked and all members within the\nchosen clusters included in the sample. Cluster sampling is helpful to represent the entire population even\nif it is difficult or time-consuming due to challenges such as identifying clusters, sourcing a list of clusters,\ntraveling to different clusters, and communicating with them. Additionally, data analysis and sample size\ncalculation may be more complex, and there is a risk of bias in the sample. However, cluster sampling can\nbe more cost-effective.\n\n[B:openstax-pds:p72:5 | OpenStax, Principles of Data Science | page 72]\nA number of sampling techniques and their advantages are described below. The most frequently used among\nthese are simple random selection, stratified sampling, cluster sampling, and convenience sampling.\n1. Simple random selection. Simple random selection is a statistical technique used to pick a representative\nsample from a larger population. This process involves randomly choosing individuals or items from the\npopulation, ensuring that each selected member of the population has an identical chance of being\ncontained in the sample.\n\n[B:openstax-pds:p73:2 | OpenStax, Principles of Data Science | page 73]\nAn example of cluster sampling would be a study on the effectiveness of a new educational program in a\nstate. The state is divided into clusters based on school districts. The researcher uses a random selection\nprocess to choose a sample of school districts and then collects data from all the schools within those\ndistricts. This method allows the researcher to obtain a representative sample of the state's student\npopulation without having to visit each individual school, saving time and resources.",
+    "context_ids": [
+      "B:openstax-pds:p73:1",
+      "B:openstax-pds:p72:5",
+      "B:openstax-pds:p73:2"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 31.513800000084302
+  },
+  {
+    "query_id": "D05",
+    "question": "Under what condition is a log transformation of the data appropriate?",
+    "method": "hybrid",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 92,
+        "evidence": "Log transformation is often used when the data is highly skewed, meaning most\nof the data points fall toward one end of the distribution."
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p92:3",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 92,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 1601,
+          "char_end": 2093
+        },
+        "score": 0.04918032786885246,
+        "strategy": "tfidf",
+        "rank": 1,
+        "method": "hybrid-rrf",
+        "text": "One commonly used data transformation technique is the log transformation, which requires taking the\nlogarithm of the data values. Log transformation is often used when the data is highly skewed, meaning most\nof the data points fall toward one end of the distribution. This can cause problems in data analysis as the data\nmay not follow a normal distribution. By taking the logarithm of the values, the distribution can be shifted\ntoward a more symmetrical shape, making it easier to analyze.",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p92:4",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 92,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 2094,
+          "char_end": 2840
+        },
+        "score": 0.04787506400409626,
+        "strategy": "tfidf",
+        "rank": 2,
+        "method": "hybrid-rrf",
+        "text": "Another common transformation technique is\nthe square root transformation, which involves taking the square root of the data values. Similar to log\ntransformation, square root transformation is often used to address issues with skewness and make the data\nmore normally distributed. Square root transformation is also useful when the data contains values close to\nzero, as taking the square root of these values can bring them closer to the rest of the data and reduce the\nimpact of extreme values. Exponential transformations involve taking the exponent of the data values.\nWhichever operation is used, data transformation can be a useful tool for data analysts to address issues with\ndata distribution and improve the accuracy of their analyses.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p86:2",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 86,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 836,
+          "char_end": 1622
+        },
+        "score": 0.04572376214167259,
+        "strategy": "tfidf",
+        "rank": 3,
+        "method": "hybrid-rrf",
+        "text": "1. Data integration. Data integration refers to merging data from multiple sources into a single dataset.\n2. Data cleaning. In this step, data is assessed for any errors or inconsistencies, and appropriate actions are\ntaken to correct them. This may include removing duplicate values, handling missing data, and correcting\nformatting misconceptions.\n3. Data transformation. This step prepares the data for the next step by transforming the data into a\nformat that is suitable for further analysis. This may involve converting data types, scaling or normalizing\nnumerical data, or encoding categorical variables.\n4. Data reduction. If the dataset contains a large number of columns or features, data reduction techniques\nmay be used to select only the most appropriate ones for analysis.",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p92:3 | OpenStax, Principles of Data Science | page 92]\nOne commonly used data transformation technique is the log transformation, which requires taking the\nlogarithm of the data values. Log transformation is often used when the data is highly skewed, meaning most\nof the data points fall toward one end of the distribution. This can cause problems in data analysis as the data\nmay not follow a normal distribution. By taking the logarithm of the values, the distribution can be shifted\ntoward a more symmetrical shape, making it easier to analyze.\n\n[B:openstax-pds:p92:4 | OpenStax, Principles of Data Science | page 92]\nAnother common transformation technique is\nthe square root transformation, which involves taking the square root of the data values. Similar to log\ntransformation, square root transformation is often used to address issues with skewness and make the data\nmore normally distributed. Square root transformation is also useful when the data contains values close to\nzero, as taking the square root of these values can bring them closer to the rest of the data and reduce the\nimpact of extreme values. Exponential transformations involve taking the exponent of the data values.\nWhichever operation is used, data transformation can be a useful tool for data analysts to address issues with\ndata distribution and improve the accuracy of their analyses.\n\n[B:openstax-pds:p86:2 | OpenStax, Principles of Data Science | page 86]\n1. Data integration. Data integration refers to merging data from multiple sources into a single dataset.\n2. Data cleaning. In this step, data is assessed for any errors or inconsistencies, and appropriate actions are\ntaken to correct them. This may include removing duplicate values, handling missing data, and correcting\nformatting misconceptions.\n3. Data transformation. This step prepares the data for the next step by transforming the data into a\nformat that is suitable for further analysis. This may involve converting data types, scaling or normalizing\nnumerical data, or encoding categorical variables.\n4. Data reduction. If the dataset contains a large number of columns or features, data reduction techniques\nmay be used to select only the most appropriate ones for analysis.",
+    "context_ids": [
+      "B:openstax-pds:p92:3",
+      "B:openstax-pds:p92:4",
+      "B:openstax-pds:p86:2"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 33.58780000007755
+  },
+  {
+    "query_id": "D06",
+    "question": "Which pandas function reads HTML tables from a web page?",
+    "method": "hybrid",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 78,
+        "evidence": "This function is used to read HTML tables from a web page and convert\nthem into a list of DataFrame objects."
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p78:2",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 78,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.3",
+          "char_start": 1289,
+          "char_end": 1969
+        },
+        "score": 0.04918032786885246,
+        "strategy": "tfidf",
+        "rank": 1,
+        "method": "hybrid-rrf",
+        "text": "import pandas as pd\n2. Use the read_html\nread_html() function. This function is used to read HTML tables from a web page and convert\nthem into a list of DataFrame objects. Recall from What Are Data and Data Science? that a DataFrame is a\ndata type that pandas uses to store multi-column tabular data.\ndf = pd.read_html(\"https://......\n3. Access the desired data. If the data on the web page is divided into different tables, we need to specify\nwhich table we want to extract. We have used indexing to access the desired table (for example: index 4)\nfrom the list of DataFrame objects returned by the read_html() function. The index here represents the\ntable order in the web page.",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p78:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 78,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.3",
+          "char_start": 679,
+          "char_end": 1288
+        },
+        "score": 0.047619047619047616,
+        "strategy": "tfidf",
+        "rank": 2,
+        "method": "hybrid-rrf",
+        "text": "Using Python to Scrape Data from the Web\nAs noted previously, web scraping is a strategy of gathering data from the internet using automated\nmechanisms or programs. Python is one of the popular programming languages used for web scraping due to\nits various libraries and frameworks that make it easy to pull and process data from websites.\nTo scrape data such as a table from a website using Python, we follow these steps:\n1. Import the pandas\npandas library. The first step is to import the pandas library (https://openstax.org/r/pandas),\nwhich is a popular Python library for data analysis and manipulation.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p78:3",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 78,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.3",
+          "char_start": 1970,
+          "char_end": 2338
+        },
+        "score": 0.04718343765045739,
+        "strategy": "tfidf",
+        "rank": 3,
+        "method": "hybrid-rrf",
+        "text": "4. Store the data in a DataFrame. The result of the read_html() function is a list of DataFrame objects,\nand each DataFrame represents a table from the web page. We can store the desired data in a DataFrame\nvariable for further analysis and manipulation.\n5. Display the DataFrame. By accessing the DataFrame variable, we can see the extracted data in a tabular\nformat.",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p78:2 | OpenStax, Principles of Data Science | page 78]\nimport pandas as pd\n2. Use the read_html\nread_html() function. This function is used to read HTML tables from a web page and convert\nthem into a list of DataFrame objects. Recall from What Are Data and Data Science? that a DataFrame is a\ndata type that pandas uses to store multi-column tabular data.\ndf = pd.read_html(\"https://......\n3. Access the desired data. If the data on the web page is divided into different tables, we need to specify\nwhich table we want to extract. We have used indexing to access the desired table (for example: index 4)\nfrom the list of DataFrame objects returned by the read_html() function. The index here represents the\ntable order in the web page.\n\n[B:openstax-pds:p78:1 | OpenStax, Principles of Data Science | page 78]\nUsing Python to Scrape Data from the Web\nAs noted previously, web scraping is a strategy of gathering data from the internet using automated\nmechanisms or programs. Python is one of the popular programming languages used for web scraping due to\nits various libraries and frameworks that make it easy to pull and process data from websites.\nTo scrape data such as a table from a website using Python, we follow these steps:\n1. Import the pandas\npandas library. The first step is to import the pandas library (https://openstax.org/r/pandas),\nwhich is a popular Python library for data analysis and manipulation.\n\n[B:openstax-pds:p78:3 | OpenStax, Principles of Data Science | page 78]\n4. Store the data in a DataFrame. The result of the read_html() function is a list of DataFrame objects,\nand each DataFrame represents a table from the web page. We can store the desired data in a DataFrame\nvariable for further analysis and manipulation.\n5. Display the DataFrame. By accessing the DataFrame variable, we can see the extracted data in a tabular\nformat.",
+    "context_ids": [
+      "B:openstax-pds:p78:2",
+      "B:openstax-pds:p78:1",
+      "B:openstax-pds:p78:3"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 34.21359999993001
+  },
+  {
+    "query_id": "D07",
+    "question": "If some of a large dataset becomes corrupted, how does splitting it into blocks help?",
+    "method": "hybrid",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 100,
+        "evidence": "In case of data corruption or loss, data chunking allows for the retrieval of\nonly the affected chunk rather than the entire dataset."
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p86:3",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 86,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 1623,
+          "char_end": 1989
+        },
+        "score": 0.045979778526721235,
+        "strategy": "tfidf",
+        "rank": 1,
+        "method": "hybrid-rrf",
+        "text": "5. Data discretization. Data discretization involves grouping continuous data into categories or ranges,\nwhich can help facilitate analysis.\n6. Data sampling. In some cases, the data may be too large to analyze in its entirety. In such cases, a sample\nof the data can be taken for analysis while still maintaining the overall characteristics of the original\ndataset.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p86:2",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 86,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 836,
+          "char_end": 1622
+        },
+        "score": 0.04525954525954526,
+        "strategy": "tfidf",
+        "rank": 2,
+        "method": "hybrid-rrf",
+        "text": "1. Data integration. Data integration refers to merging data from multiple sources into a single dataset.\n2. Data cleaning. In this step, data is assessed for any errors or inconsistencies, and appropriate actions are\ntaken to correct them. This may include removing duplicate values, handling missing data, and correcting\nformatting misconceptions.\n3. Data transformation. This step prepares the data for the next step by transforming the data into a\nformat that is suitable for further analysis. This may involve converting data types, scaling or normalizing\nnumerical data, or encoding categorical variables.\n4. Data reduction. If the dataset contains a large number of columns or features, data reduction techniques\nmay be used to select only the most appropriate ones for analysis.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p98:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 98,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.5",
+          "char_start": 371,
+          "char_end": 841
+        },
+        "score": 0.04390451832907076,
+        "strategy": "tfidf",
+        "rank": 3,
+        "method": "hybrid-rrf",
+        "text": "2.5 Handling Large Datasets\nLearning Outcomes\nBy the end of this section, you should be able to:\n• 2.5.1 Recognize the challenges associated with large data, including storage, processing, and\nanalysis limitations.\n• 2.5.2 Implement techniques for efficient storage and retrieval of large datasets, including\ncompression, indexing, and chunking.\n• 2.5.3 Discuss database management systems and cloud computing and their key characteristics with\nregard to large datasets.",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p86:3 | OpenStax, Principles of Data Science | page 86]\n5. Data discretization. Data discretization involves grouping continuous data into categories or ranges,\nwhich can help facilitate analysis.\n6. Data sampling. In some cases, the data may be too large to analyze in its entirety. In such cases, a sample\nof the data can be taken for analysis while still maintaining the overall characteristics of the original\ndataset.\n\n[B:openstax-pds:p86:2 | OpenStax, Principles of Data Science | page 86]\n1. Data integration. Data integration refers to merging data from multiple sources into a single dataset.\n2. Data cleaning. In this step, data is assessed for any errors or inconsistencies, and appropriate actions are\ntaken to correct them. This may include removing duplicate values, handling missing data, and correcting\nformatting misconceptions.\n3. Data transformation. This step prepares the data for the next step by transforming the data into a\nformat that is suitable for further analysis. This may involve converting data types, scaling or normalizing\nnumerical data, or encoding categorical variables.\n4. Data reduction. If the dataset contains a large number of columns or features, data reduction techniques\nmay be used to select only the most appropriate ones for analysis.\n\n[B:openstax-pds:p98:1 | OpenStax, Principles of Data Science | page 98]\n2.5 Handling Large Datasets\nLearning Outcomes\nBy the end of this section, you should be able to:\n• 2.5.1 Recognize the challenges associated with large data, including storage, processing, and\nanalysis limitations.\n• 2.5.2 Implement techniques for efficient storage and retrieval of large datasets, including\ncompression, indexing, and chunking.\n• 2.5.3 Discuss database management systems and cloud computing and their key characteristics with\nregard to large datasets.",
+    "context_ids": [
+      "B:openstax-pds:p86:3",
+      "B:openstax-pds:p86:2",
+      "B:openstax-pds:p98:1"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "hitk": false,
+    "context_hit": false,
+    "elapsed_ms": 39.058400000158144
+  },
+  {
+    "query_id": "D08",
+    "question": "What problem does the trimmed mean address?",
+    "method": "hybrid",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 116,
+        "evidence": "A trimmed mean helps mitigate the effects of outliers, which are data values that are significantly different\nfrom most of the other data values in the dataset."
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p117:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 117,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.1",
+          "char_start": 0,
+          "char_end": 774
+        },
+        "score": 0.04891591750396616,
+        "strategy": "tfidf",
+        "rank": 1,
+        "method": "hybrid-rrf",
+        "text": "As an example, to calculate a 10% trimmed mean, first sort the data values from smallest to largest. Then\ndelete the lower 10% of the data values and delete the upper 10% of the data values. Then calculate the mean\nfor the resulting dataset. Any outliers would tend to be deleted as part of the trimmed mean calculation, and\nthus the trimmed mean would then be a more representative measure of the center of the data for datasets\ncontaining outliers.\nEXAMPLE 3.3\nProblem\nA real estate agent collects data on a sample of recently sold homes in a certain neighborhood, and the\ndata are shown in the following dataset:\n397900, 452600, 507400, 488300, 623400, 573200, 1689300, 403890, 612300, 599000, 2345800, 499000,\n525000, 675000, 385000\n1. Calculate the mean of the dataset.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p114:6",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 114,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.1",
+          "char_start": 3421,
+          "char_end": 3895
+        },
+        "score": 0.04813947436898257,
+        "strategy": "tfidf",
+        "rank": 2,
+        "method": "hybrid-rrf",
+        "text": "Mean and Trimmed Mean\nThe mean, or average, (sometimes referred to as the arithmetic mean) is the most commonly used measure of\nthe center of a dataset. Sometimes the mean can be skewed by the presence of outliers, or data values that\nare significantly different as compared to the remainder of the dataset. In these instances, the trimmed mean\nis often used to provide a more representative measure of the center of the dataset, as we will discuss in the\nfollowing section.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p116:2",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 116,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.1",
+          "char_start": 976,
+          "char_end": 1476
+        },
+        "score": 0.046875,
+        "strategy": "tfidf",
+        "rank": 3,
+        "method": "hybrid-rrf",
+        "text": "To calculate the trimmed mean for a dataset, first sort the data in ascending order (from smallest to largest).\nThen decide on a certain percentage of data values to be deleted from the lower and upper ends of the\ndataset. This might represent the extent of outliers in the dataset; trimmed mean percentages of 10% and 20%\nare common. Then delete the specified percentage of data values from both the lower end and upper end of\nthe dataset. Then find the mean for the remaining undeleted data values.",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p117:0 | OpenStax, Principles of Data Science | page 117]\nAs an example, to calculate a 10% trimmed mean, first sort the data values from smallest to largest. Then\ndelete the lower 10% of the data values and delete the upper 10% of the data values. Then calculate the mean\nfor the resulting dataset. Any outliers would tend to be deleted as part of the trimmed mean calculation, and\nthus the trimmed mean would then be a more representative measure of the center of the data for datasets\ncontaining outliers.\nEXAMPLE 3.3\nProblem\nA real estate agent collects data on a sample of recently sold homes in a certain neighborhood, and the\ndata are shown in the following dataset:\n397900, 452600, 507400, 488300, 623400, 573200, 1689300, 403890, 612300, 599000, 2345800, 499000,\n525000, 675000, 385000\n1. Calculate the mean of the dataset.\n\n[B:openstax-pds:p114:6 | OpenStax, Principles of Data Science | page 114]\nMean and Trimmed Mean\nThe mean, or average, (sometimes referred to as the arithmetic mean) is the most commonly used measure of\nthe center of a dataset. Sometimes the mean can be skewed by the presence of outliers, or data values that\nare significantly different as compared to the remainder of the dataset. In these instances, the trimmed mean\nis often used to provide a more representative measure of the center of the dataset, as we will discuss in the\nfollowing section.\n\n[B:openstax-pds:p116:2 | OpenStax, Principles of Data Science | page 116]\nTo calculate the trimmed mean for a dataset, first sort the data in ascending order (from smallest to largest).\nThen decide on a certain percentage of data values to be deleted from the lower and upper ends of the\ndataset. This might represent the extent of outliers in the dataset; trimmed mean percentages of 10% and 20%\nare common. Then delete the specified percentage of data values from both the lower end and upper end of\nthe dataset. Then find the mean for the remaining undeleted data values.",
+    "context_ids": [
+      "B:openstax-pds:p117:0",
+      "B:openstax-pds:p114:6",
+      "B:openstax-pds:p116:2"
+    ],
+    "hit1": false,
+    "hit3": false,
+    "hitk": false,
+    "context_hit": false,
+    "elapsed_ms": 31.87579999985246
+  },
+  {
+    "query_id": "D09",
+    "question": "Why is the range considered a weak measure of spread?",
+    "method": "hybrid",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 121,
+        "evidence": "The range only uses\ntwo data values from the dataset: the minimum (min) and the maximum (max)."
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p121:2",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 121,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.2",
+          "char_start": 1434,
+          "char_end": 1988
+        },
+        "score": 0.04865990111891751,
+        "strategy": "tfidf",
+        "rank": 1,
+        "method": "hybrid-rrf",
+        "text": "The range clearly indicates that there is much less spread in Dataset B as compared to Dataset A.\nOne drawback to the use of the range is that it doesn’t take into account every data value. The range only uses\ntwo data values from the dataset: the minimum (min) and the maximum (max). Also the range is influenced by\noutliers since an outlier might appear as a minimum or maximum data value and thus skew the results. For\nthese reasons, we typically use other measures of variation, such as variance or standard deviation.\n3.2 • Measures of Variation 111",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p121:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 121,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.2",
+          "char_start": 719,
+          "char_end": 1433
+        },
+        "score": 0.048651507139079855,
+        "strategy": "tfidf",
+        "rank": 2,
+        "method": "hybrid-rrf",
+        "text": "Range\nRange is a measure of dispersion for a dataset that is calculated by subtracting the minimum from the\nmaximum of the dataset:\nRange is a straightforward calculation but makes use of only two of the data values in a dataset. The range can\nalso be affected by outliers.\nEXAMPLE 3.6\nProblem\nCalculate the range for Dataset A and Dataset B:\nDataset A: Exam scores for students in a biology course: 40, 70, 100\nDataset B: Exam scores for students in a statistics course: 69, 70, 71\nSolution\nFor Dataset A, the maximum data value is 100 and the minimum data value is 40.\nThe range is then calculated as:\nFor Dataset B, the maximum data value is 71 and the minimum data value is 69.\nThe range is then calculated as:",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p120:3",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 120,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.2",
+          "char_start": 1240,
+          "char_end": 1985
+        },
+        "score": 0.04787506400409626,
+        "strategy": "tfidf",
+        "rank": 3,
+        "method": "hybrid-rrf",
+        "text": "3.2 Measures of Variation\nLearning Outcomes\nBy the end of this section, you should be able to:\n• 3.2.1 Define and calculate the range, the variance, and the standard deviation for a dataset.\n• 3.2.2 Use Python to calculate measures of variation for a dataset.\nProviding some measure of the spread, or variation, in a dataset is crucial to a comprehensive summary of the\ndataset. Two datasets may have the same mean but can exhibit very different spread, and so a measure of\ndispersion for a dataset is very important. While measures of central tendency (like mean, median, and mode)\ndescribe the center or average value of a distribution, measures of dispersion give insights into how much\nindividual data points deviate from this central value.",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p121:2 | OpenStax, Principles of Data Science | page 121]\nThe range clearly indicates that there is much less spread in Dataset B as compared to Dataset A.\nOne drawback to the use of the range is that it doesn’t take into account every data value. The range only uses\ntwo data values from the dataset: the minimum (min) and the maximum (max). Also the range is influenced by\noutliers since an outlier might appear as a minimum or maximum data value and thus skew the results. For\nthese reasons, we typically use other measures of variation, such as variance or standard deviation.\n3.2 • Measures of Variation 111\n\n[B:openstax-pds:p121:1 | OpenStax, Principles of Data Science | page 121]\nRange\nRange is a measure of dispersion for a dataset that is calculated by subtracting the minimum from the\nmaximum of the dataset:\nRange is a straightforward calculation but makes use of only two of the data values in a dataset. The range can\nalso be affected by outliers.\nEXAMPLE 3.6\nProblem\nCalculate the range for Dataset A and Dataset B:\nDataset A: Exam scores for students in a biology course: 40, 70, 100\nDataset B: Exam scores for students in a statistics course: 69, 70, 71\nSolution\nFor Dataset A, the maximum data value is 100 and the minimum data value is 40.\nThe range is then calculated as:\nFor Dataset B, the maximum data value is 71 and the minimum data value is 69.\nThe range is then calculated as:\n\n[B:openstax-pds:p120:3 | OpenStax, Principles of Data Science | page 120]\n3.2 Measures of Variation\nLearning Outcomes\nBy the end of this section, you should be able to:\n• 3.2.1 Define and calculate the range, the variance, and the standard deviation for a dataset.\n• 3.2.2 Use Python to calculate measures of variation for a dataset.\nProviding some measure of the spread, or variation, in a dataset is crucial to a comprehensive summary of the\ndataset. Two datasets may have the same mean but can exhibit very different spread, and so a measure of\ndispersion for a dataset is very important. While measures of central tendency (like mean, median, and mode)\ndescribe the center or average value of a distribution, measures of dispersion give insights into how much\nindividual data points deviate from this central value.",
+    "context_ids": [
+      "B:openstax-pds:p121:2",
+      "B:openstax-pds:p121:1",
+      "B:openstax-pds:p120:3"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 34.80489999992642
+  },
+  {
+    "query_id": "D10",
+    "question": "What does the variance measure?",
+    "method": "hybrid",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 122,
+        "evidence": "The variance provides a measure of the spread of data values by using the squared deviations from the mean."
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p122:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 122,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.2",
+          "char_start": 0,
+          "char_end": 737
+        },
+        "score": 0.04918032786885246,
+        "strategy": "tfidf",
+        "rank": 1,
+        "method": "hybrid-rrf",
+        "text": "Variance\nThe variance provides a measure of the spread of data values by using the squared deviations from the mean.\nThe more the individual data values differ from the mean, the larger the variance.\nA financial advisor might use variance to determine the volatility of an investment and therefore help guide\nfinancial decisions. For example, a more cautious investor might opt for investments with low volatility.\nThe formula used to calculate variance also depends on whether the data is collected from a sample or a\npopulation. The notation\nis used to represent the sample variance, and the notation\nis used to represent\nthe population variance.\nFormula for the sample variance:\nFormula for the population variance:\nIn these formulas:",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p122:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 122,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.2",
+          "char_start": 738,
+          "char_end": 1529
+        },
+        "score": 0.04689826302729529,
+        "strategy": "tfidf",
+        "rank": 2,
+        "method": "hybrid-rrf",
+        "text": "represents the individual data values\nrepresents the sample mean\nrepresents the sample size\nrepresents the population mean\nrepresents the population size\nALTERNATE FORMULA FOR VARIANCE\nAn alternate formula for the variance is available. It is sometimes used for more efficient computations:\nIn the formulas for sample variance and population variance, notice the denominator for the sample variance\nis\n, whereas the denominator for the population variance is\n. The use of\nin the denominator of the\nsample variance is used to provide the best estimate for the population variance, in the sense that if repeated\nsamples of size are taken and the sample mean computed each time, then the average of those sample\nmeans will tend to the population mean as the number of repeated samples increase.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p120:3",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 120,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.2",
+          "char_start": 1240,
+          "char_end": 1985
+        },
+        "score": 0.04640151515151515,
+        "strategy": "tfidf",
+        "rank": 3,
+        "method": "hybrid-rrf",
+        "text": "3.2 Measures of Variation\nLearning Outcomes\nBy the end of this section, you should be able to:\n• 3.2.1 Define and calculate the range, the variance, and the standard deviation for a dataset.\n• 3.2.2 Use Python to calculate measures of variation for a dataset.\nProviding some measure of the spread, or variation, in a dataset is crucial to a comprehensive summary of the\ndataset. Two datasets may have the same mean but can exhibit very different spread, and so a measure of\ndispersion for a dataset is very important. While measures of central tendency (like mean, median, and mode)\ndescribe the center or average value of a distribution, measures of dispersion give insights into how much\nindividual data points deviate from this central value.",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p122:0 | OpenStax, Principles of Data Science | page 122]\nVariance\nThe variance provides a measure of the spread of data values by using the squared deviations from the mean.\nThe more the individual data values differ from the mean, the larger the variance.\nA financial advisor might use variance to determine the volatility of an investment and therefore help guide\nfinancial decisions. For example, a more cautious investor might opt for investments with low volatility.\nThe formula used to calculate variance also depends on whether the data is collected from a sample or a\npopulation. The notation\nis used to represent the sample variance, and the notation\nis used to represent\nthe population variance.\nFormula for the sample variance:\nFormula for the population variance:\nIn these formulas:\n\n[B:openstax-pds:p122:1 | OpenStax, Principles of Data Science | page 122]\nrepresents the individual data values\nrepresents the sample mean\nrepresents the sample size\nrepresents the population mean\nrepresents the population size\nALTERNATE FORMULA FOR VARIANCE\nAn alternate formula for the variance is available. It is sometimes used for more efficient computations:\nIn the formulas for sample variance and population variance, notice the denominator for the sample variance\nis\n, whereas the denominator for the population variance is\n. The use of\nin the denominator of the\nsample variance is used to provide the best estimate for the population variance, in the sense that if repeated\nsamples of size are taken and the sample mean computed each time, then the average of those sample\nmeans will tend to the population mean as the number of repeated samples increase.\n\n[B:openstax-pds:p120:3 | OpenStax, Principles of Data Science | page 120]\n3.2 Measures of Variation\nLearning Outcomes\nBy the end of this section, you should be able to:\n• 3.2.1 Define and calculate the range, the variance, and the standard deviation for a dataset.\n• 3.2.2 Use Python to calculate measures of variation for a dataset.\nProviding some measure of the spread, or variation, in a dataset is crucial to a comprehensive summary of the\ndataset. Two datasets may have the same mean but can exhibit very different spread, and so a measure of\ndispersion for a dataset is very important. While measures of central tendency (like mean, median, and mode)\ndescribe the center or average value of a distribution, measures of dispersion give insights into how much\nindividual data points deviate from this central value.",
+    "context_ids": [
+      "B:openstax-pds:p122:0",
+      "B:openstax-pds:p122:1",
+      "B:openstax-pds:p120:3"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 37.655899999663234
+  },
+  {
+    "query_id": "D11",
+    "question": "Which percentile does the first quartile correspond to?",
+    "method": "hybrid",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 126,
+        "evidence": "The first quartile corresponds to the 25th percentile."
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p126:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 126,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.3",
+          "char_start": 751,
+          "char_end": 1084
+        },
+        "score": 0.04918032786885246,
+        "strategy": "tfidf",
+        "rank": 1,
+        "method": "hybrid-rrf",
+        "text": "• The first quartile corresponds to the 25th percentile.\n• The second quartile (which is the median) corresponds to the 50th percentile.\n• The third quartile corresponds to the 75th percentile.\nEXAMPLE 3.11\nProblem\nConsider the following ordered dataset, which represents the time in seconds for an athlete to complete a\n40-yard run:",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p126:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 126,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.3",
+          "char_start": 0,
+          "char_end": 750
+        },
+        "score": 0.048131080389144903,
+        "strategy": "tfidf",
+        "rank": 2,
+        "method": "hybrid-rrf",
+        "text": "EXAMPLE 3.10\nProblem\nThe following ordered dataset represents the scores of 15 employees on an aptitude test:\n51, 63, 65, 68, 71, 75, 75, 77, 79, 82, 88, 89, 89, 92, 95\nDetermine the percentile for the employee who scored 88 on the aptitude test.\nSolution\nThere are 15 data values in total, and there are 10 data values below 88.\nQuartiles\nWhile percentiles separate data into 100 equal parts, quartiles separate data into quarters, or four equal\nparts. To find the quartiles, first find the median, or second quartile. The first quartile,\n, is the middle value,\nor median, of the lower half of the data, and the third quartile,\n, is the middle value of the upper half of the\ndata.\nNote the following correspondence between quartiles and percentiles:",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p127:4",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 127,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.3",
+          "char_start": 1968,
+          "char_end": 2442
+        },
+        "score": 0.047379032258064516,
+        "strategy": "tfidf",
+        "rank": 3,
+        "method": "hybrid-rrf",
+        "text": "For the first quartile, look at the data values below the median. The two middle data values in this lower half\nof the data are 230,500 and 387,000. To determine the first quartile, find the mean of these two data values.\nFor the third quartile, look at the data values above the median. The two middle data values in this upper\nhalf of the data are 639,000 and 659,000. To determine the third quartile, find the mean of these two data\nvalues.\n3.3 • Measures of Position 117",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p126:1 | OpenStax, Principles of Data Science | page 126]\n• The first quartile corresponds to the 25th percentile.\n• The second quartile (which is the median) corresponds to the 50th percentile.\n• The third quartile corresponds to the 75th percentile.\nEXAMPLE 3.11\nProblem\nConsider the following ordered dataset, which represents the time in seconds for an athlete to complete a\n40-yard run:\n\n[B:openstax-pds:p126:0 | OpenStax, Principles of Data Science | page 126]\nEXAMPLE 3.10\nProblem\nThe following ordered dataset represents the scores of 15 employees on an aptitude test:\n51, 63, 65, 68, 71, 75, 75, 77, 79, 82, 88, 89, 89, 92, 95\nDetermine the percentile for the employee who scored 88 on the aptitude test.\nSolution\nThere are 15 data values in total, and there are 10 data values below 88.\nQuartiles\nWhile percentiles separate data into 100 equal parts, quartiles separate data into quarters, or four equal\nparts. To find the quartiles, first find the median, or second quartile. The first quartile,\n, is the middle value,\nor median, of the lower half of the data, and the third quartile,\n, is the middle value of the upper half of the\ndata.\nNote the following correspondence between quartiles and percentiles:\n\n[B:openstax-pds:p127:4 | OpenStax, Principles of Data Science | page 127]\nFor the first quartile, look at the data values below the median. The two middle data values in this lower half\nof the data are 230,500 and 387,000. To determine the first quartile, find the mean of these two data values.\nFor the third quartile, look at the data values above the median. The two middle data values in this upper\nhalf of the data are 639,000 and 659,000. To determine the third quartile, find the mean of these two data\nvalues.\n3.3 • Measures of Position 117",
+    "context_ids": [
+      "B:openstax-pds:p126:1",
+      "B:openstax-pds:p126:0",
+      "B:openstax-pds:p127:4"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 40.60479999998279
+  },
+  {
+    "query_id": "D12",
+    "question": "How can quartiles be used to flag possible outliers?",
+    "method": "hybrid",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 127,
+        "evidence": "To detect outliers, you can use the quartiles and the IQR to calculate a lower and an upper bound for outliers."
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p127:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 127,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.3",
+          "char_start": 320,
+          "char_end": 858
+        },
+        "score": 0.04918032786885246,
+        "strategy": "tfidf",
+        "rank": 1,
+        "method": "hybrid-rrf",
+        "text": "Quartiles and the IQR can be used to flag possible outliers in a dataset. For example, if most employees at a\ncompany earn about $50,000 and the CEO of the company earns $2.5 million, then we consider the CEO’s\nsalary to be an outlier data value because this salary is significantly different from all the other salaries in the\ndataset. An outlier data value can also be a value much lower than the other data values in a dataset, so if one\nemployee only makes $15,000, then this employee’s low salary might also be considered an outlier.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p127:2",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 127,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.3",
+          "char_start": 859,
+          "char_end": 1553
+        },
+        "score": 0.04838709677419355,
+        "strategy": "tfidf",
+        "rank": 2,
+        "method": "hybrid-rrf",
+        "text": "To detect outliers, you can use the quartiles and the IQR to calculate a lower and an upper bound for outliers.\nThen any data values below the lower bound or above the upper bound will be flagged as outliers. These data\nvalues should be further investigated to determine the nature of the outlier condition and whether the data\nvalues are valid or not.\nTo calculate the lower and upper bounds for outliers, use the following formulas:\nThese formulas typically use 1.5 as a cutoff value to identify outliers in a dataset.\nEXAMPLE 3.12\nProblem\nCalculate the IQR for the following 13 home prices and determine if any of the home prices values are\npotential outliers. Data values are in US dollars.",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p87:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 87,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 0,
+          "char_end": 523
+        },
+        "score": 0.04574275362318841,
+        "strategy": "tfidf",
+        "rank": 3,
+        "method": "hybrid-rrf",
+        "text": "measures typically used to handle missing data and outliers in a data science project:\n1. Identify the missing data and outliers. The first stage is to identify which data points are missing or\nappear to be outliers. This can be done through visualization techniques, such as scatterplots, box plots,\nIQR (interquartile range), or histograms, or through statistical methods, such as calculating the mean,\nmedian, and standard deviation (see Measures of Center and Measures of Variation as well as Encoding\nUnivariate Data).",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p127:1 | OpenStax, Principles of Data Science | page 127]\nQuartiles and the IQR can be used to flag possible outliers in a dataset. For example, if most employees at a\ncompany earn about $50,000 and the CEO of the company earns $2.5 million, then we consider the CEO’s\nsalary to be an outlier data value because this salary is significantly different from all the other salaries in the\ndataset. An outlier data value can also be a value much lower than the other data values in a dataset, so if one\nemployee only makes $15,000, then this employee’s low salary might also be considered an outlier.\n\n[B:openstax-pds:p127:2 | OpenStax, Principles of Data Science | page 127]\nTo detect outliers, you can use the quartiles and the IQR to calculate a lower and an upper bound for outliers.\nThen any data values below the lower bound or above the upper bound will be flagged as outliers. These data\nvalues should be further investigated to determine the nature of the outlier condition and whether the data\nvalues are valid or not.\nTo calculate the lower and upper bounds for outliers, use the following formulas:\nThese formulas typically use 1.5 as a cutoff value to identify outliers in a dataset.\nEXAMPLE 3.12\nProblem\nCalculate the IQR for the following 13 home prices and determine if any of the home prices values are\npotential outliers. Data values are in US dollars.\n\n[B:openstax-pds:p87:0 | OpenStax, Principles of Data Science | page 87]\nmeasures typically used to handle missing data and outliers in a data science project:\n1. Identify the missing data and outliers. The first stage is to identify which data points are missing or\nappear to be outliers. This can be done through visualization techniques, such as scatterplots, box plots,\nIQR (interquartile range), or histograms, or through statistical methods, such as calculating the mean,\nmedian, and standard deviation (see Measures of Center and Measures of Variation as well as Encoding\nUnivariate Data).",
+    "context_ids": [
+      "B:openstax-pds:p127:1",
+      "B:openstax-pds:p127:2",
+      "B:openstax-pds:p87:0"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 42.380599999887636
+  },
+  {
+    "query_id": "D13",
+    "question": "Which techniques can identify missing data points or apparent outliers?",
+    "method": "hybrid",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 87,
+        "evidence": "This can be done through visualization techniques, such as scatterplots, box plots,\nIQR (interquartile range), or histograms, or through statistical methods"
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p87:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 87,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 0,
+          "char_end": 523
+        },
+        "score": 0.04918032786885246,
+        "strategy": "tfidf",
+        "rank": 1,
+        "method": "hybrid-rrf",
+        "text": "measures typically used to handle missing data and outliers in a data science project:\n1. Identify the missing data and outliers. The first stage is to identify which data points are missing or\nappear to be outliers. This can be done through visualization techniques, such as scatterplots, box plots,\nIQR (interquartile range), or histograms, or through statistical methods, such as calculating the mean,\nmedian, and standard deviation (see Measures of Center and Measures of Variation as well as Encoding\nUnivariate Data).",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p86:6",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 86,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 3264,
+          "char_end": 3588
+        },
+        "score": 0.04764267990074442,
+        "strategy": "tfidf",
+        "rank": 2,
+        "method": "hybrid-rrf",
+        "text": "Missing data and outliers are common problems that can affect the accuracy and reliability of results. It is\nimportant to identify and handle these issues properly to ensure the integrity of the data and the validity of\nthe analysis. You will find more details about outliers in Measures of Center, but here we summarize the",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p86:5",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 86,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 2725,
+          "char_end": 3263
+        },
+        "score": 0.047371031746031744,
+        "strategy": "tfidf",
+        "rank": 3,
+        "method": "hybrid-rrf",
+        "text": "1. A survey participant forgetting to answer a question\n2. A malfunction in data collection equipment resulting in missing values\n3. A participant choosing not to answer a question due to sensitivity or discomfort\nAn outlier is a data point that differs significantly from other data points in a given dataset. This can be due to\nhuman error, measurement error, or a true outlier value in the data. Outliers can skew statistical analysis and\nbias results, which is why it is important to identify and handle them properly before analysis.",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p87:0 | OpenStax, Principles of Data Science | page 87]\nmeasures typically used to handle missing data and outliers in a data science project:\n1. Identify the missing data and outliers. The first stage is to identify which data points are missing or\nappear to be outliers. This can be done through visualization techniques, such as scatterplots, box plots,\nIQR (interquartile range), or histograms, or through statistical methods, such as calculating the mean,\nmedian, and standard deviation (see Measures of Center and Measures of Variation as well as Encoding\nUnivariate Data).\n\n[B:openstax-pds:p86:6 | OpenStax, Principles of Data Science | page 86]\nMissing data and outliers are common problems that can affect the accuracy and reliability of results. It is\nimportant to identify and handle these issues properly to ensure the integrity of the data and the validity of\nthe analysis. You will find more details about outliers in Measures of Center, but here we summarize the\n\n[B:openstax-pds:p86:5 | OpenStax, Principles of Data Science | page 86]\n1. A survey participant forgetting to answer a question\n2. A malfunction in data collection equipment resulting in missing values\n3. A participant choosing not to answer a question due to sensitivity or discomfort\nAn outlier is a data point that differs significantly from other data points in a given dataset. This can be due to\nhuman error, measurement error, or a true outlier value in the data. Outliers can skew statistical analysis and\nbias results, which is why it is important to identify and handle them properly before analysis.",
+    "context_ids": [
+      "B:openstax-pds:p87:0",
+      "B:openstax-pds:p86:6",
+      "B:openstax-pds:p86:5"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 44.205000000147265
+  },
+  {
+    "query_id": "D14",
+    "question": "What does the IQR indicate about a dataset?",
+    "method": "hybrid",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 127,
+        "evidence": "The interquartile range (IQR) is a number that indicates the spread of the middle half, or the middle 50%, of\nthe data."
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p127:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 127,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.3",
+          "char_start": 0,
+          "char_end": 319
+        },
+        "score": 0.04918032786885246,
+        "strategy": "tfidf",
+        "rank": 1,
+        "method": "hybrid-rrf",
+        "text": "The interquartile range (IQR) is a number that indicates the spread of the middle half, or the middle 50%, of\nthe data. It is the difference between the third quartile,\n, and the first quartile,\n.\nNote that the IQR provides a measure of variability that excludes outliers.\nIn Example 3.11, the IQR can be calculated as:",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p127:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 127,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.3",
+          "char_start": 320,
+          "char_end": 858
+        },
+        "score": 0.04838709677419355,
+        "strategy": "tfidf",
+        "rank": 2,
+        "method": "hybrid-rrf",
+        "text": "Quartiles and the IQR can be used to flag possible outliers in a dataset. For example, if most employees at a\ncompany earn about $50,000 and the CEO of the company earns $2.5 million, then we consider the CEO’s\nsalary to be an outlier data value because this salary is significantly different from all the other salaries in the\ndataset. An outlier data value can also be a value much lower than the other data values in a dataset, so if one\nemployee only makes $15,000, then this employee’s low salary might also be considered an outlier.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p128:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 128,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.3",
+          "char_start": 0,
+          "char_end": 759
+        },
+        "score": 0.047371031746031744,
+        "strategy": "tfidf",
+        "rank": 3,
+        "method": "hybrid-rrf",
+        "text": "Now, calculate the interquartile range (IQR):\nCalculate the value of 1.5 interquartile range (IQR):\nCalculate the lower and upper bound for outliers:\nThe lower bound for outliers is −201,625. Of course, no home price is less than −201,625, so no outliers are\npresent for the lower end of the dataset.\nThe upper bound for outliers is 1,159,375. The data value of 5,500,000 is greater than the upper bound of\n1,159,375. Therefore, the home price of $5,500,000 is a potential outlier. This is important because the\npresence of outliers could potentially indicate data errors or some other anomalies in the dataset that\nshould be investigated. For example, there may have been a data entry error and a home price of $550,000\nwas erroneously entered as $5,500,000.",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p127:0 | OpenStax, Principles of Data Science | page 127]\nThe interquartile range (IQR) is a number that indicates the spread of the middle half, or the middle 50%, of\nthe data. It is the difference between the third quartile,\n, and the first quartile,\n.\nNote that the IQR provides a measure of variability that excludes outliers.\nIn Example 3.11, the IQR can be calculated as:\n\n[B:openstax-pds:p127:1 | OpenStax, Principles of Data Science | page 127]\nQuartiles and the IQR can be used to flag possible outliers in a dataset. For example, if most employees at a\ncompany earn about $50,000 and the CEO of the company earns $2.5 million, then we consider the CEO’s\nsalary to be an outlier data value because this salary is significantly different from all the other salaries in the\ndataset. An outlier data value can also be a value much lower than the other data values in a dataset, so if one\nemployee only makes $15,000, then this employee’s low salary might also be considered an outlier.\n\n[B:openstax-pds:p128:0 | OpenStax, Principles of Data Science | page 128]\nNow, calculate the interquartile range (IQR):\nCalculate the value of 1.5 interquartile range (IQR):\nCalculate the lower and upper bound for outliers:\nThe lower bound for outliers is −201,625. Of course, no home price is less than −201,625, so no outliers are\npresent for the lower end of the dataset.\nThe upper bound for outliers is 1,159,375. The data value of 5,500,000 is greater than the upper bound of\n1,159,375. Therefore, the home price of $5,500,000 is a potential outlier. This is important because the\npresence of outliers could potentially indicate data errors or some other anomalies in the dataset that\nshould be investigated. For example, there may have been a data entry error and a home price of $550,000\nwas erroneously entered as $5,500,000.",
+    "context_ids": [
+      "B:openstax-pds:p127:0",
+      "B:openstax-pds:p127:1",
+      "B:openstax-pds:p128:0"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 44.17310000008001
+  },
+  {
+    "query_id": "D15",
+    "question": "Why do data scientists usually compute binomial probabilities with software?",
+    "method": "hybrid",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 141,
+        "evidence": "Since these computations tend to be complicated and time-consuming, most data scientists will use\ntechnology"
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p141:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 141,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "char_start": 801,
+          "char_end": 1414
+        },
+        "score": 0.047162673392181595,
+        "strategy": "tfidf",
+        "rank": 1,
+        "method": "hybrid-rrf",
+        "text": "Figure 3.5 illustrates this binomial distribution, where the horizontal axis shows the values of the random\nvariable , and the vertical axis shows the binomial probability for each value of . Note that values of less\nthan 14 are not shown on the graph since these corresponding probabilities are very close to zero.\nFigure 3.5 Graph of the Binomial Distribution for\nand\nSince these computations tend to be complicated and time-consuming, most data scientists will use\ntechnology (such as Python, R, Excel, or others) to calculate binomial probabilities.\n3.5 • Discrete and Continuous Probability Distributions 131",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p147:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 147,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "char_start": 0,
+          "char_end": 320
+        },
+        "score": 0.04485852311939269,
+        "strategy": "tfidf",
+        "rank": 2,
+        "method": "hybrid-rrf",
+        "text": "from scipy.stats import binom\nUsing Python with the Binomial Distribution\nThe binom() function in Python allows calculations of binomial probabilities. The probability mass function for\nthe binomial distribution within Python is referred to as binom.pmf().\nThe syntax for using this function is binom.pmf(x, n, p)\nWhere:",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p114:3",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 114,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.0",
+          "char_start": 1498,
+          "char_end": 1985
+        },
+        "score": 0.04424603174603174,
+        "strategy": "tfidf",
+        "rank": 3,
+        "method": "hybrid-rrf",
+        "text": "In this chapter, you will also study probability concepts and probability distributions. Probability theory helps\nus deal with quantifying uncertainty, which is always inherent in real-world data. We will see that in real-world\ndatasets we often have to deal with noise and randomness that will be analyzed using statistical analyses.\nProbability analysis provides the tools to model, understand, and quantify uncertainties, allowing data\nscientists to make informed decisions from data.",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p141:1 | OpenStax, Principles of Data Science | page 141]\nFigure 3.5 illustrates this binomial distribution, where the horizontal axis shows the values of the random\nvariable , and the vertical axis shows the binomial probability for each value of . Note that values of less\nthan 14 are not shown on the graph since these corresponding probabilities are very close to zero.\nFigure 3.5 Graph of the Binomial Distribution for\nand\nSince these computations tend to be complicated and time-consuming, most data scientists will use\ntechnology (such as Python, R, Excel, or others) to calculate binomial probabilities.\n3.5 • Discrete and Continuous Probability Distributions 131\n\n[B:openstax-pds:p147:0 | OpenStax, Principles of Data Science | page 147]\nfrom scipy.stats import binom\nUsing Python with the Binomial Distribution\nThe binom() function in Python allows calculations of binomial probabilities. The probability mass function for\nthe binomial distribution within Python is referred to as binom.pmf().\nThe syntax for using this function is binom.pmf(x, n, p)\nWhere:\n\n[B:openstax-pds:p114:3 | OpenStax, Principles of Data Science | page 114]\nIn this chapter, you will also study probability concepts and probability distributions. Probability theory helps\nus deal with quantifying uncertainty, which is always inherent in real-world data. We will see that in real-world\ndatasets we often have to deal with noise and randomness that will be analyzed using statistical analyses.\nProbability analysis provides the tools to model, understand, and quantify uncertainties, allowing data\nscientists to make informed decisions from data.",
+    "context_ids": [
+      "B:openstax-pds:p141:1",
+      "B:openstax-pds:p147:0",
+      "B:openstax-pds:p114:3"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 47.84319999998843
+  }
+]

@@ -9,3 +9,8 @@ __pycache__/
 # Local datasets and generated output; share permitted artifacts deliberately
 starter/data/
 starter/results/
+
+# Advanced challenge: source PDF and scratch downloads (re-download from the URL in adv/SOURCE.md)
+adv/source/
+adv/iea_page.html
+adv/work/

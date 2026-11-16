@@ -1,0 +1,1601 @@
+[
+  {
+    "query_id": "H01",
+    "question": "What kind of data can the mode be applied to that the mean and the median cannot?",
+    "method": "rerank",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 119,
+        "evidence": "The mode can also be applied to non-numeric (qualitative) data, whereas the mean and the median can only\nbe applied for numeric (quantitative) data."
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p119:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 119,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.1",
+          "char_start": 0,
+          "char_end": 625
+        },
+        "score": 0.03278688524590164,
+        "base_rank": 1,
+        "rerank_score": 0.8247307538986206,
+        "rank": 1,
+        "method": "rerank-rrf",
+        "text": "The mode can also be applied to non-numeric (qualitative) data, whereas the mean and the median can only\nbe applied for numeric (quantitative) data. For example, a restaurant manager might want to determine the\nmode for responses to customer surveys on the quality of the service of a restaurant, as shown in Table 3.1.\nCustomer\nService\nRating\nNumber of\nRespondents\nExcellent\n267\nVery Good\n410\nGood\n392\nFair\n107\nPoor\n18\nTable 3.1 Customer Survey Results for\nCustomer Survey Rating\nBased on the survey responses, the mode is the Customer Service Rating of “Very Good,” since this is the data\nvalue with the greatest frequency.",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p114:5",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 114,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.1",
+          "char_start": 2767,
+          "char_end": 3420
+        },
+        "score": 0.031754032258064516,
+        "base_rank": 4,
+        "rerank_score": 0.40536507964134216,
+        "rank": 2,
+        "method": "rerank-rrf",
+        "text": "3.1 Measures of Center\nLearning Outcomes\nBy the end of this section, you should be able to:\n• 3.1.1 Define and calculate mean, trimmed mean, median, and mode for a dataset.\n• 3.1.2 Determine the effect of outliers on the mean and the median.\n• 3.1.3 Use Python to calculate measures of center for a dataset.\nMeasures of center are statistical measurements that provide a central, or typical, representation of a dataset.\nThese measures can help indicate where the bulk of the data is concentrated and are often called the data’s\ncentral tendency. The most widely used measures of the center of a dataset are the mean (average), the\nmedian, and the mode.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p118:2",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 118,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.1",
+          "char_start": 1477,
+          "char_end": 2270
+        },
+        "score": 0.03128054740957967,
+        "base_rank": 2,
+        "rerank_score": 0.09811412543058395,
+        "rank": 3,
+        "method": "rerank-rrf",
+        "text": "For example, let’s say a dataset has 25 data values. Since is odd, to identify the position of the median,\ncalculate\n, which is\n, or 13. This indicates that the median is located in the 13th data position.\nAs another example, let’s say a dataset has 100 data values. Since is even, to identify the position of the\nmedian, calculate\n, which is\n, which is 50, and also calculate\n, which is\n, which is 51. This\nindicates that the median is calculated as the mean of the 50th and 51st data values.\nMode\nAnother measure of center is the mode. The mode is the data value that occurs with the greatest frequency. If\nthere are no repeating data values in a dataset, then there is no mode. If two data values occur with same\ngreatest frequency, then there are two modes, and we say the data is bimodal.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p117:3",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 117,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.1",
+          "char_start": 1622,
+          "char_end": 2402
+        },
+        "score": 0.030798389007344232,
+        "base_rank": 3,
+        "rerank_score": 0.031569063663482666,
+        "rank": 4,
+        "method": "rerank-rrf",
+        "text": "Notice how the mean calculated in Part (a) is significantly larger as compared to the trimmed mean\ncalculated in Part (b). The reason is the presence of several large outlier home prices. Once these outlier\ndata values are removed by the trimmed mean calculation, the resulting trimmed mean is more\nrepresentative of the typical home price in this neighborhood as compared to the mean.\nMedian\nThe median provides another measure of central tendency for a dataset. The median is generally a better\nmeasure of the central tendency when there are outliers (extreme values) in the dataset. Since the median\nfocuses on the middle value of the ordered dataset, the median is preferred when outliers are present because\nthe median is not affected by the numerical values of the outliers.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p144:3",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 144,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "char_start": 1810,
+          "char_end": 2519
+        },
+        "score": 0.030330882352941176,
+        "base_rank": 8,
+        "rerank_score": 0.13381507992744446,
+        "rank": 5,
+        "method": "rerank-rrf",
+        "text": "Figure 3.7 Graph of the Normal (Bell-Shaped) Distribution\nThe curve in Figure 3.7 is symmetric on either side of a vertical line drawn through the mean, . The mean is\nthe same as the median, which is the same as the mode, because the graph is symmetric about . As the\nnotation indicates, the normal distribution depends only on the mean and the standard deviation. Because the\narea under the curve must equal 1, a change in the standard deviation, , causes a change in the shape of the\nnormal curve; the curve becomes fatter and wider or skinnier and taller depending on . A change in causes\nthe graph to shift to the left or right. This means there are an infinite number of normal probability\ndistributions.",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p119:0 | OpenStax, Principles of Data Science | page 119]\nThe mode can also be applied to non-numeric (qualitative) data, whereas the mean and the median can only\nbe applied for numeric (quantitative) data. For example, a restaurant manager might want to determine the\nmode for responses to customer surveys on the quality of the service of a restaurant, as shown in Table 3.1.\nCustomer\nService\nRating\nNumber of\nRespondents\nExcellent\n267\nVery Good\n410\nGood\n392\nFair\n107\nPoor\n18\nTable 3.1 Customer Survey Results for\nCustomer Survey Rating\nBased on the survey responses, the mode is the Customer Service Rating of “Very Good,” since this is the data\nvalue with the greatest frequency.\n\n[B:openstax-pds:p114:5 | OpenStax, Principles of Data Science | page 114]\n3.1 Measures of Center\nLearning Outcomes\nBy the end of this section, you should be able to:\n• 3.1.1 Define and calculate mean, trimmed mean, median, and mode for a dataset.\n• 3.1.2 Determine the effect of outliers on the mean and the median.\n• 3.1.3 Use Python to calculate measures of center for a dataset.\nMeasures of center are statistical measurements that provide a central, or typical, representation of a dataset.\nThese measures can help indicate where the bulk of the data is concentrated and are often called the data’s\ncentral tendency. The most widely used measures of the center of a dataset are the mean (average), the\nmedian, and the mode.\n\n[B:openstax-pds:p118:2 | OpenStax, Principles of Data Science | page 118]\nFor example, let’s say a dataset has 25 data values. Since is odd, to identify the position of the median,\ncalculate\n, which is\n, or 13. This indicates that the median is located in the 13th data position.\nAs another example, let’s say a dataset has 100 data values. Since is even, to identify the position of the\nmedian, calculate\n, which is\n, which is 50, and also calculate\n, which is\n, which is 51. This\nindicates that the median is calculated as the mean of the 50th and 51st data values.\nMode\nAnother measure of center is the mode. The mode is the data value that occurs with the greatest frequency. If\nthere are no repeating data values in a dataset, then there is no mode. If two data values occur with same\ngreatest frequency, then there are two modes, and we say the data is bimodal.\n\n[B:openstax-pds:p117:3 | OpenStax, Principles of Data Science | page 117]\nNotice how the mean calculated in Part (a) is significantly larger as compared to the trimmed mean\ncalculated in Part (b). The reason is the presence of several large outlier home prices. Once these outlier\ndata values are removed by the trimmed mean calculation, the resulting trimmed mean is more\nrepresentative of the typical home price in this neighborhood as compared to the mean.\nMedian\nThe median provides another measure of central tendency for a dataset. The median is generally a better\nmeasure of the central tendency when there are outliers (extreme values) in the dataset. Since the median\nfocuses on the middle value of the ordered dataset, the median is preferred when outliers are present because\nthe median is not affected by the numerical values of the outliers.\n\n[B:openstax-pds:p144:3 | OpenStax, Principles of Data Science | page 144]\nFigure 3.7 Graph of the Normal (Bell-Shaped) Distribution\nThe curve in Figure 3.7 is symmetric on either side of a vertical line drawn through the mean, . The mean is\nthe same as the median, which is the same as the mode, because the graph is symmetric about . As the\nnotation indicates, the normal distribution depends only on the mean and the standard deviation. Because the\narea under the curve must equal 1, a change in the standard deviation, , causes a change in the shape of the\nnormal curve; the curve becomes fatter and wider or skinnier and taller depending on . A change in causes\nthe graph to shift to the left or right. This means there are an infinite number of normal probability\ndistributions.",
+    "context_ids": [
+      "B:openstax-pds:p119:0",
+      "B:openstax-pds:p114:5",
+      "B:openstax-pds:p118:2",
+      "B:openstax-pds:p117:3",
+      "B:openstax-pds:p144:3"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 9358.845299997483
+  },
+  {
+    "query_id": "H02",
+    "question": "How is the median found when a dataset has an odd number of values?",
+    "method": "rerank",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 118,
+        "evidence": "If there is an odd number of data values in the dataset, then there will be one data value that represents the\nmiddle value, and this is the median."
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p118:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 118,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.1",
+          "char_start": 0,
+          "char_end": 731
+        },
+        "score": 0.03278688524590164,
+        "base_rank": 1,
+        "rerank_score": 0.9992566704750061,
+        "rank": 1,
+        "method": "rerank-rrf",
+        "text": "To determine the median of a dataset, first order the data from smallest to largest, and then find the middle\nvalue in the ordered dataset. For example, to find the median value of 50 exam scores, find the score that\nsplits the data into two equal parts. The exam scores for 25 students will be below the median, and 25\nstudents will have exam scores above the median.\nIf there is an odd number of data values in the dataset, then there will be one data value that represents the\nmiddle value, and this is the median. If there is an even number of data values in the dataset, then to find the\nmedian, add the two middle values together and divide by 2 (this is essentially finding the mean of the two\nmiddle values in the dataset).",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p118:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 118,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.1",
+          "char_start": 732,
+          "char_end": 1476
+        },
+        "score": 0.03200204813108039,
+        "base_rank": 3,
+        "rerank_score": 0.9887449145317078,
+        "rank": 2,
+        "method": "rerank-rrf",
+        "text": "EXAMPLE 3.4\nProblem\nThe same dataset of pulse rates from Example 3.1 is:\n68, 92, 76, 51, 65, 83, 94, 72, 88, 59\nCalculate the median pulse rate for this sample.\nSolution\nFirst, order the 10 data values from smallest to largest. Divide this sum by the number of data values, which\nis 10. The result is:\n51, 59, 65, 68, 72, 76, 83, 88, 92, 94\nSince there is an even number of data values, add the two middle values together and divide by 2.\nThe two middle values are 72 and 76.\nYou can also quickly find the sample median of a dataset as follows.\nLet represent the number of data values in the sample.\n• If is odd, then the median is the data value in position\n.\n• If is even, the median is the mean of the observations in position\nand position\n.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p118:2",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 118,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.1",
+          "char_start": 1477,
+          "char_end": 2270
+        },
+        "score": 0.0315136476426799,
+        "base_rank": 2,
+        "rerank_score": 0.731104850769043,
+        "rank": 3,
+        "method": "rerank-rrf",
+        "text": "For example, let’s say a dataset has 25 data values. Since is odd, to identify the position of the median,\ncalculate\n, which is\n, or 13. This indicates that the median is located in the 13th data position.\nAs another example, let’s say a dataset has 100 data values. Since is even, to identify the position of the\nmedian, calculate\n, which is\n, which is 50, and also calculate\n, which is\n, which is 51. This\nindicates that the median is calculated as the mean of the 50th and 51st data values.\nMode\nAnother measure of center is the mode. The mode is the data value that occurs with the greatest frequency. If\nthere are no repeating data values in a dataset, then there is no mode. If two data values occur with same\ngreatest frequency, then there are two modes, and we say the data is bimodal.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p117:3",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 117,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.1",
+          "char_start": 1622,
+          "char_end": 2402
+        },
+        "score": 0.031009615384615385,
+        "base_rank": 5,
+        "rerank_score": 0.7982138991355896,
+        "rank": 4,
+        "method": "rerank-rrf",
+        "text": "Notice how the mean calculated in Part (a) is significantly larger as compared to the trimmed mean\ncalculated in Part (b). The reason is the presence of several large outlier home prices. Once these outlier\ndata values are removed by the trimmed mean calculation, the resulting trimmed mean is more\nrepresentative of the typical home price in this neighborhood as compared to the mean.\nMedian\nThe median provides another measure of central tendency for a dataset. The median is generally a better\nmeasure of the central tendency when there are outliers (extreme values) in the dataset. Since the median\nfocuses on the middle value of the ordered dataset, the median is preferred when outliers are present because\nthe median is not affected by the numerical values of the outliers.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p126:2",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 126,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.3",
+          "char_start": 1085,
+          "char_end": 1869
+        },
+        "score": 0.030776515151515152,
+        "base_rank": 4,
+        "rerank_score": 0.44845062494277954,
+        "rank": 5,
+        "method": "rerank-rrf",
+        "text": "5.4, 6.0, 6.3, 6.8, 7.1, 7.2, 7.4, 7.5, 7.9, 8.2, 8.7\nSolution\nThe median, or second quartile, is the middle value in this dataset, which is 7.2. Notice that 50% of the data\nvalues are below the median, and 50% of the data values are above the median. The lower half of the data\nvalues are 5.4, 6.0, 6.3, 6.8, 7.1. Note that these are the data values below the median. The upper half of the\ndata values are 7.4, 7.5, 7.9, 8.2, 8.7, which are the data values above the median.\nTo find the first quartile,\n, locate the middle value of the lower half of the data (5.4, 6.0, 6.3, 6.8, 7.1). The\nmiddle value of the lower half of the dataset is 6.3. Notice that one-fourth, or 25%, of the data values are\nbelow this first quartile, and 75% of the data values are above this first quartile.",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p118:0 | OpenStax, Principles of Data Science | page 118]\nTo determine the median of a dataset, first order the data from smallest to largest, and then find the middle\nvalue in the ordered dataset. For example, to find the median value of 50 exam scores, find the score that\nsplits the data into two equal parts. The exam scores for 25 students will be below the median, and 25\nstudents will have exam scores above the median.\nIf there is an odd number of data values in the dataset, then there will be one data value that represents the\nmiddle value, and this is the median. If there is an even number of data values in the dataset, then to find the\nmedian, add the two middle values together and divide by 2 (this is essentially finding the mean of the two\nmiddle values in the dataset).\n\n[B:openstax-pds:p118:1 | OpenStax, Principles of Data Science | page 118]\nEXAMPLE 3.4\nProblem\nThe same dataset of pulse rates from Example 3.1 is:\n68, 92, 76, 51, 65, 83, 94, 72, 88, 59\nCalculate the median pulse rate for this sample.\nSolution\nFirst, order the 10 data values from smallest to largest. Divide this sum by the number of data values, which\nis 10. The result is:\n51, 59, 65, 68, 72, 76, 83, 88, 92, 94\nSince there is an even number of data values, add the two middle values together and divide by 2.\nThe two middle values are 72 and 76.\nYou can also quickly find the sample median of a dataset as follows.\nLet represent the number of data values in the sample.\n• If is odd, then the median is the data value in position\n.\n• If is even, the median is the mean of the observations in position\nand position\n.\n\n[B:openstax-pds:p118:2 | OpenStax, Principles of Data Science | page 118]\nFor example, let’s say a dataset has 25 data values. Since is odd, to identify the position of the median,\ncalculate\n, which is\n, or 13. This indicates that the median is located in the 13th data position.\nAs another example, let’s say a dataset has 100 data values. Since is even, to identify the position of the\nmedian, calculate\n, which is\n, which is 50, and also calculate\n, which is\n, which is 51. This\nindicates that the median is calculated as the mean of the 50th and 51st data values.\nMode\nAnother measure of center is the mode. The mode is the data value that occurs with the greatest frequency. If\nthere are no repeating data values in a dataset, then there is no mode. If two data values occur with same\ngreatest frequency, then there are two modes, and we say the data is bimodal.\n\n[B:openstax-pds:p117:3 | OpenStax, Principles of Data Science | page 117]\nNotice how the mean calculated in Part (a) is significantly larger as compared to the trimmed mean\ncalculated in Part (b). The reason is the presence of several large outlier home prices. Once these outlier\ndata values are removed by the trimmed mean calculation, the resulting trimmed mean is more\nrepresentative of the typical home price in this neighborhood as compared to the mean.\nMedian\nThe median provides another measure of central tendency for a dataset. The median is generally a better\nmeasure of the central tendency when there are outliers (extreme values) in the dataset. Since the median\nfocuses on the middle value of the ordered dataset, the median is preferred when outliers are present because\nthe median is not affected by the numerical values of the outliers.\n\n[B:openstax-pds:p126:2 | OpenStax, Principles of Data Science | page 126]\n5.4, 6.0, 6.3, 6.8, 7.1, 7.2, 7.4, 7.5, 7.9, 8.2, 8.7\nSolution\nThe median, or second quartile, is the middle value in this dataset, which is 7.2. Notice that 50% of the data\nvalues are below the median, and 50% of the data values are above the median. The lower half of the data\nvalues are 5.4, 6.0, 6.3, 6.8, 7.1. Note that these are the data values below the median. The upper half of the\ndata values are 7.4, 7.5, 7.9, 8.2, 8.7, which are the data values above the median.\nTo find the first quartile,\n, locate the middle value of the lower half of the data (5.4, 6.0, 6.3, 6.8, 7.1). The\nmiddle value of the lower half of the dataset is 6.3. Notice that one-fourth, or 25%, of the data values are\nbelow this first quartile, and 75% of the data values are above this first quartile.",
+    "context_ids": [
+      "B:openstax-pds:p118:0",
+      "B:openstax-pds:p118:1",
+      "B:openstax-pds:p118:2",
+      "B:openstax-pds:p117:3",
+      "B:openstax-pds:p126:2"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 6750.122099998407
+  },
+  {
+    "query_id": "H03",
+    "question": "What does a smaller standard deviation imply about a dataset?",
+    "method": "rerank",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 123,
+        "evidence": "A smaller standard deviation implies less variability in a dataset, and a larger\nstandard deviation implies more variability in a dataset."
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p123:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 123,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.2",
+          "char_start": 0,
+          "char_end": 465
+        },
+        "score": 0.03278688524590164,
+        "base_rank": 1,
+        "rerank_score": 0.9883723855018616,
+        "rank": 1,
+        "method": "rerank-rrf",
+        "text": "far from the mean, relative to the typical distance from the mean.\nThe standard deviation is always positive or zero. It is small when the data values are all concentrated close to\nthe mean, exhibiting little variation, or spread. It is larger when the data values are spread out more from the\nmean, exhibiting more variation. A smaller standard deviation implies less variability in a dataset, and a larger\nstandard deviation implies more variability in a dataset.",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p122:3",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 122,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.2",
+          "char_start": 1867,
+          "char_end": 2520
+        },
+        "score": 0.03225806451612903,
+        "base_rank": 2,
+        "rerank_score": 0.2662199139595032,
+        "rank": 2,
+        "method": "rerank-rrf",
+        "text": "Notice that the sample variance is a sum of squares. Its units of measurement are squares of the units of\nmeasurement of the original data. Since these square units are different than the units in the original data,\nthis can be confusing. By contrast, standard deviation is measured in the same units as the original dataset,\nand thus the standard deviation is more commonly used to measure the spread of a dataset.\nStandard Deviation\nThe standard deviation of a dataset provides a numerical measure of the overall amount of variation in a\ndataset in the same units as the data; it can be used to determine whether a particular data value is close to or",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p121:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 121,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.2",
+          "char_start": 0,
+          "char_end": 718
+        },
+        "score": 0.03125763125763126,
+        "base_rank": 3,
+        "rerank_score": 0.06218089163303375,
+        "rank": 3,
+        "method": "rerank-rrf",
+        "text": "Notice that the mean score for both Dataset A and Dataset B is 70.\nHowever, the datasets are significantly different from one another:\nDataset A has larger variability where one student scored 30 points below the mean and another student\nscored 30 points above the mean.\nDataset B has smaller variability where the exam scores are much more tightly clustered around the mean of\n70.\nThis example illustrates that publishing the mean of a dataset is often inadequate to fully communicate the\ncharacteristics of the dataset. Instead, data scientists will typically include a measure of variation as well.\nThe three primary measures of variability are range, variance, and standard deviation, and these are described\nnext.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p120:3",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 120,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.2",
+          "char_start": 1240,
+          "char_end": 1985
+        },
+        "score": 0.031024531024531024,
+        "base_rank": 6,
+        "rerank_score": 0.10483986884355545,
+        "rank": 4,
+        "method": "rerank-rrf",
+        "text": "3.2 Measures of Variation\nLearning Outcomes\nBy the end of this section, you should be able to:\n• 3.2.1 Define and calculate the range, the variance, and the standard deviation for a dataset.\n• 3.2.2 Use Python to calculate measures of variation for a dataset.\nProviding some measure of the spread, or variation, in a dataset is crucial to a comprehensive summary of the\ndataset. Two datasets may have the same mean but can exhibit very different spread, and so a measure of\ndispersion for a dataset is very important. While measures of central tendency (like mean, median, and mode)\ndescribe the center or average value of a distribution, measures of dispersion give insights into how much\nindividual data points deviate from this central value.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p124:2",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 124,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.2",
+          "char_start": 1400,
+          "char_end": 1594
+        },
+        "score": 0.031009615384615385,
+        "base_rank": 5,
+        "rerank_score": 0.09186670184135437,
+        "rank": 5,
+        "method": "rerank-rrf",
+        "text": "Using Python for Measures of Variation\nDataFrame.describe() computes standard deviation as well on each column of a dataset. The std lists the\nstandard deviation of each column (See Figure 3.3).",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p123:0 | OpenStax, Principles of Data Science | page 123]\nfar from the mean, relative to the typical distance from the mean.\nThe standard deviation is always positive or zero. It is small when the data values are all concentrated close to\nthe mean, exhibiting little variation, or spread. It is larger when the data values are spread out more from the\nmean, exhibiting more variation. A smaller standard deviation implies less variability in a dataset, and a larger\nstandard deviation implies more variability in a dataset.\n\n[B:openstax-pds:p122:3 | OpenStax, Principles of Data Science | page 122]\nNotice that the sample variance is a sum of squares. Its units of measurement are squares of the units of\nmeasurement of the original data. Since these square units are different than the units in the original data,\nthis can be confusing. By contrast, standard deviation is measured in the same units as the original dataset,\nand thus the standard deviation is more commonly used to measure the spread of a dataset.\nStandard Deviation\nThe standard deviation of a dataset provides a numerical measure of the overall amount of variation in a\ndataset in the same units as the data; it can be used to determine whether a particular data value is close to or\n\n[B:openstax-pds:p121:0 | OpenStax, Principles of Data Science | page 121]\nNotice that the mean score for both Dataset A and Dataset B is 70.\nHowever, the datasets are significantly different from one another:\nDataset A has larger variability where one student scored 30 points below the mean and another student\nscored 30 points above the mean.\nDataset B has smaller variability where the exam scores are much more tightly clustered around the mean of\n70.\nThis example illustrates that publishing the mean of a dataset is often inadequate to fully communicate the\ncharacteristics of the dataset. Instead, data scientists will typically include a measure of variation as well.\nThe three primary measures of variability are range, variance, and standard deviation, and these are described\nnext.\n\n[B:openstax-pds:p120:3 | OpenStax, Principles of Data Science | page 120]\n3.2 Measures of Variation\nLearning Outcomes\nBy the end of this section, you should be able to:\n• 3.2.1 Define and calculate the range, the variance, and the standard deviation for a dataset.\n• 3.2.2 Use Python to calculate measures of variation for a dataset.\nProviding some measure of the spread, or variation, in a dataset is crucial to a comprehensive summary of the\ndataset. Two datasets may have the same mean but can exhibit very different spread, and so a measure of\ndispersion for a dataset is very important. While measures of central tendency (like mean, median, and mode)\ndescribe the center or average value of a distribution, measures of dispersion give insights into how much\nindividual data points deviate from this central value.\n\n[B:openstax-pds:p124:2 | OpenStax, Principles of Data Science | page 124]\nUsing Python for Measures of Variation\nDataFrame.describe() computes standard deviation as well on each column of a dataset. The std lists the\nstandard deviation of each column (See Figure 3.3).",
+    "context_ids": [
+      "B:openstax-pds:p123:0",
+      "B:openstax-pds:p122:3",
+      "B:openstax-pds:p121:0",
+      "B:openstax-pds:p120:3",
+      "B:openstax-pds:p124:2"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 4764.0252000019245
+  },
+  {
+    "query_id": "H04",
+    "question": "What is Bayes' Theorem used for?",
+    "method": "rerank",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 136,
+        "evidence": "Bayes’ Theorem is a statistical technique that allows for the revision of probability estimates based on new\ninformation or evidence that allows for more accurate and efficient decision-making in uncertain situations."
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p132:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 132,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.4",
+          "char_start": 608,
+          "char_end": 1244
+        },
+        "score": 0.03252247488101534,
+        "base_rank": 2,
+        "rerank_score": 0.9910385608673096,
+        "rank": 1,
+        "method": "rerank-rrf",
+        "text": "Conditional Probability and Bayes’ Theorem\nData scientists are often interested in determining conditional probabilities, or the occurrence of one event\nthat is conditional or dependent on another event. For example, a medical researcher might be interested to\nknow if an asthma diagnosis for a patient is dependent on the patient’s exposure to air pollutants. In addition,\nwhen calculating conditional probabilities, we can sometimes revise a probability estimate based on additional\ninformation that is obtained. As we’ll see in the following section, Bayes’ Theorem allows new information to\nbe used to refine a probability estimate.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p136:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 136,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.4",
+          "char_start": 662,
+          "char_end": 1349
+        },
+        "score": 0.032018442622950824,
+        "base_rank": 1,
+        "rerank_score": 0.8125307559967041,
+        "rank": 2,
+        "method": "rerank-rrf",
+        "text": "Bayes’ Theorem is often used to help assess probabilities associated with medical diagnoses such as the\nprobability a patient will develop cancer based on test screening results. This can be important in medical\nanalysis to help assess the impact of a false positive, which is the scenario where the patient does not have the\nailment but the screening test gives a false indication that the patient does have the ailment.\nBayes’ Theorem allows the calculation of the conditional probability\n. There are several forms of Bayes’\nTheorem, as shown:\nEXAMPLE 3.21\nProblem\nAssume that a certain type of cancer affects 3% of the population. Call the event that a person has cancer\n“Event\n,” so:",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p136:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 136,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.4",
+          "char_start": 0,
+          "char_end": 661
+        },
+        "score": 0.031746031746031744,
+        "base_rank": 3,
+        "rerank_score": 0.9012215733528137,
+        "rank": 3,
+        "method": "rerank-rrf",
+        "text": "Since this is a very small probability, it is very unlikely that none of the surgeries will be successful.\n3. To calculate the probability that at least one of the knee surgeries will be successful, use the probability\nformula for “at least one,” which is calculated as the complement of the event “none are successful.”\nThis indicates there is a very high probability that at least one of the knee surgeries will be successful.\nBayes’ Theorem\nBayes’ Theorem is a statistical technique that allows for the revision of probability estimates based on new\ninformation or evidence that allows for more accurate and efficient decision-making in uncertain situations.",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p129:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 129,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.4",
+          "char_start": 689,
+          "char_end": 1391
+        },
+        "score": 0.03128054740957967,
+        "base_rank": 6,
+        "rerank_score": 0.9347906112670898,
+        "rank": 4,
+        "method": "rerank-rrf",
+        "text": "3.4 Probability Theory\nLearning Outcomes\nBy the end of this section, you should be able to:\n• 3.4.1 Describe the basic concepts of probability and apply these concepts to real-world applications\nin data science.\n• 3.4.2 Apply conditional probability and Bayes’ Theorem.\nProbability is a numerical measure that assesses the likelihood of occurrence of an event. Probability\napplications are ubiquitous in data science since many decisions in business, science, and engineering are\nbased on probability considerations. We all use probability calculations every day as we decide, for instance,\nwhether to take an umbrella to work, the optimal route for a morning commute, or the choice of a college\nmajor.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p137:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 137,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.4",
+          "char_start": 0,
+          "char_end": 519
+        },
+        "score": 0.030776515151515152,
+        "base_rank": 4,
+        "rerank_score": 0.7142747640609741,
+        "rank": 5,
+        "method": "rerank-rrf",
+        "text": "Solution\nFrom the example, the following probabilities are known:\nThe conditional probabilities can be interpreted as follows:\nSubstituting these probabilities into the formula for Bayes’ Theorem results in the following:\nThis result from Bayes’ Theorem indicates that even if a patient receives a positive test result from the\nscreening test, this does not imply a high likelihood that the patient has cancer. There is only a 13% chance\nthat the patient has cancer given a positive test result from the screening test.",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p132:1 | OpenStax, Principles of Data Science | page 132]\nConditional Probability and Bayes’ Theorem\nData scientists are often interested in determining conditional probabilities, or the occurrence of one event\nthat is conditional or dependent on another event. For example, a medical researcher might be interested to\nknow if an asthma diagnosis for a patient is dependent on the patient’s exposure to air pollutants. In addition,\nwhen calculating conditional probabilities, we can sometimes revise a probability estimate based on additional\ninformation that is obtained. As we’ll see in the following section, Bayes’ Theorem allows new information to\nbe used to refine a probability estimate.\n\n[B:openstax-pds:p136:1 | OpenStax, Principles of Data Science | page 136]\nBayes’ Theorem is often used to help assess probabilities associated with medical diagnoses such as the\nprobability a patient will develop cancer based on test screening results. This can be important in medical\nanalysis to help assess the impact of a false positive, which is the scenario where the patient does not have the\nailment but the screening test gives a false indication that the patient does have the ailment.\nBayes’ Theorem allows the calculation of the conditional probability\n. There are several forms of Bayes’\nTheorem, as shown:\nEXAMPLE 3.21\nProblem\nAssume that a certain type of cancer affects 3% of the population. Call the event that a person has cancer\n“Event\n,” so:\n\n[B:openstax-pds:p136:0 | OpenStax, Principles of Data Science | page 136]\nSince this is a very small probability, it is very unlikely that none of the surgeries will be successful.\n3. To calculate the probability that at least one of the knee surgeries will be successful, use the probability\nformula for “at least one,” which is calculated as the complement of the event “none are successful.”\nThis indicates there is a very high probability that at least one of the knee surgeries will be successful.\nBayes’ Theorem\nBayes’ Theorem is a statistical technique that allows for the revision of probability estimates based on new\ninformation or evidence that allows for more accurate and efficient decision-making in uncertain situations.\n\n[B:openstax-pds:p129:1 | OpenStax, Principles of Data Science | page 129]\n3.4 Probability Theory\nLearning Outcomes\nBy the end of this section, you should be able to:\n• 3.4.1 Describe the basic concepts of probability and apply these concepts to real-world applications\nin data science.\n• 3.4.2 Apply conditional probability and Bayes’ Theorem.\nProbability is a numerical measure that assesses the likelihood of occurrence of an event. Probability\napplications are ubiquitous in data science since many decisions in business, science, and engineering are\nbased on probability considerations. We all use probability calculations every day as we decide, for instance,\nwhether to take an umbrella to work, the optimal route for a morning commute, or the choice of a college\nmajor.\n\n[B:openstax-pds:p137:0 | OpenStax, Principles of Data Science | page 137]\nSolution\nFrom the example, the following probabilities are known:\nThe conditional probabilities can be interpreted as follows:\nSubstituting these probabilities into the formula for Bayes’ Theorem results in the following:\nThis result from Bayes’ Theorem indicates that even if a patient receives a positive test result from the\nscreening test, this does not imply a high likelihood that the patient has cancer. There is only a 13% chance\nthat the patient has cancer given a positive test result from the screening test.",
+    "context_ids": [
+      "B:openstax-pds:p132:1",
+      "B:openstax-pds:p136:1",
+      "B:openstax-pds:p136:0",
+      "B:openstax-pds:p129:1",
+      "B:openstax-pds:p137:0"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 4241.720600002736
+  },
+  {
+    "query_id": "H05",
+    "question": "What is the Poisson distribution used to find the probability of?",
+    "method": "rerank",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 142,
+        "evidence": "However, there are certain scenarios where a data scientist might be interested to know the\nprobability of a certain number of occurrences for a random variable in a specific interval, such as an interval\nof time."
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p139:2",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 139,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "char_start": 1067,
+          "char_end": 1498
+        },
+        "score": 0.03252247488101534,
+        "base_rank": 2,
+        "rerank_score": 0.961323618888855,
+        "rank": 1,
+        "method": "rerank-rrf",
+        "text": "Discrete Probability Distributions: Binomial and Poisson\nDiscrete random variables are of interest in many data science applications, and there are several probability\ndistributions that apply to discrete random variables. In this chapter, we present the binomial distribution and\nthe Poisson distribution, which are two commonly used probability distributions used to model discrete\nrandom variables for different types of events.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p142:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 142,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "char_start": 645,
+          "char_end": 1417
+        },
+        "score": 0.032266458495966696,
+        "base_rank": 1,
+        "rerank_score": 0.7474163770675659,
+        "rank": 2,
+        "method": "rerank-rrf",
+        "text": "The Poisson distribution is applied when counting the number of occurrences in a certain interval. The\nrandom variable then counts the number of occurrences in the interval.\nA common application for the Poisson distribution is to model arrivals of customers for a queue, such as when\nthere might be 6 customers per minute arriving at a checkout lane in the grocery store and the store manager\nwants to ensure that customers are serviced within a certain amount of time.\nThe Poisson distribution is a discrete probability distribution used in these types of situations where the\ninterest is in a specific certain number of occurrences for a random variable in a certain interval such as time\nor area.\nThe Poisson distribution is used where the following conditions are met:",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p142:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 142,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "char_start": 0,
+          "char_end": 644
+        },
+        "score": 0.03149801587301587,
+        "base_rank": 3,
+        "rerank_score": 0.6860756278038025,
+        "rank": 3,
+        "method": "rerank-rrf",
+        "text": "Poisson Distribution\nThe goal of a binomial experiment is to calculate the probability of a certain number of successes in a specific\nnumber of trials. However, there are certain scenarios where a data scientist might be interested to know the\nprobability of a certain number of occurrences for a random variable in a specific interval, such as an interval\nof time.\nFor example, a website developer might be interested in knowing the probability that a certain number of\nusers visit a website per minute. Or a traffic engineer might be interested in calculating the probability of a\ncertain number of accidents per month at a busy intersection.",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p143:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 143,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "char_start": 661,
+          "char_end": 1181
+        },
+        "score": 0.03076923076923077,
+        "base_rank": 5,
+        "rerank_score": 0.6774051189422607,
+        "rank": 4,
+        "method": "rerank-rrf",
+        "text": "Figure 3.6 Poisson Distribution for\nAs with calculations involving the binomial distribution, data scientists will typically use technology to solve\nproblems involving the Poisson distribution.\nNormal Continuous Probability Distributions\nRecall that a random variable is considered continuous if the value of the random variable can take on any of\ninfinitely many values. We used the example about that if the random variable represents the weight of a\nbag of apples, then can take on any value such as\npounds of apples.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p146:3",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 146,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "char_start": 1997,
+          "char_end": 2536
+        },
+        "score": 0.030117753623188408,
+        "base_rank": 4,
+        "rerank_score": 0.00549019081518054,
+        "rank": 5,
+        "method": "rerank-rrf",
+        "text": "Here are a few of these probability density functions available within Python:\n• binom()—calculate probabilities associated with the binomial distribution\n• poisson()—calculate probabilities associated with the Poisson distribution\n• expon()—calculate probabilities associated with the exponential distribution\n• norm()—calculate probabilities associated with the normal distribution\nTo import these probability density functions within Python, use the import command. For example, to import\nthe binom() function use the following command:",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p139:2 | OpenStax, Principles of Data Science | page 139]\nDiscrete Probability Distributions: Binomial and Poisson\nDiscrete random variables are of interest in many data science applications, and there are several probability\ndistributions that apply to discrete random variables. In this chapter, we present the binomial distribution and\nthe Poisson distribution, which are two commonly used probability distributions used to model discrete\nrandom variables for different types of events.\n\n[B:openstax-pds:p142:1 | OpenStax, Principles of Data Science | page 142]\nThe Poisson distribution is applied when counting the number of occurrences in a certain interval. The\nrandom variable then counts the number of occurrences in the interval.\nA common application for the Poisson distribution is to model arrivals of customers for a queue, such as when\nthere might be 6 customers per minute arriving at a checkout lane in the grocery store and the store manager\nwants to ensure that customers are serviced within a certain amount of time.\nThe Poisson distribution is a discrete probability distribution used in these types of situations where the\ninterest is in a specific certain number of occurrences for a random variable in a certain interval such as time\nor area.\nThe Poisson distribution is used where the following conditions are met:\n\n[B:openstax-pds:p142:0 | OpenStax, Principles of Data Science | page 142]\nPoisson Distribution\nThe goal of a binomial experiment is to calculate the probability of a certain number of successes in a specific\nnumber of trials. However, there are certain scenarios where a data scientist might be interested to know the\nprobability of a certain number of occurrences for a random variable in a specific interval, such as an interval\nof time.\nFor example, a website developer might be interested in knowing the probability that a certain number of\nusers visit a website per minute. Or a traffic engineer might be interested in calculating the probability of a\ncertain number of accidents per month at a busy intersection.\n\n[B:openstax-pds:p143:1 | OpenStax, Principles of Data Science | page 143]\nFigure 3.6 Poisson Distribution for\nAs with calculations involving the binomial distribution, data scientists will typically use technology to solve\nproblems involving the Poisson distribution.\nNormal Continuous Probability Distributions\nRecall that a random variable is considered continuous if the value of the random variable can take on any of\ninfinitely many values. We used the example about that if the random variable represents the weight of a\nbag of apples, then can take on any value such as\npounds of apples.\n\n[B:openstax-pds:p146:3 | OpenStax, Principles of Data Science | page 146]\nHere are a few of these probability density functions available within Python:\n• binom()—calculate probabilities associated with the binomial distribution\n• poisson()—calculate probabilities associated with the Poisson distribution\n• expon()—calculate probabilities associated with the exponential distribution\n• norm()—calculate probabilities associated with the normal distribution\nTo import these probability density functions within Python, use the import command. For example, to import\nthe binom() function use the following command:",
+    "context_ids": [
+      "B:openstax-pds:p139:2",
+      "B:openstax-pds:p142:1",
+      "B:openstax-pds:p142:0",
+      "B:openstax-pds:p143:1",
+      "B:openstax-pds:p146:3"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 4731.685200000356
+  },
+  {
+    "query_id": "H06",
+    "question": "What does the data cleaning process include?",
+    "method": "rerank",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 84,
+        "evidence": "cleaning process includes identifying and correcting any errors, inconsistencies, and missing values in a\ndataset and is essential for ensuring that the data is accurate, reliable, and usable for analysis or other\npurposes."
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p86:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 86,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 376,
+          "char_end": 835
+        },
+        "score": 0.03278688524590164,
+        "base_rank": 1,
+        "rerank_score": 0.7431700229644775,
+        "rank": 1,
+        "method": "rerank-rrf",
+        "text": "Data cleaning and preprocessing is an important stage in any data science task. It refers to the technique of\norganizing and converting raw data into usable structures for further analysis. It involves extracting irrelevant\nor duplicate data, handling missing values, and correcting errors or inconsistencies. This ensures that the data\nis accurate, comprehensive, and ready for analysis. Data cleaning and preprocessing typically involve the\nfollowing steps:",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p84:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 84,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.3",
+          "char_start": 0,
+          "char_end": 646
+        },
+        "score": 0.03225806451612903,
+        "base_rank": 2,
+        "rerank_score": 0.7058313488960266,
+        "rank": 2,
+        "method": "rerank-rrf",
+        "text": "cleaning process includes identifying and correcting any errors, inconsistencies, and missing values in a\ndataset and is essential for ensuring that the data is accurate, reliable, and usable for analysis or other\npurposes. Python is often utilized for data processing due to its flexibility and ease of use, and it offers a wide\nrange of tools and libraries specifically designed for data processing. Once the data is processed, it needs to be\nstored for future use. (We will cover data storage in Data Cleaning and Preprocessing.) Python has several\nlibraries that allow for efficient storage and manipulation of data in the form of DataFrames.",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p86:2",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 86,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 836,
+          "char_end": 1622
+        },
+        "score": 0.031024531024531024,
+        "base_rank": 6,
+        "rerank_score": 0.47854769229888916,
+        "rank": 3,
+        "method": "rerank-rrf",
+        "text": "1. Data integration. Data integration refers to merging data from multiple sources into a single dataset.\n2. Data cleaning. In this step, data is assessed for any errors or inconsistencies, and appropriate actions are\ntaken to correct them. This may include removing duplicate values, handling missing data, and correcting\nformatting misconceptions.\n3. Data transformation. This step prepares the data for the next step by transforming the data into a\nformat that is suitable for further analysis. This may involve converting data types, scaling or normalizing\nnumerical data, or encoding categorical variables.\n4. Data reduction. If the dataset contains a large number of columns or features, data reduction techniques\nmay be used to select only the most appropriate ones for analysis.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p98:3",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 98,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.5",
+          "char_start": 1401,
+          "char_end": 2073
+        },
+        "score": 0.03055037313432836,
+        "base_rank": 4,
+        "rerank_score": 0.02898222580552101,
+        "rank": 4,
+        "method": "rerank-rrf",
+        "text": "Large datasets are covered in more depth in Other Machine Learning Techniques.\nWe have also already discussed a number of the techniques and strategies used to gain meaningful insights\nfrom big data. Survey Design and Implementation discussed sampling techniques that allow those working\nwith data to analyze and examine large datasets by select a representative subset, or representative random\nsample. Preprocessing techniques covered in Data Cleaning and Preprocessing are also used to clean,\nnormalize, and transform data to make sure it is consistent before it can be analyzed. This includes handling\nmissing values, removing outliers, and standardizing data formats.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p93:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 93,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 612,
+          "char_end": 1285
+        },
+        "score": 0.03055037313432836,
+        "base_rank": 7,
+        "rerank_score": 0.18130294978618622,
+        "rank": 5,
+        "method": "rerank-rrf",
+        "text": "Strategy\nExample\nData cleaning\nRemoving duplicate or irrelevant data from a dataset, such as deleting repeated\nrows in a spreadsheet or filtering out incomplete or error-prone data entries.\nData smoothing\nA technique used in data analysis to remove outliers or noise from a dataset in\norder to reveal underlying patterns or trends. One example is smoothing a\ndataset of daily stock market index values over the course of a month. The\nvalues may fluctuate greatly on a day-to-day basis, making it difficult to see any\noverall trend. By calculating a seven-day average, we can smooth out these\nfluctuations and see the overall trend of the index over the course of the\nmonth.",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p86:1 | OpenStax, Principles of Data Science | page 86]\nData cleaning and preprocessing is an important stage in any data science task. It refers to the technique of\norganizing and converting raw data into usable structures for further analysis. It involves extracting irrelevant\nor duplicate data, handling missing values, and correcting errors or inconsistencies. This ensures that the data\nis accurate, comprehensive, and ready for analysis. Data cleaning and preprocessing typically involve the\nfollowing steps:\n\n[B:openstax-pds:p84:0 | OpenStax, Principles of Data Science | page 84]\ncleaning process includes identifying and correcting any errors, inconsistencies, and missing values in a\ndataset and is essential for ensuring that the data is accurate, reliable, and usable for analysis or other\npurposes. Python is often utilized for data processing due to its flexibility and ease of use, and it offers a wide\nrange of tools and libraries specifically designed for data processing. Once the data is processed, it needs to be\nstored for future use. (We will cover data storage in Data Cleaning and Preprocessing.) Python has several\nlibraries that allow for efficient storage and manipulation of data in the form of DataFrames.\n\n[B:openstax-pds:p86:2 | OpenStax, Principles of Data Science | page 86]\n1. Data integration. Data integration refers to merging data from multiple sources into a single dataset.\n2. Data cleaning. In this step, data is assessed for any errors or inconsistencies, and appropriate actions are\ntaken to correct them. This may include removing duplicate values, handling missing data, and correcting\nformatting misconceptions.\n3. Data transformation. This step prepares the data for the next step by transforming the data into a\nformat that is suitable for further analysis. This may involve converting data types, scaling or normalizing\nnumerical data, or encoding categorical variables.\n4. Data reduction. If the dataset contains a large number of columns or features, data reduction techniques\nmay be used to select only the most appropriate ones for analysis.\n\n[B:openstax-pds:p98:3 | OpenStax, Principles of Data Science | page 98]\nLarge datasets are covered in more depth in Other Machine Learning Techniques.\nWe have also already discussed a number of the techniques and strategies used to gain meaningful insights\nfrom big data. Survey Design and Implementation discussed sampling techniques that allow those working\nwith data to analyze and examine large datasets by select a representative subset, or representative random\nsample. Preprocessing techniques covered in Data Cleaning and Preprocessing are also used to clean,\nnormalize, and transform data to make sure it is consistent before it can be analyzed. This includes handling\nmissing values, removing outliers, and standardizing data formats.\n\n[B:openstax-pds:p93:1 | OpenStax, Principles of Data Science | page 93]\nStrategy\nExample\nData cleaning\nRemoving duplicate or irrelevant data from a dataset, such as deleting repeated\nrows in a spreadsheet or filtering out incomplete or error-prone data entries.\nData smoothing\nA technique used in data analysis to remove outliers or noise from a dataset in\norder to reveal underlying patterns or trends. One example is smoothing a\ndataset of daily stock market index values over the course of a month. The\nvalues may fluctuate greatly on a day-to-day basis, making it difficult to see any\noverall trend. By calculating a seven-day average, we can smooth out these\nfluctuations and see the overall trend of the index over the course of the\nmonth.",
+    "context_ids": [
+      "B:openstax-pds:p86:1",
+      "B:openstax-pds:p84:0",
+      "B:openstax-pds:p86:2",
+      "B:openstax-pds:p98:3",
+      "B:openstax-pds:p93:1"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 3791.2891000014497
+  },
+  {
+    "query_id": "H07",
+    "question": "Why might text data be normalized when analyzing customer reviews?",
+    "method": "rerank",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 98,
+        "evidence": "For example, when analyzing customer reviews, it may be beneficial to normalize text data so that variations of\nthe same word (e.g., “colour” and “color”) are treated as the same, providing a more accurate understanding of\nsentiment toward a product or service."
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p98:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 98,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 0,
+          "char_end": 370
+        },
+        "score": 0.03278688524590164,
+        "base_rank": 1,
+        "rerank_score": 0.9966815114021301,
+        "rank": 1,
+        "method": "rerank-rrf",
+        "text": "language processing tasks. It also makes the data more easily interpretable for machine learning algorithms.\nFor example, when analyzing customer reviews, it may be beneficial to normalize text data so that variations of\nthe same word (e.g., “colour” and “color”) are treated as the same, providing a more accurate understanding of\nsentiment toward a product or service.",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p91:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 91,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 0,
+          "char_end": 520
+        },
+        "score": 0.03225806451612903,
+        "base_rank": 2,
+        "rerank_score": 0.7834886908531189,
+        "rank": 2,
+        "method": "rerank-rrf",
+        "text": "difficult to analyze. It is hard to draw meaningful insights from badly organized data.\nTo normalize this data, the marketing team would go through multiple steps. First, they would identify the key\ndata elements, such as customer name, product purchased, and transaction date. Then, they would ensure\nthat these elements are consistently formatted in all data sources. For instance, they might employ the same\ndate format across all data sources or standardize customer names to the first name and the last name fields.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p90:4",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 90,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 2654,
+          "char_end": 3198
+        },
+        "score": 0.03125763125763126,
+        "base_rank": 3,
+        "rerank_score": 0.2816568911075592,
+        "rank": 3,
+        "method": "rerank-rrf",
+        "text": "Periodic review and updates of\ndata standards are necessary to ensure the ongoing reliability and relevance of the data.\nData normalization ensures that data is maintainable regardless of its source. Consider a marketing team\ncollecting data on their customers’ purchasing behavior so they can make some decisions about product\nplacement. The data is collected from numerous sources, such as online sales transactions, in-store purchases,\nand customer feedback surveys. In its raw form, this data could be disorganized and unreliable, making it",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p91:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 91,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 521,
+          "char_end": 1170
+        },
+        "score": 0.03055037313432836,
+        "base_rank": 4,
+        "rerank_score": 0.02855483815073967,
+        "rank": 4,
+        "method": "rerank-rrf",
+        "text": "Subsequently, they would eliminate any redundant or irrelevant data elements. In this case, if the data is\ncollected from both online and in-store purchases, they might choose one or the other to avoid duplication.\nThe marketing team would ensure that the data is properly structured and organized. This could involve\ncreating a data table with domains for each data element, such as a customer ID, product code, and purchase\namount. By normalizing the data, the marketing team can efficiently follow and investigate the customers'\npurchasing behavior, identify patterns and trends, and make data-driven judgments to enhance their\nmarketing systems.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p90:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 90,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 678,
+          "char_end": 1428
+        },
+        "score": 0.03055037313432836,
+        "base_rank": 7,
+        "rerank_score": 0.4114095866680145,
+        "rank": 5,
+        "method": "rerank-rrf",
+        "text": "A customer database table with\nredundant data can be\nnormalized by splitting it into\ntwo tables for customer\ninformation and orders and\nestablishing the relationship\nbetween them.\nTransformation\nTo make the data\nmore consistent,\ncoherent, and\nmeaningful for\nanalysis.\nInclude data\ncleaning, data\nmerging, data\nsplitting, data\nconversion, and data\naggregation.\nA dataset with different date\nformats, such as “MM/DD/YYYY”\nand “YYYY/MM/DD.” Data\ntransformation can be used to\nconvert all dates to a single\nformat\nValidation\nTo improve the\nquality of data\nused in analysis. It\nensures that the\ndata is accurate,\nrelevant, and\nconsistent.\nInclude data\nprofiling, data audits,\nand data cleansing.\nIn a survey, the respondent’s age\nis recorded as 150 years.",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p98:0 | OpenStax, Principles of Data Science | page 98]\nlanguage processing tasks. It also makes the data more easily interpretable for machine learning algorithms.\nFor example, when analyzing customer reviews, it may be beneficial to normalize text data so that variations of\nthe same word (e.g., “colour” and “color”) are treated as the same, providing a more accurate understanding of\nsentiment toward a product or service.\n\n[B:openstax-pds:p91:0 | OpenStax, Principles of Data Science | page 91]\ndifficult to analyze. It is hard to draw meaningful insights from badly organized data.\nTo normalize this data, the marketing team would go through multiple steps. First, they would identify the key\ndata elements, such as customer name, product purchased, and transaction date. Then, they would ensure\nthat these elements are consistently formatted in all data sources. For instance, they might employ the same\ndate format across all data sources or standardize customer names to the first name and the last name fields.\n\n[B:openstax-pds:p90:4 | OpenStax, Principles of Data Science | page 90]\nPeriodic review and updates of\ndata standards are necessary to ensure the ongoing reliability and relevance of the data.\nData normalization ensures that data is maintainable regardless of its source. Consider a marketing team\ncollecting data on their customers’ purchasing behavior so they can make some decisions about product\nplacement. The data is collected from numerous sources, such as online sales transactions, in-store purchases,\nand customer feedback surveys. In its raw form, this data could be disorganized and unreliable, making it\n\n[B:openstax-pds:p91:1 | OpenStax, Principles of Data Science | page 91]\nSubsequently, they would eliminate any redundant or irrelevant data elements. In this case, if the data is\ncollected from both online and in-store purchases, they might choose one or the other to avoid duplication.\nThe marketing team would ensure that the data is properly structured and organized. This could involve\ncreating a data table with domains for each data element, such as a customer ID, product code, and purchase\namount. By normalizing the data, the marketing team can efficiently follow and investigate the customers'\npurchasing behavior, identify patterns and trends, and make data-driven judgments to enhance their\nmarketing systems.\n\n[B:openstax-pds:p90:1 | OpenStax, Principles of Data Science | page 90]\nA customer database table with\nredundant data can be\nnormalized by splitting it into\ntwo tables for customer\ninformation and orders and\nestablishing the relationship\nbetween them.\nTransformation\nTo make the data\nmore consistent,\ncoherent, and\nmeaningful for\nanalysis.\nInclude data\ncleaning, data\nmerging, data\nsplitting, data\nconversion, and data\naggregation.\nA dataset with different date\nformats, such as “MM/DD/YYYY”\nand “YYYY/MM/DD.” Data\ntransformation can be used to\nconvert all dates to a single\nformat\nValidation\nTo improve the\nquality of data\nused in analysis. It\nensures that the\ndata is accurate,\nrelevant, and\nconsistent.\nInclude data\nprofiling, data audits,\nand data cleansing.\nIn a survey, the respondent’s age\nis recorded as 150 years.",
+    "context_ids": [
+      "B:openstax-pds:p98:0",
+      "B:openstax-pds:p91:0",
+      "B:openstax-pds:p90:4",
+      "B:openstax-pds:p91:1",
+      "B:openstax-pds:p90:1"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 6644.43769999707
+  },
+  {
+    "query_id": "H08",
+    "question": "What does the spell-checking and correction preprocessing technique do?",
+    "method": "rerank",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 97,
+        "evidence": "Correcting\nspelling errors\nto improve\naccuracy"
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p97:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 97,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 0,
+          "char_end": 655
+        },
+        "score": 0.03278688524590164,
+        "base_rank": 1,
+        "rerank_score": 0.9927051663398743,
+        "rank": 1,
+        "method": "rerank-rrf",
+        "text": "Preprocessing\nTechnique\nExplanation\nExample\nSpell-checking and\ncorrection\nCorrecting\nspelling errors\nto improve\naccuracy\nSuppose we have a text like: “The writting was very\ninpprecise and had many trgical mistakes.” With spellchecking and correction, this text can be processed and\ncorrected to: “The writing was very imprecise and had many\ntragic mistakes.” This involves identifying and correcting\nmisspelled words.\nIn this case, “writting” was corrected to “writing,”\n“inpprecise” to “imprecise,” and “trgical” to “tragic.” This not\nonly improves the readability and accuracy of the text but\nalso helps in better understanding and analysis of the text.",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p86:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 86,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 376,
+          "char_end": 835
+        },
+        "score": 0.031754032258064516,
+        "base_rank": 2,
+        "rerank_score": 0.15771465003490448,
+        "rank": 2,
+        "method": "rerank-rrf",
+        "text": "Data cleaning and preprocessing is an important stage in any data science task. It refers to the technique of\norganizing and converting raw data into usable structures for further analysis. It involves extracting irrelevant\nor duplicate data, handling missing values, and correcting errors or inconsistencies. This ensures that the data\nis accurate, comprehensive, and ready for analysis. Data cleaning and preprocessing typically involve the\nfollowing steps:",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p94:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 94,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 486,
+          "char_end": 1220
+        },
+        "score": 0.030834914611005692,
+        "base_rank": 8,
+        "rerank_score": 0.38096359372138977,
+        "rank": 3,
+        "method": "rerank-rrf",
+        "text": "For example, a company may set up a data validation\nprocess to ensure that all customer information entered into its database follows a specific format. This would\ninvolve checking for correct spellings and proper formatting of phone numbers and addresses and validating\nthe correctness of customer names and account numbers. The data would also be checked against external\nsources, such as official government records, to verify the accuracy of the information. Any discrepancies or\nerrors would be flagged for correction before the data is used for analysis or decision-making purposes.\nThrough this data validation process, the company can ensure that its customer data is accurate, reliable, and\ncompliant with industry standards.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p95:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 95,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 0,
+          "char_end": 512
+        },
+        "score": 0.030776515151515152,
+        "base_rank": 4,
+        "rerank_score": 0.11560764163732529,
+        "rank": 4,
+        "method": "rerank-rrf",
+        "text": "aggregation to study energy consumption patterns.\nText Preprocessing\nText preprocessing is a technique of preparing data in text format for further analysis and natural language\nprocessing tasks. It involves transforming unstructured text data into a more structured format to be\ninterpreted by algorithms and models. Some common techniques used in text preprocessing are reviewed in\nTable 2.8.\nPreprocessing\nTechnique\nExplanation\nExample\nTokenization\nBreaking text\ndata into\nindividual\nwords or\nphrases\n(tokens)",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p97:4",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 97,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 2262,
+          "char_end": 2674
+        },
+        "score": 0.030536130536130537,
+        "base_rank": 6,
+        "rerank_score": 0.12076634168624878,
+        "rank": 5,
+        "method": "rerank-rrf",
+        "text": "Text preprocessing is especially important in artificial intelligence, as it can lay the foundation for effective text\nanalysis, classification, information retrieval, sentiment analysis, and many other natural language processing\ntasks (see Natural Language Processing). A well-designed preprocessing pipeline can lead to better model\nperformance, improved efficiency, and more accurate insights from text data.",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p97:0 | OpenStax, Principles of Data Science | page 97]\nPreprocessing\nTechnique\nExplanation\nExample\nSpell-checking and\ncorrection\nCorrecting\nspelling errors\nto improve\naccuracy\nSuppose we have a text like: “The writting was very\ninpprecise and had many trgical mistakes.” With spellchecking and correction, this text can be processed and\ncorrected to: “The writing was very imprecise and had many\ntragic mistakes.” This involves identifying and correcting\nmisspelled words.\nIn this case, “writting” was corrected to “writing,”\n“inpprecise” to “imprecise,” and “trgical” to “tragic.” This not\nonly improves the readability and accuracy of the text but\nalso helps in better understanding and analysis of the text.\n\n[B:openstax-pds:p86:1 | OpenStax, Principles of Data Science | page 86]\nData cleaning and preprocessing is an important stage in any data science task. It refers to the technique of\norganizing and converting raw data into usable structures for further analysis. It involves extracting irrelevant\nor duplicate data, handling missing values, and correcting errors or inconsistencies. This ensures that the data\nis accurate, comprehensive, and ready for analysis. Data cleaning and preprocessing typically involve the\nfollowing steps:\n\n[B:openstax-pds:p94:1 | OpenStax, Principles of Data Science | page 94]\nFor example, a company may set up a data validation\nprocess to ensure that all customer information entered into its database follows a specific format. This would\ninvolve checking for correct spellings and proper formatting of phone numbers and addresses and validating\nthe correctness of customer names and account numbers. The data would also be checked against external\nsources, such as official government records, to verify the accuracy of the information. Any discrepancies or\nerrors would be flagged for correction before the data is used for analysis or decision-making purposes.\nThrough this data validation process, the company can ensure that its customer data is accurate, reliable, and\ncompliant with industry standards.\n\n[B:openstax-pds:p95:0 | OpenStax, Principles of Data Science | page 95]\naggregation to study energy consumption patterns.\nText Preprocessing\nText preprocessing is a technique of preparing data in text format for further analysis and natural language\nprocessing tasks. It involves transforming unstructured text data into a more structured format to be\ninterpreted by algorithms and models. Some common techniques used in text preprocessing are reviewed in\nTable 2.8.\nPreprocessing\nTechnique\nExplanation\nExample\nTokenization\nBreaking text\ndata into\nindividual\nwords or\nphrases\n(tokens)\n\n[B:openstax-pds:p97:4 | OpenStax, Principles of Data Science | page 97]\nText preprocessing is especially important in artificial intelligence, as it can lay the foundation for effective text\nanalysis, classification, information retrieval, sentiment analysis, and many other natural language processing\ntasks (see Natural Language Processing). A well-designed preprocessing pipeline can lead to better model\nperformance, improved efficiency, and more accurate insights from text data.",
+    "context_ids": [
+      "B:openstax-pds:p97:0",
+      "B:openstax-pds:p86:1",
+      "B:openstax-pds:p94:1",
+      "B:openstax-pds:p95:0",
+      "B:openstax-pds:p97:4"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 4061.230899998918
+  },
+  {
+    "query_id": "H09",
+    "question": "In the home price example, what is the upper bound for outliers and is a price of $5,500,000 an outlier?",
+    "method": "rerank",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 128,
+        "evidence": "The upper bound for outliers is 1,159,375. The data value of 5,500,000 is greater than the upper bound of\n1,159,375. Therefore, the home price of $5,500,000 is a potential outlier."
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p128:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 128,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.3",
+          "char_start": 0,
+          "char_end": 759
+        },
+        "score": 0.03278688524590164,
+        "base_rank": 1,
+        "rerank_score": 0.9997768998146057,
+        "rank": 1,
+        "method": "rerank-rrf",
+        "text": "Now, calculate the interquartile range (IQR):\nCalculate the value of 1.5 interquartile range (IQR):\nCalculate the lower and upper bound for outliers:\nThe lower bound for outliers is −201,625. Of course, no home price is less than −201,625, so no outliers are\npresent for the lower end of the dataset.\nThe upper bound for outliers is 1,159,375. The data value of 5,500,000 is greater than the upper bound of\n1,159,375. Therefore, the home price of $5,500,000 is a potential outlier. This is important because the\npresence of outliers could potentially indicate data errors or some other anomalies in the dataset that\nshould be investigated. For example, there may have been a data entry error and a home price of $550,000\nwas erroneously entered as $5,500,000.",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p127:2",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 127,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.3",
+          "char_start": 859,
+          "char_end": 1553
+        },
+        "score": 0.03225806451612903,
+        "base_rank": 2,
+        "rerank_score": 0.8981307148933411,
+        "rank": 2,
+        "method": "rerank-rrf",
+        "text": "To detect outliers, you can use the quartiles and the IQR to calculate a lower and an upper bound for outliers.\nThen any data values below the lower bound or above the upper bound will be flagged as outliers. These data\nvalues should be further investigated to determine the nature of the outlier condition and whether the data\nvalues are valid or not.\nTo calculate the lower and upper bounds for outliers, use the following formulas:\nThese formulas typically use 1.5 as a cutoff value to identify outliers in a dataset.\nEXAMPLE 3.12\nProblem\nCalculate the IQR for the following 13 home prices and determine if any of the home prices values are\npotential outliers. Data values are in US dollars.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p117:3",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 117,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.1",
+          "char_start": 1622,
+          "char_end": 2402
+        },
+        "score": 0.03125,
+        "base_rank": 4,
+        "rerank_score": 0.05872010067105293,
+        "rank": 3,
+        "method": "rerank-rrf",
+        "text": "Notice how the mean calculated in Part (a) is significantly larger as compared to the trimmed mean\ncalculated in Part (b). The reason is the presence of several large outlier home prices. Once these outlier\ndata values are removed by the trimmed mean calculation, the resulting trimmed mean is more\nrepresentative of the typical home price in this neighborhood as compared to the mean.\nMedian\nThe median provides another measure of central tendency for a dataset. The median is generally a better\nmeasure of the central tendency when there are outliers (extreme values) in the dataset. Since the median\nfocuses on the middle value of the ordered dataset, the median is preferred when outliers are present because\nthe median is not affected by the numerical values of the outliers.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p129:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 129,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.3",
+          "char_start": 0,
+          "char_end": 688
+        },
+        "score": 0.031024531024531024,
+        "base_rank": 6,
+        "rerank_score": 0.19706480205059052,
+        "rank": 4,
+        "method": "rerank-rrf",
+        "text": "EXAMPLE 3.13\nProblem\nFor the home example in Example 3.12, the value is the home price of $270,000, the mean is $350,000,\nand the standard deviation is $40,000. Calculate the -score.\nSolution\nThe -score can be calculated as follows:\nThis -score of −2 indicates that the selling price for this home is 2 standard deviations below the mean,\nwhich represents a data value that is significantly below the mean.\nUsing Python to Calculate Measures of Position for a Dataset\nDataFrame.describe() computes different measures of position as well on each column of a dataset. See\nmin, 25%, 50%, 75%, and max in Figure 3.4.\nFigure 3.4 The Output of DataFrame.describe() with the Movie Profit Dataset",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p86:5",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 86,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.4",
+          "char_start": 2725,
+          "char_end": 3263
+        },
+        "score": 0.03057889822595705,
+        "base_rank": 3,
+        "rerank_score": 0.01712893322110176,
+        "rank": 5,
+        "method": "rerank-rrf",
+        "text": "1. A survey participant forgetting to answer a question\n2. A malfunction in data collection equipment resulting in missing values\n3. A participant choosing not to answer a question due to sensitivity or discomfort\nAn outlier is a data point that differs significantly from other data points in a given dataset. This can be due to\nhuman error, measurement error, or a true outlier value in the data. Outliers can skew statistical analysis and\nbias results, which is why it is important to identify and handle them properly before analysis.",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p128:0 | OpenStax, Principles of Data Science | page 128]\nNow, calculate the interquartile range (IQR):\nCalculate the value of 1.5 interquartile range (IQR):\nCalculate the lower and upper bound for outliers:\nThe lower bound for outliers is −201,625. Of course, no home price is less than −201,625, so no outliers are\npresent for the lower end of the dataset.\nThe upper bound for outliers is 1,159,375. The data value of 5,500,000 is greater than the upper bound of\n1,159,375. Therefore, the home price of $5,500,000 is a potential outlier. This is important because the\npresence of outliers could potentially indicate data errors or some other anomalies in the dataset that\nshould be investigated. For example, there may have been a data entry error and a home price of $550,000\nwas erroneously entered as $5,500,000.\n\n[B:openstax-pds:p127:2 | OpenStax, Principles of Data Science | page 127]\nTo detect outliers, you can use the quartiles and the IQR to calculate a lower and an upper bound for outliers.\nThen any data values below the lower bound or above the upper bound will be flagged as outliers. These data\nvalues should be further investigated to determine the nature of the outlier condition and whether the data\nvalues are valid or not.\nTo calculate the lower and upper bounds for outliers, use the following formulas:\nThese formulas typically use 1.5 as a cutoff value to identify outliers in a dataset.\nEXAMPLE 3.12\nProblem\nCalculate the IQR for the following 13 home prices and determine if any of the home prices values are\npotential outliers. Data values are in US dollars.\n\n[B:openstax-pds:p117:3 | OpenStax, Principles of Data Science | page 117]\nNotice how the mean calculated in Part (a) is significantly larger as compared to the trimmed mean\ncalculated in Part (b). The reason is the presence of several large outlier home prices. Once these outlier\ndata values are removed by the trimmed mean calculation, the resulting trimmed mean is more\nrepresentative of the typical home price in this neighborhood as compared to the mean.\nMedian\nThe median provides another measure of central tendency for a dataset. The median is generally a better\nmeasure of the central tendency when there are outliers (extreme values) in the dataset. Since the median\nfocuses on the middle value of the ordered dataset, the median is preferred when outliers are present because\nthe median is not affected by the numerical values of the outliers.\n\n[B:openstax-pds:p129:0 | OpenStax, Principles of Data Science | page 129]\nEXAMPLE 3.13\nProblem\nFor the home example in Example 3.12, the value is the home price of $270,000, the mean is $350,000,\nand the standard deviation is $40,000. Calculate the -score.\nSolution\nThe -score can be calculated as follows:\nThis -score of −2 indicates that the selling price for this home is 2 standard deviations below the mean,\nwhich represents a data value that is significantly below the mean.\nUsing Python to Calculate Measures of Position for a Dataset\nDataFrame.describe() computes different measures of position as well on each column of a dataset. See\nmin, 25%, 50%, 75%, and max in Figure 3.4.\nFigure 3.4 The Output of DataFrame.describe() with the Movie Profit Dataset\n\n[B:openstax-pds:p86:5 | OpenStax, Principles of Data Science | page 86]\n1. A survey participant forgetting to answer a question\n2. A malfunction in data collection equipment resulting in missing values\n3. A participant choosing not to answer a question due to sensitivity or discomfort\nAn outlier is a data point that differs significantly from other data points in a given dataset. This can be due to\nhuman error, measurement error, or a true outlier value in the data. Outliers can skew statistical analysis and\nbias results, which is why it is important to identify and handle them properly before analysis.",
+    "context_ids": [
+      "B:openstax-pds:p128:0",
+      "B:openstax-pds:p127:2",
+      "B:openstax-pds:p117:3",
+      "B:openstax-pds:p129:0",
+      "B:openstax-pds:p86:5"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 5722.466800001712
+  },
+  {
+    "query_id": "H10",
+    "question": "A home sold for $270,000 where the mean is $350,000 and the standard deviation is $40,000. What does its z-score show?",
+    "method": "rerank",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 129,
+        "evidence": "-score of −2 indicates that the selling price for this home is 2 standard deviations below the mean,\nwhich represents a data value that is significantly below the mean."
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p128:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 128,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.3",
+          "char_start": 760,
+          "char_end": 1518
+        },
+        "score": 0.03252247488101534,
+        "base_rank": 1,
+        "rerank_score": 0.9968940019607544,
+        "rank": 1,
+        "method": "rerank-rrf",
+        "text": "-scores\nThe -score is a measure of the position of an entry in a dataset that makes use of the mean and standard\ndeviation of the data. It represents the number of standard deviations by which a data value differs from the\nmean. For example, suppose that in a certain neighborhood, the mean selling price of a home is $350,000 and\nthe standard deviation is $40,000. A particular home sells for $270,000. Based on the selling price of this home,\nwe can calculate the relative standing of this home compared to other home sales in the same neighborhood.\nThe corresponding -score of a measurement considers the given measurement in relation to the mean and\nstandard deviation for the entire population. The formula for a -score calculation is as follows:\nWhere:",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p129:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 129,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.3",
+          "char_start": 0,
+          "char_end": 688
+        },
+        "score": 0.03252247488101534,
+        "base_rank": 2,
+        "rerank_score": 0.9993576407432556,
+        "rank": 2,
+        "method": "rerank-rrf",
+        "text": "EXAMPLE 3.13\nProblem\nFor the home example in Example 3.12, the value is the home price of $270,000, the mean is $350,000,\nand the standard deviation is $40,000. Calculate the -score.\nSolution\nThe -score can be calculated as follows:\nThis -score of −2 indicates that the selling price for this home is 2 standard deviations below the mean,\nwhich represents a data value that is significantly below the mean.\nUsing Python to Calculate Measures of Position for a Dataset\nDataFrame.describe() computes different measures of position as well on each column of a dataset. See\nmin, 25%, 50%, 75%, and max in Figure 3.4.\nFigure 3.4 The Output of DataFrame.describe() with the Movie Profit Dataset",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p128:2",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 128,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.3",
+          "char_start": 1519,
+          "char_end": 2252
+        },
+        "score": 0.03149801587301587,
+        "base_rank": 3,
+        "rerank_score": 0.013733475469052792,
+        "rank": 3,
+        "method": "rerank-rrf",
+        "text": "is the measurement\nis the mean\nis the standard deviation\nNotice that when a measurement is below the mean, the corresponding -score will be a negative value. If the\nmeasurement is exactly equal to the mean, the corresponding -score will be zero. If the measurement is\nabove the mean, the corresponding -score will be a positive value.\n-scores can also be used to identify outliers. Since -scores measure the number of standard deviations from\nthe mean for a data value, a -score of 3 would indicate a data value that is 3 standard deviations above the\nmean. This would represent a data value that is significantly displaced from the mean, and typically, a -score\nless than −3 or a -score greater than +3 can be used to flag outliers.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p128:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 128,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.3",
+          "char_start": 0,
+          "char_end": 759
+        },
+        "score": 0.03076923076923077,
+        "base_rank": 5,
+        "rerank_score": 0.010587833821773529,
+        "rank": 4,
+        "method": "rerank-rrf",
+        "text": "Now, calculate the interquartile range (IQR):\nCalculate the value of 1.5 interquartile range (IQR):\nCalculate the lower and upper bound for outliers:\nThe lower bound for outliers is −201,625. Of course, no home price is less than −201,625, so no outliers are\npresent for the lower end of the dataset.\nThe upper bound for outliers is 1,159,375. The data value of 5,500,000 is greater than the upper bound of\n1,159,375. Therefore, the home price of $5,500,000 is a potential outlier. This is important because the\npresence of outliers could potentially indicate data errors or some other anomalies in the dataset that\nshould be investigated. For example, there may have been a data entry error and a home price of $550,000\nwas erroneously entered as $5,500,000.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p148:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 148,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "char_start": 697,
+          "char_end": 1463
+        },
+        "score": 0.03055037313432836,
+        "base_rank": 4,
+        "rerank_score": 0.005068270489573479,
+        "rank": 5,
+        "method": "rerank-rrf",
+        "text": "Suppose that at a software company, the mean employee salary is $60,000 with a standard deviation of $7,500.\nUse Python to calculate the probability that a random employee earns more than $68,000.\nIn this example:\nis the measurement of interest\nmean is the mean of the normal distribution\nstandard deviation is the standard deviation of the normal distribution\nThe corresponding function in Python is written as:\nnorm.cdf(68000, 60000, 7500)\nThe round() function is then used to round the probability result to 3 decimal places.\nNotice that since this example asks to find the area to the right of a salary of $68,000, we can first find the area\nto the left using the norm.cdf() function and subtract this area from 1 to then calculate the desired area to\nthe right.",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p128:1 | OpenStax, Principles of Data Science | page 128]\n-scores\nThe -score is a measure of the position of an entry in a dataset that makes use of the mean and standard\ndeviation of the data. It represents the number of standard deviations by which a data value differs from the\nmean. For example, suppose that in a certain neighborhood, the mean selling price of a home is $350,000 and\nthe standard deviation is $40,000. A particular home sells for $270,000. Based on the selling price of this home,\nwe can calculate the relative standing of this home compared to other home sales in the same neighborhood.\nThe corresponding -score of a measurement considers the given measurement in relation to the mean and\nstandard deviation for the entire population. The formula for a -score calculation is as follows:\nWhere:\n\n[B:openstax-pds:p129:0 | OpenStax, Principles of Data Science | page 129]\nEXAMPLE 3.13\nProblem\nFor the home example in Example 3.12, the value is the home price of $270,000, the mean is $350,000,\nand the standard deviation is $40,000. Calculate the -score.\nSolution\nThe -score can be calculated as follows:\nThis -score of −2 indicates that the selling price for this home is 2 standard deviations below the mean,\nwhich represents a data value that is significantly below the mean.\nUsing Python to Calculate Measures of Position for a Dataset\nDataFrame.describe() computes different measures of position as well on each column of a dataset. See\nmin, 25%, 50%, 75%, and max in Figure 3.4.\nFigure 3.4 The Output of DataFrame.describe() with the Movie Profit Dataset\n\n[B:openstax-pds:p128:2 | OpenStax, Principles of Data Science | page 128]\nis the measurement\nis the mean\nis the standard deviation\nNotice that when a measurement is below the mean, the corresponding -score will be a negative value. If the\nmeasurement is exactly equal to the mean, the corresponding -score will be zero. If the measurement is\nabove the mean, the corresponding -score will be a positive value.\n-scores can also be used to identify outliers. Since -scores measure the number of standard deviations from\nthe mean for a data value, a -score of 3 would indicate a data value that is 3 standard deviations above the\nmean. This would represent a data value that is significantly displaced from the mean, and typically, a -score\nless than −3 or a -score greater than +3 can be used to flag outliers.\n\n[B:openstax-pds:p128:0 | OpenStax, Principles of Data Science | page 128]\nNow, calculate the interquartile range (IQR):\nCalculate the value of 1.5 interquartile range (IQR):\nCalculate the lower and upper bound for outliers:\nThe lower bound for outliers is −201,625. Of course, no home price is less than −201,625, so no outliers are\npresent for the lower end of the dataset.\nThe upper bound for outliers is 1,159,375. The data value of 5,500,000 is greater than the upper bound of\n1,159,375. Therefore, the home price of $5,500,000 is a potential outlier. This is important because the\npresence of outliers could potentially indicate data errors or some other anomalies in the dataset that\nshould be investigated. For example, there may have been a data entry error and a home price of $550,000\nwas erroneously entered as $5,500,000.\n\n[B:openstax-pds:p148:1 | OpenStax, Principles of Data Science | page 148]\nSuppose that at a software company, the mean employee salary is $60,000 with a standard deviation of $7,500.\nUse Python to calculate the probability that a random employee earns more than $68,000.\nIn this example:\nis the measurement of interest\nmean is the mean of the normal distribution\nstandard deviation is the standard deviation of the normal distribution\nThe corresponding function in Python is written as:\nnorm.cdf(68000, 60000, 7500)\nThe round() function is then used to round the probability result to 3 decimal places.\nNotice that since this example asks to find the area to the right of a salary of $68,000, we can first find the area\nto the left using the norm.cdf() function and subtract this area from 1 to then calculate the desired area to\nthe right.",
+    "context_ids": [
+      "B:openstax-pds:p128:1",
+      "B:openstax-pds:p129:0",
+      "B:openstax-pds:p128:2",
+      "B:openstax-pds:p128:0",
+      "B:openstax-pds:p148:1"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 5094.387200002529
+  },
+  {
+    "query_id": "H11",
+    "question": "About what percentage of values lie within three standard deviations of the mean in a normal distribution?",
+    "method": "rerank",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 146,
+        "evidence": "About 99.7% of the -values lie between\nand\nunits from the mean (within three standard\ndeviations of the mean)."
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p145:2",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 145,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "char_start": 1326,
+          "char_end": 1711
+        },
+        "score": 0.03252247488101534,
+        "base_rank": 1,
+        "rerank_score": 0.9981319308280945,
+        "rank": 1,
+        "method": "rerank-rrf",
+        "text": "Figure 3.9 Normal Distribution Showing Mean and Increments of Standard Deviation\nIf is a continuous random variable and has a normal distribution with mean and standard deviation , then\nthe empirical rule states that:\n• About 68% of the -values lie between\nand\nunits from the mean (within one standard deviation\nof the mean).\n3.5 • Discrete and Continuous Probability Distributions 135",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p146:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 146,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "char_start": 0,
+          "char_end": 445
+        },
+        "score": 0.03252247488101534,
+        "base_rank": 2,
+        "rerank_score": 0.9992920160293579,
+        "rank": 2,
+        "method": "rerank-rrf",
+        "text": "• About 95% of the -values lie between\nand\nunits from the mean (within two standard\ndeviations of the mean).\n• About 99.7% of the -values lie between\nand\nunits from the mean (within three standard\ndeviations of the mean). Notice that almost all the x-values lie within three standard deviations of the\nmean.\n• The -scores for\nand\nare\nand\n, respectively.\n• The -scores for\nand\nare\nand\n, respectively.\n• The -scores for\nand\nare\nand\n, respectively.",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p144:2",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 144,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "char_start": 1225,
+          "char_end": 1809
+        },
+        "score": 0.03125,
+        "base_rank": 4,
+        "rerank_score": 0.4439117908477783,
+        "rank": 3,
+        "method": "rerank-rrf",
+        "text": "The typical notation used to indicate that a random variable follows a normal distribution is as follows:\n(see Figure 3.7). For example, the notation\nindicates that the random variable\nfollows a normal distribution with mean of 5.2 and standard deviation of 3.7.\nA normal distribution with mean of 0 and standard deviation of 1 is called the standard normal distribution\nand can be notated as\n. Any normal distribution can be standardized by converting its values to\n-scores. Recall that a -score tells you how many standard deviations from the mean there are for a given\nmeasurement.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p144:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 144,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "char_start": 550,
+          "char_end": 1224
+        },
+        "score": 0.031024531024531024,
+        "base_rank": 3,
+        "rerank_score": 0.10267885774374008,
+        "rank": 4,
+        "method": "rerank-rrf",
+        "text": "The normal distribution is a continuous probability distribution that is symmetrical and bell-shaped. It is used\nwhen the frequency of data values decreases with data values above and below the mean. The normal\ndistribution has applications in many fields including engineering, science, finance, medicine, marketing, and\npsychology.\nThe normal distribution has two parameters: the mean, , and the standard deviation, . The mean represents\nthe center of the distribution, and the standard deviation measures the spread, or dispersion, of the\ndistribution. The variable represents the realization, or observed value, of the random variable\nthat\nfollows a normal distribution.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p128:2",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 128,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.3",
+          "char_start": 1519,
+          "char_end": 2252
+        },
+        "score": 0.030536130536130537,
+        "base_rank": 6,
+        "rerank_score": 0.3391016721725464,
+        "rank": 5,
+        "method": "rerank-rrf",
+        "text": "is the measurement\nis the mean\nis the standard deviation\nNotice that when a measurement is below the mean, the corresponding -score will be a negative value. If the\nmeasurement is exactly equal to the mean, the corresponding -score will be zero. If the measurement is\nabove the mean, the corresponding -score will be a positive value.\n-scores can also be used to identify outliers. Since -scores measure the number of standard deviations from\nthe mean for a data value, a -score of 3 would indicate a data value that is 3 standard deviations above the\nmean. This would represent a data value that is significantly displaced from the mean, and typically, a -score\nless than −3 or a -score greater than +3 can be used to flag outliers.",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p145:2 | OpenStax, Principles of Data Science | page 145]\nFigure 3.9 Normal Distribution Showing Mean and Increments of Standard Deviation\nIf is a continuous random variable and has a normal distribution with mean and standard deviation , then\nthe empirical rule states that:\n• About 68% of the -values lie between\nand\nunits from the mean (within one standard deviation\nof the mean).\n3.5 • Discrete and Continuous Probability Distributions 135\n\n[B:openstax-pds:p146:0 | OpenStax, Principles of Data Science | page 146]\n• About 95% of the -values lie between\nand\nunits from the mean (within two standard\ndeviations of the mean).\n• About 99.7% of the -values lie between\nand\nunits from the mean (within three standard\ndeviations of the mean). Notice that almost all the x-values lie within three standard deviations of the\nmean.\n• The -scores for\nand\nare\nand\n, respectively.\n• The -scores for\nand\nare\nand\n, respectively.\n• The -scores for\nand\nare\nand\n, respectively.\n\n[B:openstax-pds:p144:2 | OpenStax, Principles of Data Science | page 144]\nThe typical notation used to indicate that a random variable follows a normal distribution is as follows:\n(see Figure 3.7). For example, the notation\nindicates that the random variable\nfollows a normal distribution with mean of 5.2 and standard deviation of 3.7.\nA normal distribution with mean of 0 and standard deviation of 1 is called the standard normal distribution\nand can be notated as\n. Any normal distribution can be standardized by converting its values to\n-scores. Recall that a -score tells you how many standard deviations from the mean there are for a given\nmeasurement.\n\n[B:openstax-pds:p144:1 | OpenStax, Principles of Data Science | page 144]\nThe normal distribution is a continuous probability distribution that is symmetrical and bell-shaped. It is used\nwhen the frequency of data values decreases with data values above and below the mean. The normal\ndistribution has applications in many fields including engineering, science, finance, medicine, marketing, and\npsychology.\nThe normal distribution has two parameters: the mean, , and the standard deviation, . The mean represents\nthe center of the distribution, and the standard deviation measures the spread, or dispersion, of the\ndistribution. The variable represents the realization, or observed value, of the random variable\nthat\nfollows a normal distribution.\n\n[B:openstax-pds:p128:2 | OpenStax, Principles of Data Science | page 128]\nis the measurement\nis the mean\nis the standard deviation\nNotice that when a measurement is below the mean, the corresponding -score will be a negative value. If the\nmeasurement is exactly equal to the mean, the corresponding -score will be zero. If the measurement is\nabove the mean, the corresponding -score will be a positive value.\n-scores can also be used to identify outliers. Since -scores measure the number of standard deviations from\nthe mean for a data value, a -score of 3 would indicate a data value that is 3 standard deviations above the\nmean. This would represent a data value that is significantly displaced from the mean, and typically, a -score\nless than −3 or a -score greater than +3 can be used to flag outliers.",
+    "context_ids": [
+      "B:openstax-pds:p145:2",
+      "B:openstax-pds:p146:0",
+      "B:openstax-pds:p144:2",
+      "B:openstax-pds:p144:1",
+      "B:openstax-pds:p128:2"
+    ],
+    "hit1": false,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 4410.947899999883
+  },
+  {
+    "query_id": "H12",
+    "question": "What should a sampling frame ideally include?",
+    "method": "rerank",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 75,
+        "evidence": "careful consideration of the sampling frame should ideally encompass all members of\nthe target population and provide a clear and accessible way to identify and select individuals or units for\ninclusion in the sample."
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p75:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 75,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.2",
+          "char_start": 0,
+          "char_end": 384
+        },
+        "score": 0.03278688524590164,
+        "base_rank": 1,
+        "rerank_score": 0.95393967628479,
+        "rank": 1,
+        "method": "rerank-rrf",
+        "text": "the sample. Additionally, careful consideration of the sampling frame should ideally encompass all members of\nthe target population and provide a clear and accessible way to identify and select individuals or units for\ninclusion in the sample. Sampling bias can occur at various stages of the sampling process, and it can greatly\nimpact the accuracy and validity of research findings.",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p72:4",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 72,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.2",
+          "char_start": 2087,
+          "char_end": 2882
+        },
+        "score": 0.03200204813108039,
+        "base_rank": 3,
+        "rerank_score": 0.27176234126091003,
+        "rank": 2,
+        "method": "rerank-rrf",
+        "text": "Sampling is necessary in a wide range of data science projects to make data collection more manageable and\ncost-effective while still drawing meaningful conclusions. A variety of techniques can be employed to\ndetermine a subset of data from a larger population to perform research or construct hypotheses about the\nentire population. The choice of a sampling technique depends upon the nature and features of the\npopulation being studied as well as the objectives of the research. When using a survey, researchers must also\nconsider the tool(s) that will be used for distributing the survey, such as through email, social media, or\nphysically distributing questionnaires at the restaurant. It's crucial to make the survey easily accessible to the\nchosen sample to achieve a higher response rate.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p72:7",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 72,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.2",
+          "char_start": 3875,
+          "char_end": 4293
+        },
+        "score": 0.03149801587301587,
+        "base_rank": 4,
+        "rerank_score": 0.13518032431602478,
+        "rank": 3,
+        "method": "rerank-rrf",
+        "text": "In the health care field, simple random sampling is utilized to select patients for medical trials or surveys,\nallowing for a diverse and unbiased sample (Elfil & Negida, 2017). Similarly, in finance, simple random\nsampling can be applied to gather data on consumer behavior and guide decision-making in financial\ninstitutions. In engineering, this technique is used to select random samples of materials or components",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p73:5",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 73,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.2",
+          "char_start": 2949,
+          "char_end": 3438
+        },
+        "score": 0.03055037313432836,
+        "base_rank": 7,
+        "rerank_score": 0.04263532534241676,
+        "rank": 4,
+        "method": "rerank-rrf",
+        "text": "5. Systematic sampling. Systematic sampling is based on starting at a random location in the dataset and\nthen selecting every nth member from a population to be contained in the sample. This process is\nstraightforward to implement, and it provides a representative sample when the population is randomly\ndistributed. However, if there is a pattern in the sampling frame (the organizing structure that represents\nthe population from which a sample is drawn), it may lead to a biased sample.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p73:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 73,
+        "metadata": {
+          "chapter": 2,
+          "section": "2.2",
+          "char_start": 0,
+          "char_end": 750
+        },
+        "score": 0.030536130536130537,
+        "base_rank": 5,
+        "rerank_score": 0.012079660780727863,
+        "rank": 5,
+        "method": "rerank-rrf",
+        "text": "for quality control testing. In the political arena, simple random sampling is commonly used to select\nrandomly registered voters for polls or surveys, ensuring equal representation and minimizing bias in the\ndata collected.\n2. Stratified sampling. Stratified sampling involves splitting the population into subgroups based on\nspecified factors, such as age, area, income, or education level, and taking a random sample from each\nstratum in proportion to its size in the population. Stratified sampling allows for a more accurate\nrepresentation of the population as it ensures that all subgroups are adequately represented in the\nsample. This can be especially useful when the variables being studied vary significantly between the\nstratified groups.",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p75:0 | OpenStax, Principles of Data Science | page 75]\nthe sample. Additionally, careful consideration of the sampling frame should ideally encompass all members of\nthe target population and provide a clear and accessible way to identify and select individuals or units for\ninclusion in the sample. Sampling bias can occur at various stages of the sampling process, and it can greatly\nimpact the accuracy and validity of research findings.\n\n[B:openstax-pds:p72:4 | OpenStax, Principles of Data Science | page 72]\nSampling is necessary in a wide range of data science projects to make data collection more manageable and\ncost-effective while still drawing meaningful conclusions. A variety of techniques can be employed to\ndetermine a subset of data from a larger population to perform research or construct hypotheses about the\nentire population. The choice of a sampling technique depends upon the nature and features of the\npopulation being studied as well as the objectives of the research. When using a survey, researchers must also\nconsider the tool(s) that will be used for distributing the survey, such as through email, social media, or\nphysically distributing questionnaires at the restaurant. It's crucial to make the survey easily accessible to the\nchosen sample to achieve a higher response rate.\n\n[B:openstax-pds:p72:7 | OpenStax, Principles of Data Science | page 72]\nIn the health care field, simple random sampling is utilized to select patients for medical trials or surveys,\nallowing for a diverse and unbiased sample (Elfil & Negida, 2017). Similarly, in finance, simple random\nsampling can be applied to gather data on consumer behavior and guide decision-making in financial\ninstitutions. In engineering, this technique is used to select random samples of materials or components\n\n[B:openstax-pds:p73:5 | OpenStax, Principles of Data Science | page 73]\n5. Systematic sampling. Systematic sampling is based on starting at a random location in the dataset and\nthen selecting every nth member from a population to be contained in the sample. This process is\nstraightforward to implement, and it provides a representative sample when the population is randomly\ndistributed. However, if there is a pattern in the sampling frame (the organizing structure that represents\nthe population from which a sample is drawn), it may lead to a biased sample.\n\n[B:openstax-pds:p73:0 | OpenStax, Principles of Data Science | page 73]\nfor quality control testing. In the political arena, simple random sampling is commonly used to select\nrandomly registered voters for polls or surveys, ensuring equal representation and minimizing bias in the\ndata collected.\n2. Stratified sampling. Stratified sampling involves splitting the population into subgroups based on\nspecified factors, such as age, area, income, or education level, and taking a random sample from each\nstratum in proportion to its size in the population. Stratified sampling allows for a more accurate\nrepresentation of the population as it ensures that all subgroups are adequately represented in the\nsample. This can be especially useful when the variables being studied vary significantly between the\nstratified groups.",
+    "context_ids": [
+      "B:openstax-pds:p75:0",
+      "B:openstax-pds:p72:4",
+      "B:openstax-pds:p72:7",
+      "B:openstax-pds:p73:5",
+      "B:openstax-pds:p73:0"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 3818.491800000629
+  },
+  {
+    "query_id": "H13",
+    "question": "How is the probability that an employee earns more than $68,000 found with a normal curve?",
+    "method": "rerank",
+    "filter": null,
+    "gold": [
+      {
+        "source_id": "openstax-pds",
+        "page": 145,
+        "evidence": "Then, to find the probability that an employee\nearns more than $68,000, calculate the area under the normal curve to the right of the data value $68,000."
+      }
+    ],
+    "results": [
+      {
+        "id": "B:openstax-pds:p145:0",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 145,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "char_start": 0,
+          "char_end": 672
+        },
+        "score": 0.03278688524590164,
+        "base_rank": 1,
+        "rerank_score": 0.9999128580093384,
+        "rank": 1,
+        "method": "rerank-rrf",
+        "text": "probability that a random employee earns more than $68,000.\nSolution\nA normal curve can be drawn to represent this scenario, in which the mean of $60,000 would be plotted on\nthe horizontal axis, corresponding to the peak of the curve. Then, to find the probability that an employee\nearns more than $68,000, calculate the area under the normal curve to the right of the data value $68,000.\nFigure 3.8 illustrates the area under the normal curve to the right of a salary of $68,000 as the shaded-in\nregion.\nFigure 3.8 Bell-Shaped Distribution for Example 3.27. The shaded region under the normal curve corresponds to the probability\nthat an employee earns more than $68,000.",
+        "hit": true
+      },
+      {
+        "id": "B:openstax-pds:p145:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 145,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "char_start": 673,
+          "char_end": 1325
+        },
+        "score": 0.03200204813108039,
+        "base_rank": 2,
+        "rerank_score": 0.9973033666610718,
+        "rank": 2,
+        "method": "rerank-rrf",
+        "text": "To find the actual area under the curve, a Python command can be used to find the area under the normal\nprobability density curve to the right of the data value of $68,000. See Using Python with Probability\nDistributions for the specific Python program and results. The resulting probability is calculated as 0.143.\nThus, there is a probability of about 14% that a random employee has a salary greater than $75,000.\nThe empirical rule is a method for determining approximate areas under the normal curve for measurements\nthat fall within one, two, and three standard deviations from the mean for the normal (bell-shaped)\ndistribution. (See Figure 3.9).",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p148:1",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 148,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "char_start": 697,
+          "char_end": 1463
+        },
+        "score": 0.03200204813108039,
+        "base_rank": 3,
+        "rerank_score": 0.9986995458602905,
+        "rank": 3,
+        "method": "rerank-rrf",
+        "text": "Suppose that at a software company, the mean employee salary is $60,000 with a standard deviation of $7,500.\nUse Python to calculate the probability that a random employee earns more than $68,000.\nIn this example:\nis the measurement of interest\nmean is the mean of the normal distribution\nstandard deviation is the standard deviation of the normal distribution\nThe corresponding function in Python is written as:\nnorm.cdf(68000, 60000, 7500)\nThe round() function is then used to round the probability result to 3 decimal places.\nNotice that since this example asks to find the area to the right of a salary of $68,000, we can first find the area\nto the left using the norm.cdf() function and subtract this area from 1 to then calculate the desired area to\nthe right.",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p144:4",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 144,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "char_start": 2520,
+          "char_end": 3070
+        },
+        "score": 0.03125,
+        "base_rank": 4,
+        "rerank_score": 0.8373069167137146,
+        "rank": 4,
+        "method": "rerank-rrf",
+        "text": "To determine probabilities associated with the normal distribution, we find specific areas under the normal\ncurve. There are several methods for finding this area under the normal curve, and we typically use some form\nof technology. Python, Excel, and R all provide built-in functions for calculating areas under the normal curve.\nEXAMPLE 3.27\nProblem\nSuppose that at a software company, the mean employee salary is $60,000 with a standard deviation of\n$7,500. Assume salaries at this company follow a normal distribution. Use Python to calculate the",
+        "hit": false
+      },
+      {
+        "id": "B:openstax-pds:p143:2",
+        "source_id": "openstax-pds",
+        "source": "OpenStax, Principles of Data Science",
+        "page": 143,
+        "metadata": {
+          "chapter": 3,
+          "section": "3.5",
+          "char_start": 1182,
+          "char_end": 1835
+        },
+        "score": 0.03076923076923077,
+        "base_rank": 5,
+        "rerank_score": 0.10729144513607025,
+        "rank": 5,
+        "method": "rerank-rrf",
+        "text": "Many probability distributions apply to continuous random variables. These distributions rely on determining\nthe probability that the random variable falls within a distinct range of values, which can be calculated using a\nprobability density function (PDF). The probability density function (PDF) calculates the corresponding area\nunder the probability density curve to determine the probability that the random variable will fall within this\nspecific range of values. For example, to determine the probability that a salary falls between $50,000 and\n$70,000, we can calculate the area under the probability density function between these two salaries.",
+        "hit": false
+      }
+    ],
+    "context": "[B:openstax-pds:p145:0 | OpenStax, Principles of Data Science | page 145]\nprobability that a random employee earns more than $68,000.\nSolution\nA normal curve can be drawn to represent this scenario, in which the mean of $60,000 would be plotted on\nthe horizontal axis, corresponding to the peak of the curve. Then, to find the probability that an employee\nearns more than $68,000, calculate the area under the normal curve to the right of the data value $68,000.\nFigure 3.8 illustrates the area under the normal curve to the right of a salary of $68,000 as the shaded-in\nregion.\nFigure 3.8 Bell-Shaped Distribution for Example 3.27. The shaded region under the normal curve corresponds to the probability\nthat an employee earns more than $68,000.\n\n[B:openstax-pds:p145:1 | OpenStax, Principles of Data Science | page 145]\nTo find the actual area under the curve, a Python command can be used to find the area under the normal\nprobability density curve to the right of the data value of $68,000. See Using Python with Probability\nDistributions for the specific Python program and results. The resulting probability is calculated as 0.143.\nThus, there is a probability of about 14% that a random employee has a salary greater than $75,000.\nThe empirical rule is a method for determining approximate areas under the normal curve for measurements\nthat fall within one, two, and three standard deviations from the mean for the normal (bell-shaped)\ndistribution. (See Figure 3.9).\n\n[B:openstax-pds:p148:1 | OpenStax, Principles of Data Science | page 148]\nSuppose that at a software company, the mean employee salary is $60,000 with a standard deviation of $7,500.\nUse Python to calculate the probability that a random employee earns more than $68,000.\nIn this example:\nis the measurement of interest\nmean is the mean of the normal distribution\nstandard deviation is the standard deviation of the normal distribution\nThe corresponding function in Python is written as:\nnorm.cdf(68000, 60000, 7500)\nThe round() function is then used to round the probability result to 3 decimal places.\nNotice that since this example asks to find the area to the right of a salary of $68,000, we can first find the area\nto the left using the norm.cdf() function and subtract this area from 1 to then calculate the desired area to\nthe right.\n\n[B:openstax-pds:p144:4 | OpenStax, Principles of Data Science | page 144]\nTo determine probabilities associated with the normal distribution, we find specific areas under the normal\ncurve. There are several methods for finding this area under the normal curve, and we typically use some form\nof technology. Python, Excel, and R all provide built-in functions for calculating areas under the normal curve.\nEXAMPLE 3.27\nProblem\nSuppose that at a software company, the mean employee salary is $60,000 with a standard deviation of\n$7,500. Assume salaries at this company follow a normal distribution. Use Python to calculate the\n\n[B:openstax-pds:p143:2 | OpenStax, Principles of Data Science | page 143]\nMany probability distributions apply to continuous random variables. These distributions rely on determining\nthe probability that the random variable falls within a distinct range of values, which can be calculated using a\nprobability density function (PDF). The probability density function (PDF) calculates the corresponding area\nunder the probability density curve to determine the probability that the random variable will fall within this\nspecific range of values. For example, to determine the probability that a salary falls between $50,000 and\n$70,000, we can calculate the area under the probability density function between these two salaries.",
+    "context_ids": [
+      "B:openstax-pds:p145:0",
+      "B:openstax-pds:p145:1",
+      "B:openstax-pds:p148:1",
+      "B:openstax-pds:p144:4",
+      "B:openstax-pds:p143:2"
+    ],
+    "hit1": true,
+    "hit3": true,
+    "hitk": true,
+    "context_hit": true,
+    "elapsed_ms": 5188.4409000012965
+  }
+]

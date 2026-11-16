@@ -1,0 +1,23 @@
+{
+  "name": "hybrid-k3-b800",
+  "method": "hybrid",
+  "split": "dev",
+  "n": 30,
+  "top_k": 3,
+  "budget_chars": 800,
+  "filter": false,
+  "hit1": 20,
+  "hit3": 26,
+  "hitk": 26,
+  "context_hit": 13,
+  "avg_context_chars": 618,
+  "median_ms": 43.4,
+  "p90_ms": 92.1,
+  "service_cost_usd": 0,
+  "failed_q_hit3": [
+    "D07",
+    "D08",
+    "T01",
+    "T04"
+  ]
+}

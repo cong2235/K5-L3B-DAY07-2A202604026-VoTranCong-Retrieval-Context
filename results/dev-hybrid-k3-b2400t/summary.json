@@ -1,0 +1,23 @@
+{
+  "name": "hybrid-k3-b2400t",
+  "method": "hybrid",
+  "split": "dev",
+  "n": 30,
+  "top_k": 3,
+  "budget_chars": 9600,
+  "filter": false,
+  "hit1": 20,
+  "hit3": 26,
+  "hitk": 26,
+  "context_hit": 26,
+  "avg_context_chars": 2029,
+  "median_ms": 34.3,
+  "p90_ms": 39.4,
+  "service_cost_usd": 0,
+  "failed_q_hit3": [
+    "D07",
+    "D08",
+    "T01",
+    "T04"
+  ]
+}

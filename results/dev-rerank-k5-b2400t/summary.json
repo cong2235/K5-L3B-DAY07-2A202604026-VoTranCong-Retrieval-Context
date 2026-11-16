@@ -1,0 +1,22 @@
+{
+  "name": "rerank-k5-b2400t",
+  "method": "rerank",
+  "split": "dev",
+  "n": 30,
+  "top_k": 5,
+  "budget_chars": 9600,
+  "filter": false,
+  "hit1": 24,
+  "hit3": 27,
+  "hitk": 27,
+  "context_hit": 27,
+  "avg_context_chars": 3372,
+  "median_ms": 9614.5,
+  "p90_ms": 14016.9,
+  "service_cost_usd": 0,
+  "failed_q_hit3": [
+    "D04",
+    "D09",
+    "S04"
+  ]
+}

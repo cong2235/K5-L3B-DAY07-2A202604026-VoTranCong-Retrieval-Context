@@ -1,0 +1,18 @@
+{
+  "name": "dense-k5-b2400t",
+  "method": "dense",
+  "split": "test",
+  "n": 13,
+  "top_k": 5,
+  "budget_chars": 9600,
+  "filter": false,
+  "hit1": 8,
+  "hit3": 13,
+  "hitk": 13,
+  "context_hit": 13,
+  "avg_context_chars": 3458,
+  "median_ms": 45.9,
+  "p90_ms": 49.6,
+  "service_cost_usd": 0,
+  "failed_q_hit3": []
+}

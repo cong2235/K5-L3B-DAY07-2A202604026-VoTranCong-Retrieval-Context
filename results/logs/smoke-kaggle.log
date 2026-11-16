@@ -1,0 +1,37 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  26%|██▌       | 52/199 [00:00<00:00, 518.25it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1151.38it/s]
+[1/2] D01 ...
+D01 answered searches=1 cites=1 ctx_hit=True 8.1s
+[2/2] D02 ...
+D02 answered searches=1 cites=2 ctx_hit=True 8.2s
+{
+ "name": "smoke-kaggle",
+ "split": "dev",
+ "model": "qwen2.5-7b-instruct",
+ "top_k": 5,
+ "max_searches": 4,
+ "budget_tokens_est": 2400,
+ "n": 2,
+ "errors": 0,
+ "answerable_n": 2,
+ "absent_n": 0,
+ "tool_use": "2/2",
+ "search_count_distribution": {
+  "1": 2
+ },
+ "auto_context_hit": "2/2",
+ "abstained_when_answerable": "0/2",
+ "abstained_when_absent": "0/0",
+ "answered_with_citation": "2/2",
+ "citations_in_context": "3/3",
+ "tokens": {
+  "prompt": 3303,
+  "output": 192,
+  "thoughts": 0,
+  "llm_calls": 4
+ },
+ "cost_usd": null,
+ "provider": "openrouter",
+ "median_total_ms": 8132,
+ "note": "auto_* fields are machine checks, NOT the manual grades required by BENCHMARK.md"
+}

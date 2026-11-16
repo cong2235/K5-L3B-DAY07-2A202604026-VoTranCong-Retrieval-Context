@@ -1,0 +1,24 @@
+{
+  "name": "tfidf-k5-b2400t",
+  "method": "tfidf",
+  "split": "dev",
+  "n": 30,
+  "top_k": 5,
+  "budget_chars": 9600,
+  "filter": false,
+  "hit1": 19,
+  "hit3": 25,
+  "hitk": 27,
+  "context_hit": 27,
+  "avg_context_chars": 3327,
+  "median_ms": 2.4,
+  "p90_ms": 2.9,
+  "service_cost_usd": 0,
+  "failed_q_hit3": [
+    "D07",
+    "D08",
+    "T01",
+    "T04",
+    "S10"
+  ]
+}

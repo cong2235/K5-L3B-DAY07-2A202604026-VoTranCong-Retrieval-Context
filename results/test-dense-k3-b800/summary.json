@@ -1,0 +1,18 @@
+{
+  "name": "dense-k3-b800",
+  "method": "dense",
+  "split": "test",
+  "n": 13,
+  "top_k": 3,
+  "budget_chars": 800,
+  "filter": false,
+  "hit1": 8,
+  "hit3": 13,
+  "hitk": 13,
+  "context_hit": 7,
+  "avg_context_chars": 569,
+  "median_ms": 40.7,
+  "p90_ms": 83.5,
+  "service_cost_usd": 0,
+  "failed_q_hit3": []
+}

@@ -1,0 +1,419 @@
+[
+ {
+  "query_id": "H01",
+  "status": "answered",
+  "events": [
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "query": "mode mean median data",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "B:openstax-pds:p118:2",
+      "page": 118,
+      "score": 0.9168,
+      "rank": 1
+     },
+     {
+      "id": "B:openstax-pds:p119:0",
+      "page": 119,
+      "score": 0.8858,
+      "rank": 2
+     },
+     {
+      "id": "B:openstax-pds:p114:5",
+      "page": 114,
+      "score": 0.8786,
+      "rank": 3
+     }
+    ],
+    "ms": 162.8,
+    "event": "search"
+   }
+  ],
+  "citations": [
+   "B:openstax-pds:p118:2"
+  ],
+  "citations_in_context": [
+   "B:openstax-pds:p118:2"
+  ],
+  "status_original": "answered"
+ },
+ {
+  "query_id": "H02",
+  "status": "abstain",
+  "events": [
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "query": "median odd number of values",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "B:openstax-pds:p118:1",
+      "page": 118,
+      "score": 0.8862,
+      "rank": 1
+     },
+     {
+      "id": "B:openstax-pds:p118:0",
+      "page": 118,
+      "score": 0.8857,
+      "rank": 2
+     },
+     {
+      "id": "B:openstax-pds:p118:2",
+      "page": 118,
+      "score": 0.8785,
+      "rank": 3
+     }
+    ],
+    "ms": 30.8,
+    "event": "search"
+   }
+  ],
+  "citations": [
+   "B:openstax-pds:p118:1",
+   "B:openstax-pds:p118:0",
+   "B:openstax-pds:p118:2"
+  ],
+  "citations_in_context": [
+   "B:openstax-pds:p118:1"
+  ],
+  "status_original": "abstain"
+ },
+ {
+  "query_id": "H03",
+  "status": "answered",
+  "events": [],
+  "citations": [
+   "B:openstax-pds:p95:1"
+  ],
+  "citations_in_context": [],
+  "status_original": "answered"
+ },
+ {
+  "query_id": "H04",
+  "status": "answered",
+  "events": [
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "query": "Bayes' Theorem used for",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "B:openstax-pds:p136:1",
+      "page": 136,
+      "score": 0.9146,
+      "rank": 1
+     },
+     {
+      "id": "B:openstax-pds:p132:1",
+      "page": 132,
+      "score": 0.881,
+      "rank": 2
+     },
+     {
+      "id": "B:openstax-pds:p137:0",
+      "page": 137,
+      "score": 0.8714,
+      "rank": 3
+     }
+    ],
+    "ms": 33.5,
+    "event": "search"
+   }
+  ],
+  "citations": [
+   "B:openstax-pds:p136:1"
+  ],
+  "citations_in_context": [
+   "B:openstax-pds:p136:1"
+  ],
+  "status_original": "answered"
+ },
+ {
+  "query_id": "H05",
+  "status": "abstain",
+  "events": [],
+  "citations": [],
+  "citations_in_context": [],
+  "status_original": "answered"
+ },
+ {
+  "query_id": "H06",
+  "status": "answered",
+  "events": [
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "query": "data cleaning process",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "B:openstax-pds:p86:1",
+      "page": 86,
+      "score": 0.9114,
+      "rank": 1
+     },
+     {
+      "id": "B:openstax-pds:p84:0",
+      "page": 84,
+      "score": 0.8887,
+      "rank": 2
+     },
+     {
+      "id": "B:openstax-pds:p93:1",
+      "page": 93,
+      "score": 0.8826,
+      "rank": 3
+     }
+    ],
+    "ms": 42.6,
+    "event": "search"
+   }
+  ],
+  "citations": [
+   "B:openstax-pds:p86:1"
+  ],
+  "citations_in_context": [
+   "B:openstax-pds:p86:1"
+  ],
+  "status_original": "answered"
+ },
+ {
+  "query_id": "H07",
+  "status": "answered",
+  "events": [
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "query": "text data normalization customer reviews",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "B:openstax-pds:p98:0",
+      "page": 98,
+      "score": 0.8749,
+      "rank": 1
+     },
+     {
+      "id": "B:openstax-pds:p91:0",
+      "page": 91,
+      "score": 0.8705,
+      "rank": 2
+     },
+     {
+      "id": "B:openstax-pds:p90:1",
+      "page": 90,
+      "score": 0.8594,
+      "rank": 3
+     }
+    ],
+    "ms": 69.3,
+    "event": "search"
+   }
+  ],
+  "citations": [
+   "B:openst:openstax-pds:p98:0"
+  ],
+  "citations_in_context": [],
+  "status_original": "answered"
+ },
+ {
+  "query_id": "H08",
+  "status": "abstain",
+  "events": [],
+  "citations": [],
+  "citations_in_context": [],
+  "status_original": "abstain"
+ },
+ {
+  "query_id": "H09",
+  "status": "answered",
+  "events": [
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "query": "home price example upper bound outliers",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "B:openstax-pds:p128:0",
+      "page": 128,
+      "score": 0.9147,
+      "rank": 1
+     },
+     {
+      "id": "B:openstax-pds:p127:2",
+      "page": 127,
+      "score": 0.9004,
+      "rank": 2
+     },
+     {
+      "id": "B:openstax-pds:p129:0",
+      "page": 129,
+      "score": 0.8588,
+      "rank": 3
+     }
+    ],
+    "ms": 164.6,
+    "event": "search"
+   }
+  ],
+  "citations": [
+   "B:openstax-pds:p128:0"
+  ],
+  "citations_in_context": [
+   "B:openstax-pds:p128:0"
+  ],
+  "status_original": "answered"
+ },
+ {
+  "query_id": "H10",
+  "status": "abstain",
+  "events": [],
+  "citations": [],
+  "citations_in_context": [],
+  "status_original": "abstain"
+ },
+ {
+  "query_id": "H11",
+  "status": "abstain",
+  "events": [],
+  "citations": [],
+  "citations_in_context": [],
+  "status_original": "abstain"
+ },
+ {
+  "query_id": "H12",
+  "status": "answered",
+  "events": [
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "query": "sampling frame ideally include",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "B:openstax-pds:p75:0",
+      "page": 75,
+      "score": 0.8797,
+      "rank": 1
+     },
+     {
+      "id": "B:openstax-pds:p73:5",
+      "page": 73,
+      "score": 0.8479,
+      "rank": 2
+     },
+     {
+      "id": "B:openstax-pds:p76:2",
+      "page": 76,
+      "score": 0.8446,
+      "rank": 3
+     }
+    ],
+    "ms": 60.5,
+    "event": "search"
+   }
+  ],
+  "citations": [
+   "B:openstix-pds:p75:0"
+  ],
+  "citations_in_context": [],
+  "status_original": "answered"
+ },
+ {
+  "query_id": "H13",
+  "status": "abstain",
+  "events": [],
+  "citations": [],
+  "citations_in_context": [],
+  "status_original": "abstain"
+ },
+ {
+  "query_id": "X-T01",
+  "status": "abstain",
+  "events": [
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "query": "chi-square test of independence",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "B:openstax-pds:p126:0",
+      "page": 126,
+      "score": 0.8097,
+      "rank": 1
+     },
+     {
+      "id": "B:openstax-pds:p84:3",
+      "page": 84,
+      "score": 0.8093,
+      "rank": 2
+     },
+     {
+      "id": "B:openstax-pds:p132:3",
+      "page": 132,
+      "score": 0.8091,
+      "rank": 3
+     }
+    ],
+    "ms": 34.0,
+    "event": "search"
+   }
+  ],
+  "citations": [],
+  "citations_in_context": [],
+  "status_original": "abstain"
+ },
+ {
+  "query_id": "X-T02",
+  "status": "abstain",
+  "events": [],
+  "citations": [],
+  "citations_in_context": [],
+  "status_original": "abstain"
+ },
+ {
+  "query_id": "X-T03",
+  "status": "abstain",
+  "events": [
+   {
+    "type": "search",
+    "tool": "search_documents",
+    "query": "formula for the mean of a geometric distribution",
+    "top_k": 3,
+    "results": [
+     {
+      "id": "B:openstax-pds:p148:1",
+      "page": 148,
+      "score": 0.8755,
+      "rank": 1
+     },
+     {
+      "id": "B:openstax-pds:p144:1",
+      "page": 144,
+      "score": 0.8751,
+      "rank": 2
+     },
+     {
+      "id": "B:openstax-pds:p144:3",
+      "page": 144,
+      "score": 0.8715,
+      "rank": 3
+     }
+    ],
+    "ms": 115.9,
+    "event": "search"
+   }
+  ],
+  "citations": [],
+  "citations_in_context": [],
+  "status_original": "abstain"
+ }
+]

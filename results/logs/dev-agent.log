@@ -1,0 +1,8 @@
+Warning: You are sending unauthenticated requests to the HF Hub. Please set a HF_TOKEN to enable higher rate limits and faster downloads.
+Loading weights:   0%|          | 0/199 [00:00<?, ?it/s]Loading weights:  63%|██████▎   | 126/199 [00:00<00:00, 1239.49it/s]Loading weights: 100%|██████████| 199/199 [00:00<00:00, 1277.72it/s]
+[1/33] D01 ...
+  [retry] HTTP 429, waiting 3s (attempt 1/6)
+  [retry] HTTP 429, waiting 6s (attempt 2/6)
+  [retry] HTTP 429, waiting 12s (attempt 3/6)
+  [retry] HTTP 429, waiting 24s (attempt 4/6)
+  [retry] HTTP 429, waiting 48s (attempt 5/6)

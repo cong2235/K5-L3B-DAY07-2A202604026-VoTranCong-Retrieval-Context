@@ -1,0 +1,18 @@
+{
+  "name": "rerank-k5-b2400t-rrf",
+  "method": "rerank",
+  "split": "test",
+  "n": 13,
+  "top_k": 5,
+  "budget_chars": 9600,
+  "filter": false,
+  "hit1": 8,
+  "hit3": 13,
+  "hitk": 13,
+  "context_hit": 13,
+  "avg_context_chars": 3546,
+  "median_ms": 4764.0,
+  "p90_ms": 6644.4,
+  "service_cost_usd": 0,
+  "failed_q_hit3": []
+}

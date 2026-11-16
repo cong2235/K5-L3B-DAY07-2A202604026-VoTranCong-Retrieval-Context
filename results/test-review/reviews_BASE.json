@@ -1,0 +1,129 @@
+[
+ {
+  "query_id": "H01",
+  "citation_support": [
+   false
+  ],
+  "reason": "Context không có đoạn về mode; citation p118:2 nói về vị trí trung vị (không hỗ trợ).",
+  "answer_grade": 0,
+  "context_grade": 0
+ },
+ {
+  "query_id": "H02",
+  "citation_support": [
+   false,
+   false,
+   false
+  ],
+  "reason": "Từ chối câu có đáp án; context không có evidence (800 ký tự chỉ vừa một chunk).",
+  "answer_grade": 0,
+  "context_grade": 0
+ },
+ {
+  "query_id": "H03",
+  "citation_support": [
+   false
+  ],
+  "reason": "Không tìm kiếm, citation p95:1 không có trong context và nói về tokenization.",
+  "answer_grade": 0,
+  "context_grade": 0
+ },
+ {
+  "query_id": "H04",
+  "citation_support": [
+   true
+  ],
+  "reason": "Ví dụ y học đúng nhưng thiếu ý hiệu chỉnh xác suất theo thông tin mới.",
+  "answer_grade": 1,
+  "context_grade": 1
+ },
+ {
+  "query_id": "H05",
+  "citation_support": [],
+  "reason": "Từ chối câu có đáp án (không tìm kiếm).",
+  "answer_grade": 0,
+  "context_grade": 0
+ },
+ {
+  "query_id": "H06",
+  "citation_support": [
+   true
+  ],
+  "reason": "Context có p86:1 chứa cùng nội dung (đoạn thay thế hợp lệ); chunk gold p84 không có trong context nên chỉ số tự động tính trượt.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "H07",
+  "citation_support": [
+   false
+  ],
+  "reason": "Nội dung đúng và evidence có trong context nhưng ID citation viết sai (không hợp lệ).",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "H08",
+  "citation_support": [],
+  "reason": "Từ chối câu có đáp án (không tìm kiếm).",
+  "answer_grade": 0,
+  "context_grade": 0
+ },
+ {
+  "query_id": "H09",
+  "citation_support": [
+   true
+  ],
+  "reason": "Đúng và được p128:0 hỗ trợ.",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "H10",
+  "citation_support": [],
+  "reason": "Từ chối câu có đáp án (không tìm kiếm).",
+  "answer_grade": 0,
+  "context_grade": 0
+ },
+ {
+  "query_id": "H11",
+  "citation_support": [],
+  "reason": "Từ chối câu có đáp án (không tìm kiếm).",
+  "answer_grade": 0,
+  "context_grade": 0
+ },
+ {
+  "query_id": "H12",
+  "citation_support": [
+   false
+  ],
+  "reason": "Nội dung đúng (trùng p75:0) nhưng ID citation viết sai (không hợp lệ).",
+  "answer_grade": 2,
+  "context_grade": 2
+ },
+ {
+  "query_id": "H13",
+  "citation_support": [],
+  "reason": "Từ chối câu có đáp án (không tìm kiếm).",
+  "answer_grade": 0,
+  "context_grade": 0
+ },
+ {
+  "query_id": "X-T01",
+  "citation_support": [],
+  "reason": "Đã tìm và từ chối.",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "X-T02",
+  "citation_support": [],
+  "reason": "Từ chối nhưng KHÔNG gọi search (từ chối không có căn cứ tìm kiếm).",
+  "abstention_correct": true
+ },
+ {
+  "query_id": "X-T03",
+  "citation_support": [],
+  "reason": "Đã tìm và từ chối.",
+  "abstention_correct": true
+ }
+]

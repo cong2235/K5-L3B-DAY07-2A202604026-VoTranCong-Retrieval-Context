@@ -1,0 +1,44 @@
+file GlobalEVOutlook2025.pdf pages 173 metadata {'format': 'PDF 1.7', 'title': 'Global EV Outlook 2025', 'author': 'Global EV Outlook 2025', 'subject': 'Global EV Outlook 2025', 'keywords': 'Global EV Outlook 2025', 'creator': 'Acrobat PDFMaker 25 for Word', 'producer': 'Adobe PDF Library 25.1.97', 'creationDate': "D:20250730170947+02'00'", 'modDate': "D:20250730171556+02'00'"}
+total chars 417027 | pages <200 chars: 2
+pages with embedded images: 10 | pages with >=50 vector drawings (likely charts): 38
+toc entries: 167
+Global EV Outlook 2025 .... p-1
+  Abstract .... p3
+  Acknowledgements, contributors and credits .... p4
+  Table of contents .... p7
+  Electric Vehicles Initiative .... p9
+  Executive summary .... p10
+    Electric car sales continue to break records globally, particularly in China and other emerging economies .... p10
+    Expected growth in electric car sales is led by China and Europe, alongside a surge in emerging economies .... p10
+    Global trade of electric cars is growing as manufacturers eye new markets .... p12
+    Competition and declining battery prices are improving affordability, though progress is uneven .... p12
+    Improving charging coverage, capacity and integration is key to growing adoption of electric vehicles .... p13
+    The value proposition for electric trucks is improving, even for long-haul operations .... p14
+  1. Trends in electric car markets .... p15
+    Electric car sales .... p15
+      Global electric car sales exceeded 17 million in 2024 .... p15
+        More than 20% of new cars sold worldwide were electric .... p15
+        Almost half of China’s car sales were electric in 2024, representing almost two-thirds of electric cars sold globally .... p16
+        In Europe, electric car sales stagnated in 2024 as policy support waned in major car markets .... p17
+        The market share of electric cars continued to expand in the United States .... p18
+      Emerging markets saw a strong uptick in electric car sales .... p20
+        Electric car sales shares doubled in a number of emerging markets .... p20
+        Emerging electric car brands are seeing local and even international success .... p21
+        Overseas expansion plans of Chinese producers, prompted by changes to import tariffs, drove sales in emerging markets .... p23
+        More affordable electric cars and local policies have reshaped the EV landscape in more emerging markets .... p24
+      First quarter sales hint at strong sales for 2025, despite many uncertainties .... p24
+        Electric car sales increased 35% in the first quarter of 2025 compared to the same period in 2024 .... p24
+        Electric car sales are expected to exceed 20 million in 2025, representing one-quarter of total car sales .... p26
+    Government spending on electric cars .... p27
+      Subsidy phase-outs are leading to ever lower shares of government spending in the EV market .... p27
+  2. Trends in the electric car industry .... p31
+    Manufacturing and trade .... p31
+      Steady growth in global electric car production masks differences at the regional level .... p31
+      Global trade of electric cars grew nearly 20% in 2024 .... p33
+        China and the European Union remained the world’s largest EV exporters, while Mexico ramped up exports to the United States .... p33
+        Chinese exports are increasingly driven by domestic OEMs as their destinations diversify .... p34
+        Tightening trade restrictions are pushing Chinese OEMs to expand their overseas manufacturing footprint .... p36
+    Model availability .... p39
+      The number of electric car models keeps growing, especially for larger cars and SUVs .... p39
+        Available electric car models could number more than 1 000 by 2026 .... p39
+        China has the most EV models across all segments .... p40

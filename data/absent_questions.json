@@ -1,0 +1,20 @@
+[
+  {"id": "X-D01", "split": "dev", "question": "What is the formula for the Pearson correlation coefficient?", "answerable": false, "expected_behavior": "search_and_abstain",
+   "absence_reason": "Chapters 2-3 (pp. 68-103, 114-148) cover data collection and descriptive statistics/probability; correlation is never covered.",
+   "absence_check": ["pearson", "correl"]},
+  {"id": "X-D02", "split": "dev", "question": "How does the central limit theorem relate sample means to the normal distribution?", "answerable": false, "expected_behavior": "search_and_abstain",
+   "absence_reason": "The normal distribution is covered (p.144) but the central limit theorem is not mentioned anywhere in the indexed pages.",
+   "absence_check": ["central limit", "limit theorem"]},
+  {"id": "X-D03", "split": "dev", "question": "How is the Shapiro-Wilk test used to check whether data is normally distributed?", "answerable": false, "expected_behavior": "search_and_abstain",
+   "absence_reason": "Normality tests are not covered; the book only describes the normal distribution's parameters.",
+   "absence_check": ["shapiro", "kolmogorov", "normality test"]},
+  {"id": "X-T01", "split": "test", "question": "How do you run a chi-square test of independence on two categorical variables?", "answerable": false, "expected_behavior": "search_and_abstain",
+   "absence_reason": "Chi-square tests and hypothesis-test procedures are not covered in the indexed chapters.",
+   "absence_check": ["chi-square", "chi square", "chi-squared"]},
+  {"id": "X-T02", "split": "test", "question": "How can Selenium be used to scrape web pages that load content with JavaScript?", "answerable": false, "expected_behavior": "search_and_abstain",
+   "absence_reason": "Web scraping is covered (pp. 76-85, e.g. Beautiful Soup) but Selenium/Scrapy and dynamic pages are not.",
+   "absence_check": ["selenium", "scrapy"]},
+  {"id": "X-T03", "split": "test", "question": "What is the formula for the mean of a geometric distribution?", "answerable": false, "expected_behavior": "search_and_abstain",
+   "absence_reason": "Binomial, Poisson, exponential and normal distributions are covered; the geometric (and uniform) distribution is not.",
+   "absence_check": ["geometric", "uniform distribution"]}
+]

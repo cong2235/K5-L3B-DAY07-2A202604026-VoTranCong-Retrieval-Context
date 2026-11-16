@@ -1,0 +1,151 @@
+[
+  {
+    "id": "H01",
+    "split": "test",
+    "type": "heldout",
+    "question": "What kind of data can the mode be applied to that the mean and the median cannot?",
+    "expected_answer": "Non-numeric (qualitative) data; the mean and median apply only to numeric (quantitative) data.",
+    "filter": null,
+    "gold_source_id": "openstax-pds",
+    "gold_page": 119,
+    "evidence_quote": "The mode can also be applied to non-numeric (qualitative) data, whereas the mean and the median can only\nbe applied for numeric (quantitative) data."
+  },
+  {
+    "id": "H02",
+    "split": "test",
+    "type": "heldout",
+    "question": "How is the median found when a dataset has an odd number of values?",
+    "expected_answer": "It is the single middle value of the ordered data.",
+    "filter": null,
+    "gold_source_id": "openstax-pds",
+    "gold_page": 118,
+    "evidence_quote": "If there is an odd number of data values in the dataset, then there will be one data value that represents the\nmiddle value, and this is the median."
+  },
+  {
+    "id": "H03",
+    "split": "test",
+    "type": "heldout",
+    "question": "What does a smaller standard deviation imply about a dataset?",
+    "expected_answer": "Less variability (values are concentrated close to the mean); a larger one implies more variability.",
+    "filter": {
+      "chapter": 3
+    },
+    "gold_source_id": "openstax-pds",
+    "gold_page": 123,
+    "evidence_quote": "A smaller standard deviation implies less variability in a dataset, and a larger\nstandard deviation implies more variability in a dataset."
+  },
+  {
+    "id": "H04",
+    "split": "test",
+    "type": "heldout",
+    "question": "What is Bayes' Theorem used for?",
+    "expected_answer": "A statistical technique that allows revising probabilities based on new information.",
+    "filter": null,
+    "gold_source_id": "openstax-pds",
+    "gold_page": 136,
+    "evidence_quote": "Bayes’ Theorem is a statistical technique that allows for the revision of probability estimates based on new\ninformation or evidence that allows for more accurate and efficient decision-making in uncertain situations."
+  },
+  {
+    "id": "H05",
+    "split": "test",
+    "type": "heldout",
+    "question": "What is the Poisson distribution used to find the probability of?",
+    "expected_answer": "The probability of a certain number of occurrences of a random variable in a specific interval, such as an interval of time.",
+    "filter": null,
+    "gold_source_id": "openstax-pds",
+    "gold_page": 142,
+    "evidence_quote": "However, there are certain scenarios where a data scientist might be interested to know the\nprobability of a certain number of occurrences for a random variable in a specific interval, such as an interval\nof time."
+  },
+  {
+    "id": "H06",
+    "split": "test",
+    "type": "heldout",
+    "question": "What does the data cleaning process include?",
+    "expected_answer": "Identifying and correcting errors, inconsistencies and missing values so data is accurate, reliable and usable.",
+    "filter": null,
+    "gold_source_id": "openstax-pds",
+    "gold_page": 84,
+    "evidence_quote": "cleaning process includes identifying and correcting any errors, inconsistencies, and missing values in a\ndataset and is essential for ensuring that the data is accurate, reliable, and usable for analysis or other\npurposes."
+  },
+  {
+    "id": "H07",
+    "split": "test",
+    "type": "heldout",
+    "question": "Why might text data be normalized when analyzing customer reviews?",
+    "expected_answer": "So variations of the same word (e.g. colour and color) are treated as the same, giving a more accurate understanding of sentiment.",
+    "filter": null,
+    "gold_source_id": "openstax-pds",
+    "gold_page": 98,
+    "evidence_quote": "For example, when analyzing customer reviews, it may be beneficial to normalize text data so that variations of\nthe same word (e.g., “colour” and “color”) are treated as the same, providing a more accurate understanding of\nsentiment toward a product or service."
+  },
+  {
+    "id": "H08",
+    "split": "test",
+    "type": "heldout",
+    "question": "What does the spell-checking and correction preprocessing technique do?",
+    "expected_answer": "Corrects spelling errors to improve accuracy.",
+    "filter": null,
+    "gold_source_id": "openstax-pds",
+    "gold_page": 97,
+    "evidence_quote": "Correcting\nspelling errors\nto improve\naccuracy"
+  },
+  {
+    "id": "H09",
+    "split": "test",
+    "type": "heldout",
+    "question": "In the home price example, what is the upper bound for outliers and is a price of $5,500,000 an outlier?",
+    "expected_answer": "The upper bound is 1,159,375; 5,500,000 is above it, so it is a potential outlier.",
+    "filter": null,
+    "gold_source_id": "openstax-pds",
+    "gold_page": 128,
+    "evidence_quote": "The upper bound for outliers is 1,159,375. The data value of 5,500,000 is greater than the upper bound of\n1,159,375. Therefore, the home price of $5,500,000 is a potential outlier."
+  },
+  {
+    "id": "H10",
+    "split": "test",
+    "type": "heldout",
+    "question": "A home sold for $270,000 where the mean is $350,000 and the standard deviation is $40,000. What does its z-score show?",
+    "expected_answer": "The z-score is -2: the price is 2 standard deviations below the mean, significantly below it.",
+    "filter": null,
+    "gold_source_id": "openstax-pds",
+    "gold_page": 129,
+    "evidence_quote": "-score of −2 indicates that the selling price for this home is 2 standard deviations below the mean,\nwhich represents a data value that is significantly below the mean."
+  },
+  {
+    "id": "H11",
+    "split": "test",
+    "type": "heldout",
+    "question": "About what percentage of values lie within three standard deviations of the mean in a normal distribution?",
+    "expected_answer": "About 99.7%.",
+    "filter": {
+      "chapter": 3
+    },
+    "gold_source_id": "openstax-pds",
+    "gold_page": 146,
+    "evidence_quote": "About 99.7% of the -values lie between\nand\nunits from the mean (within three standard\ndeviations of the mean)."
+  },
+  {
+    "id": "H12",
+    "split": "test",
+    "type": "heldout",
+    "question": "What should a sampling frame ideally include?",
+    "expected_answer": "All members of the target population, with a clear and accessible way to identify and select units for the sample.",
+    "filter": {
+      "chapter": 2
+    },
+    "gold_source_id": "openstax-pds",
+    "gold_page": 75,
+    "evidence_quote": "careful consideration of the sampling frame should ideally encompass all members of\nthe target population and provide a clear and accessible way to identify and select individuals or units for\ninclusion in the sample."
+  },
+  {
+    "id": "H13",
+    "split": "test",
+    "type": "heldout",
+    "question": "How is the probability that an employee earns more than $68,000 found with a normal curve?",
+    "expected_answer": "Calculate the area under the normal curve to the right of $68,000.",
+    "filter": null,
+    "gold_source_id": "openstax-pds",
+    "gold_page": 145,
+    "evidence_quote": "Then, to find the probability that an employee\nearns more than $68,000, calculate the area under the normal curve to the right of the data value $68,000."
+  }
+]
